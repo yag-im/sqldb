@@ -1,0 +1,21 @@
+{
+    "name": "yag-sqldb",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "runArgs": [
+        "--name=yag-sqldb",
+        "--add-host",
+        "host.docker.internal:host-gateway"        
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-ossdata.vscode-postgresql"
+            ]
+        }
+    },
+    "mounts": [
+        "source=${env:HOME}${env:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
+    ]
+}

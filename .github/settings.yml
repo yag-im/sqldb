@@ -1,0 +1,4 @@
+_extends: .github:settings.yml
+repository:
+  name: sqldb
+  description: SQL Database
