@@ -72,7 +72,7 @@ CREATE TABLE games.releases
     uuid            TEXT UNIQUE           NOT NULL,
     name            TEXT                  NOT NULL,              -- localized name
     lang            TEXT                  NOT NULL,              -- en, ru, multi etc
-    platform_id     INT                   NOT NULL REFERENCES games.platforms (id),
+    platform_id     INT                   NOT NULL,              -- REFERENCES games.platforms (id),
     distro          JSONB                 NOT NULL,              -- format (e.g. 2CD), url, files
     year_released   INT                   NOT NULL,
     companies       JSONB                 NOT NULL,              -- array of companies involved and their roles (devs, pubs etc)

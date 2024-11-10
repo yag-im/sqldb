@@ -1,8 +1,0 @@
-\c yag;
-
-INSERT INTO accounts.users(id, email)
-VALUES (0, 'robert@acme.im');
-
-INSERT INTO accounts.flask_dance_oauth(provider_user_id, user_id, provider, created_at, token)
-VALUES ('102528354922999463174', 0, 'google', '1978-01-23',
-        '{"access_token": "ya29.a0AfB_byDaZjOwq90_BkRK9D9khzMcbpdRnSILx8ZpTl6sa49z6KBEuVElYli0avZ1THBDZCeGCvW8LPHU7BuoSJDAzm2hMHWzKDE8TXO_LYpI8jmR3NFHPacIqwZ67jhOGM06jwDkKpLgR1yDija7ORt0CSdNZXFBHG23aCgYKAQQSARESFQHGX2MiapXEhycpKSJOQL7SNvU-Zw0171", "expires_in": 3599, "scope": ["openid", "https://www.googleapis.com/auth/userinfo.email"], "token_type": "Bearer", "id_token": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImJkYzRlMTA5ODE1ZjQ2OTQ2MGU2M2QzNGNkNjg0MjE1MTQ4ZDdiNTkiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNDU0NDA1MDg3MDEzLTBwYzFndnNpdm9kamVhMGRraGI1dXF0b3AzYWNya2w4LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNDU0NDA1MDg3MDEzLTBwYzFndnNpdm9kamVhMGRraGI1dXF0b3AzYWNya2w4LmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTAyNTI4MzU0OTIyOTk5NDYzMTc0IiwiaGQiOiJhY21lLmltIiwiZW1haWwiOiJyb2JlcnRAYWNtZS5pbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiTnJNVHg4dkx6YW1zc29tc05BYldmUSIsImlhdCI6MTcwNzYxODY5MCwiZXhwIjoxNzA3NjIyMjkwfQ.i2oPJUHykwGi0YJKY1QZnktsnmsrUIQ5c7STm_sUMXtzHU9xkaYXJ1DvuPizBoizPDULl_IfNyhuy1Isg63ZvURbHOLNByatoLTGn6ccj77O-iwxHzEYkkvgdqSf-TN8IKflkV0maiqpyG6QnvX-d3lqXGJO2f0ulieYVmaOoUzD2fAP0rd9BCpkAM6yO7ykocBd3Syijp6BG15v1uoL8nPGeVkKJixgyw0Go4cqgMmtCEQbG8onTe0q-3BkCYBSxAFy_qziBELtcyE6ZrfDtO-rx8UUr-QCav5GaeuIFIpJ98rmu5zGasyL-XfbkGJqNbN91ZDLhTkJ6AiPVuEHGg", "expires_at": 9999999999.9999999}');

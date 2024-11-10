@@ -1,6 +1,5 @@
 .idea/
 .vscode/
 
-secret.env
-init/igdb/companies.csv
-init/igdb/games.csv
+scripts/.env
+secrets.env
