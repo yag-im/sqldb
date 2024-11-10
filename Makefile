@@ -35,4 +35,4 @@ docker-build: ## Build docker image
 .PHONY: clean
 clean: ## Clean DB data
 	sudo rm -rf $(PGDATA_HOST_DIR)
-	mkdir $(PGDATA_HOST_DIR)
+	mkdir -p $(PGDATA_HOST_DIR)
