@@ -13,12 +13,6 @@ Create `secrets.env` file in the project directory:
     SESSIONSVC_PASSWORD=***VALUE***
     YAGSVC_PASSWORD=***VALUE***
 
-Create scripts/.env file:
-
-    DB_NAME=yag
-    DB_USERNAME=postgres
-    DB_PORT=5432
-
 Create scripts/secrets.env file:
 
     PGPASSWORD=***VALUE***
@@ -35,7 +29,7 @@ Init DB tables (should be run periodically after live scraper's data updates):
     cd scripts
     ./update_tables.sh
 
-Finally, init `releases` table from `ports` project (TODO: this is ugly):
+Finally, init `releases` table from the [ports](https://github.com/yag-im/ports) project:
 
     cd scripts
     python post_all_releases.py

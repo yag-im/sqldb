@@ -7,7 +7,8 @@ export
 APP_NAME := sqldb
 DOCKER_IMAGE_TAG := $(APP_NAME):dev
 LISTEN_PORT := 5432
-PGDATA_HOST_DIR := ~/yag/data/pgdata
+HOST_PGDATA_DIR := $(DATA_DIR)/pgdata
+PGDATA_DIR := /var/lib/postgresql/data
 
 .PHONY: help
 help: ## This help
@@ -20,7 +21,7 @@ docker-run: ## Run dev docker container
 		-p $(LISTEN_PORT):$(LISTEN_PORT)/tcp \
 		--env-file $(ROOT_DIR).env \
 		--env-file $(ROOT_DIR)secrets.env \
-		-v $(PGDATA_HOST_DIR):$(PGDATA) \
+		-v $(HOST_PGDATA_DIR):$(PGDATA_DIR) \
 		$(DOCKER_IMAGE_TAG)
 		bash
 
@@ -34,5 +35,5 @@ docker-build: ## Build docker image
 
 .PHONY: clean
 clean: ## Clean DB data
-	sudo rm -rf $(PGDATA_HOST_DIR)
-	mkdir -p $(PGDATA_HOST_DIR)
+	sudo rm -rf $(HOST_PGDATA_DIR)
+	mkdir -p $(HOST_PGDATA_DIR)

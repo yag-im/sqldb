@@ -7,11 +7,12 @@ set -a
 . secrets.env
 set +a
 
+SSH_PROXY_PORT=2345
+
 if [ -n "${BASTION_HOST}" ]; then
     ssh -L localhost:$SSH_PROXY_PORT:sqldb:$DB_PORT -p $BASTION_PORT -o ServerAliveInterval=60 $BASTION_USERNAME@$BASTION_HOST -N &
     pid=$!
     sleep 3
-    SSH_PROXY_PORT=2345
 else
     SSH_PROXY_PORT=$DB_PORT
 fi
