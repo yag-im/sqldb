@@ -2,7 +2,6 @@ ROOT_DIR := $(dir $(realpath $(lastword $(MAKEFILE_LIST))))
 SHELL := /bin/bash
 
 include .env
-include secrets.env
 export
 
 APP_NAME := sqldb
