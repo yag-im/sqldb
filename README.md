@@ -4,7 +4,7 @@
 
 ### Prerequisite
 
-Create `secrets.env` file in the project directory:
+Create `secrets.env` file in the project directory (where .evn file resides):
 
     APPSVC_PASSWORD=***VALUE***
     MCCSVC_PASSWORD=***VALUE***
@@ -24,7 +24,7 @@ Create DB structure and run the SQL server instance:
     make docker-build
     make docker-run
 
-Init DB tables (should be run periodically after live scraper's data updates):
+Init DB tables (should be run periodically after scraper's generated data updates):
 
     cd scripts
     ./update_tables.sh

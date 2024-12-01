@@ -73,3 +73,19 @@ Numerous illustrations created by different artists, animations, fragments from 
      '{"id": 1000003, "slug": "zazerkal-e", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000004,
+     'Heroes of Might and Magic II: Gold',
+     '{"Heroes of Might and Magic II: Deluxe Edition", "Heroes of Might and Magic 2: 골드"}',
+     'Lord Ironfist is dead and the Kingdom is plunged into a vicious civil war by his feuding sons. At stake is the ultimate prize: control of the land and succession of the royal throne. Will you support the villainous usurper and lead the armies of evil or be loyal to the righteous prince and deliver the people from tyranny.\nChose your allegiance and take what is rightfully Yours!',
+     '',
+     '{16}',
+     '[{"company": 99, "porting": false, "developer": false, "publisher": true, "supporting": false}, {"company": 97, "porting": false, "developer": true, "publisher": false, "supporting": false}]',
+     '{6}',
+     '{"cover": {"image_id": "co2120"}, "screenshots": []}',
+     null,
+     10,
+     '{"id": 51821, "slug": "heroes-of-might-and-magic-ii-gold", "similar_ids": []}',
+     '{}'
+    );
