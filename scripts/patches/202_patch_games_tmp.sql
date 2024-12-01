@@ -78,7 +78,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     (1000004,
      'Heroes of Might and Magic II: Gold',
      '{"Heroes of Might and Magic II: Deluxe Edition", "Heroes of Might and Magic 2: 골드"}',
-     'Lord Ironfist is dead and the Kingdom is plunged into a vicious civil war by his feuding sons. At stake is the ultimate prize: control of the land and succession of the royal throne. Will you support the villainous usurper and lead the armies of evil or be loyal to the righteous prince and deliver the people from tyranny.\nChose your allegiance and take what is rightfully Yours!',
+     'Lord Ironfist is dead and the Kingdom is plunged into a vicious civil war by his feuding sons. At stake is the ultimate prize: control of the land and succession of the royal throne. Will you support the villainous usurper and lead the armies of evil or be loyal to the righteous prince and deliver the people from tyranny. Chose your allegiance and take what is rightfully Yours!',
      '',
      '{16}',
      '[{"company": 99, "porting": false, "developer": false, "publisher": true, "supporting": false}, {"company": 97, "porting": false, "developer": true, "publisher": false, "supporting": false}]',
