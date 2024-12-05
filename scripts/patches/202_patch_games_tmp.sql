@@ -89,3 +89,19 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 51821, "slug": "heroes-of-might-and-magic-ii-gold", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000005,
+     'Star Wars: Rebel Assault II - The Hidden Empire',
+     '{"Star Wars: Rebel Assault II", "Star Wars: Rebel Assault 2 - The Hidden Empire"}',
+     'Star Wars Rebel Assault II: The Hidden Empire is the sequel to the Star Wars: Rebel Assault. This time however, the story is not related to the original movies. The story opens in the vicinity of the Dreighton Nebula, where Rookie One is investigating disappearances of Rebel spacecraft near Dreighton, a region rich with mythology about vanishing spacecraft. Rookie One responds to a distress call coming from a ship in the nebula. Once there, he discovers an Imperial presence. As the story progresses, it becomes clear that the Empire is somehow responsible for at least some of the more recent disappearances.',
+     '',
+     '{5, 33}',
+     '[{"company": 75, "porting": true, "developer": false, "publisher": false, "supporting": false}, {"company": 10, "porting": false, "developer": true, "publisher": true, "supporting": false}]',
+     '{6, 7, 14}',
+     '{"cover": {"image_id": "co4zio"}, "screenshots": [{"width": 1276, "height": 797, "image_id": "dhtiogr0fkatnq7ulqod"}, {"width": 640, "height": 480, "image_id": "egn9tzmmgzlnufohdnwm"}]}',
+     null,
+     10,
+     '{"id": 162, "slug": "star-wars-rebel-assault-ii-the-hidden-empire", "similar_ids": []}',
+     '{}'
+    );
