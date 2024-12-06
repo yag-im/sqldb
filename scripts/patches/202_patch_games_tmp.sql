@@ -105,3 +105,35 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 162, "slug": "star-wars-rebel-assault-ii-the-hidden-empire", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000006,
+     'Transport Tycoon Deluxe',
+     '{"TTD"}',
+     'Transport Tycoon Deluxe was released in 1995, and featured new varieties of landscape and weather, new scenarios, more vehicles and allowed the player to run their company all the way from the year 1950 up to the year 2050.',
+     'Transport Tycoon presents you with a vast game world made up of numerous small towns and raw material resources. You’ve got a large amount of borrowed money and you’ve got to prove yourself; to set the wheels in motion to become The Transport Tycoon. Matched against a batch of ruthless rivals, you’ll have to act quickly; to build the key routes that will rake in the cash. Build stations, airports, docks and a linking road, rail, air and ship network that will move passengers, mail or goods to the most lucrative destination. As the years roll by you’ll have the chance to buy more advanced and faster vehicles and vessels; if you can afford them!\n\nThe Deluxe version brings the several improvements over the standard edition.',
+     '{13, 15}',
+     '[{"company": 9150, "porting": false, "developer": false, "publisher": true, "supporting": false}, {"company": 8532, "porting": false, "developer": true, "publisher": false, "supporting": false}]',
+     '{7, 13, 32}',
+     '{"cover": {"image_id": "co1u3f"}, "screenshots": [{"width": 640, "height": 480, "image_id": "tgxduh7ojhu4a5iicmio"}, {"width": 640, "height": 480, "image_id": "gcwxnugjvfygga5kkecc"}, {"width": 400, "height": 358, "image_id": "ytompzgx1tqvbnvgyado"}, {"width": 728, "height": 400, "image_id": "srsfmmaxvm6fuswmrxhz"}]}',
+     null,
+     8,
+     '{"id": 5502, "slug": "transport-tycoon-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000007,
+     'The Oregon Trail',
+     null,
+     'MECC released a DOS version of The Oregon Trail that was essentially identical to the Apple II version. However, the graphics had to be redrawn for the DOS version, using a different color palette and a slightly different resolution – and therefore screen shots of the DOS version are slightly different than the corresponding Apple II screen shots.',
+     '',
+     '{13}',
+     '[{"company": 1087, "porting": true, "developer": true, "publisher": true, "supporting": true}]',
+     '{13}',
+     '{"cover": {"image_id": "co7s3w"}, "screenshots": []}',
+     null,
+     8,
+     '{"id": 213730, "slug": "the-oregon-trail--5", "similar_ids": []}',
+     '{}'
+    );
