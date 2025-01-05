@@ -137,3 +137,30 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 213730, "slug": "the-oregon-trail--5", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000008,
+     'Ultima Underworld: The Stygian Abyss',
+     '{"Ultima Underworld 1"}',
+     'The Isle of the Avatar was discovered during the Fourth Age (as related in Quest of the Avatar), at the climax of the Avatar’s quest. The Stranger from Another World, who came to Britannia in answer to Lord British’s summons, completed the Test of the Eight Virtues and became the Avatar — the embodiment of the pure axiom of life.
+It was during his journeys that the Avatar unearthed a chilling artifact: the skull of Mondain the Wicked, the first of the Triad of Evil. There were those who claimed that the artifact held the power to destroy all life on our world. Fortunately, it was the Stranger who discovered it, and not someone of lesser Virtue.
+
+Upon completing the Path of the Eight Virtues, the Avatar embarked on a search for the Codex of Ultimate Wisdom. Legend linked this ancient tome with the subterranean maze known as the Great Stygian Abyss. “Truly, no one has ever plumbed its depths,” wrote Shamino, who arranged by magic to obtain a map of its corridors. “I cannot imagine the horrors that await the first to venture into the Stygian depths.',
+     '',
+     '{12}',
+     '[
+        {"company": 295, "developer": false, "porting": false, "publisher": true, "supporting": false},
+        {"company": 31302, "developer": false, "porting": true, "publisher": true, "supporting": false},
+        {"company": 1124, "developer": false,  "porting": true, "publisher": false, "supporting": false},
+        {"company": 200, "developer": false, "porting": false, "publisher": true, "supporting": false},
+        {"company": 22058, "developer": false, "porting": true, "publisher": false, "supporting": false},
+        {"company": 2620, "developer": true, "porting": false, "publisher": false, "supporting": false},
+        {"company": 3, "developer": true, "porting": false, "publisher": false, "supporting": false}
+     ]',
+     '{13, 118, 149, 405}',
+     '{"cover": {"image_id": "co5xjp"}, "screenshots": [{"width": 320, "height": 200, "image_id": "zgkunuml3wk1z15thoi4"}]}',
+     null,
+     10,
+     '{"id": 12908, "slug": "ultima-underworld-the-stygian-abyss", "similar_ids": []}',
+     '{}'
+    );
