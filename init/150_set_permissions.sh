@@ -10,15 +10,6 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$YAG_DB" <<-EOSQL
   GRANT INSERT, UPDATE                 ON TABLE accounts.users TO $AUTHSVC_USER;
   GRANT INSERT, UPDATE                 ON TABLE accounts.flask_dance_oauth TO $AUTHSVC_USER;
 
-  -- mccsvc user
-  GRANT USAGE                          ON SCHEMA accounts TO $MCCSVC_USER;
-  GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA accounts TO $MCCSVC_USER;
-  GRANT ALL                            ON ALL TABLES IN SCHEMA accounts TO $MCCSVC_USER;
-
-  GRANT USAGE                          ON SCHEMA sessions TO $MCCSVC_USER;
-  GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA sessions TO $MCCSVC_USER;
-  GRANT ALL                            ON ALL TABLES IN SCHEMA sessions TO $MCCSVC_USER;
-
   -- sessionsvc user
   GRANT USAGE                          ON SCHEMA sessions TO $SESSIONSVC_USER;
   GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA sessions TO $SESSIONSVC_USER;
