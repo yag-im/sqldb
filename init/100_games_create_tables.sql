@@ -6,25 +6,6 @@ CREATE TABLE games.regions
     name TEXT UNIQUE     NOT NULL
 );
 
-CREATE TABLE games.age_ratings_ratings
-(
-    id   INT PRIMARY KEY NOT NULL,
-    name TEXT UNIQUE     NOT NULL--,
-    --image_id TEXT
-);
-
-CREATE TABLE games.age_ratings_categories
-(
-    id   INT PRIMARY KEY NOT NULL,
-    name TEXT UNIQUE     NOT NULL
-);
-
-CREATE TABLE games.age_ratings_content_descr_categories
-(
-    id   INT PRIMARY KEY NOT NULL,
-    name TEXT UNIQUE     NOT NULL
-);
-
 CREATE TABLE games.companies
 (
     id   INT PRIMARY KEY NOT NULL,

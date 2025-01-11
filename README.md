@@ -23,7 +23,11 @@ Create DB structure and run the SQL server instance:
     make docker-build
     make docker-run
 
-Init DB tables (should be run periodically after scraper's generated data updates):
+You'll need `psql` tool to be installed to proceed with init DB tables.
+
+### Init DB tables
+
+This should be run periodically (after scraper's generated data updates):
 
     cd scripts
     ./update_tables.sh

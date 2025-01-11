@@ -25,7 +25,7 @@ psql -v ON_ERROR_STOP=1 --host localhost --port $SSH_PROXY_PORT --username "$DB_
     COMMIT;
 EOSQL
 
-TABLES=("age_ratings_categories" "age_ratings_content_descr_categories" "age_ratings_ratings" "companies" "genres" "platforms")
+TABLES=("companies" "genres" "platforms")
 for t in "${TABLES[@]}"
 do
 psql -v ON_ERROR_STOP=1 --host localhost --port $SSH_PROXY_PORT --username "$DB_USERNAME" --dbname "$DB_NAME" <<-EOSQL
