@@ -164,3 +164,26 @@ Upon completing the Path of the Eight Virtues, the Avatar embarked on a search f
      '{"id": 12908, "slug": "ultima-underworld-the-stygian-abyss", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000009,
+     'Świrus',
+     '{"Dr. Šílenec", "Świrus CD"}',
+     'Świrus is the first polish adventure game designed for Windows. A mad scientist seeks ransom under threat of release of a lethal virus. Politicians do not meet his demands and the professor executes his plan. Many years later, the remnants of humanity invent time travel technology. The protagonist of the game goes back in time to a period of a few days before the attack in order to save the world. During the adventure the player will move to the Middle Ages to finally get the antidote.
+
+The game utilizes the command verb-based SCUMM-like interface. The player constructs commands by selecting an appropriate verb and then combining it with an object or an inventory item. Objects that can be interacted with are highlighted when the player places a cursor over them. By pressing the right mouse button directional arrows appear. They allow the player to move between sites. The right mouse button can also be used for studying objects.
+
+The disc version was extended with a stage played in the future in a totalitarian police state (between Middle Ages and game''s finale).',
+     '',
+     '{2, 31}',
+     '[
+       {"company": 21819, "developer": false, "porting": false, "publisher": true, "supporting": false}
+
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "c7d59012-d8ad-4183-95c1-b7a634730e69"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000004, "slug": "swirus", "similar_ids": []}',
+     '{}'
+    );
