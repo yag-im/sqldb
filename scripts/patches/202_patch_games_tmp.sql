@@ -187,3 +187,22 @@ The disc version was extended with a stage played in the future in a totalitaria
      '{"id": 1000004, "slug": "swirus", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000010,
+     'Congo: The Movie',
+     '{"Congo the Movie: In die Tiefen von Zinj"}',
+     'Congo is an adventure game adapted from the 1995 movie of the same name. The plot revolves around a search for a diamond that presumably have power enough to change the world of telecommunications as we know it. On a mission issued by Travis, the head of TraviCom, you are sent in contemporary Congo in order to recover the diamond and find out what has happened to another expedition led by Dr. Karen Ross.',
+     '',
+     '{13, 31}',
+     '[
+       {"company": 1045, "developer": false, "porting": false, "publisher": true, "supporting": false}
+
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "fc4fe5cd-27f0-446a-b245-e7ebbc0a9216"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 217940, "slug": "congo-the-movie", "similar_ids": []}',
+     '{}'
+    );
