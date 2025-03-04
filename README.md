@@ -12,7 +12,7 @@ Create `secrets.env` file in the project directory (where .evn file resides):
     POSTGRES_PASSWORD=***VALUE***
     SESSIONSVC_PASSWORD=***VALUE***
 
-Create scripts/secrets.env file:
+Create scripts/env/{env}/secrets.env files:
 
     PGPASSWORD=***VALUE***
 
@@ -27,12 +27,12 @@ You'll need `psql` tool to be installed to proceed with init DB tables.
 
 ### Init DB tables
 
-This should be run periodically (after scraper's generated data updates):
+This procedure should be run periodically (after scraper's generated data (e.g. igdb) updates):
 
     cd scripts
-    ./update_tables.sh
+    ./update_tables.sh {env}
 
 Finally, init `releases` table from the [ports](https://github.com/yag-im/ports) project:
 
     cd scripts
-    python post_all_releases.py
+    python upsert_releases.sh {env}

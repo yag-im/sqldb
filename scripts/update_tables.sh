@@ -2,12 +2,18 @@
 
 set -e
 
-set -a
-. .env
-. secrets.env
-set +a
+if [ -z "$1" ]; then
+  echo "Usage: $0 <env> (dev, local or prod)"
+  exit 1
+fi
 
-SSH_PROXY_PORT=2345
+ENV_NAME=$1
+ENV_DIR="envs/$ENV_NAME"
+
+set -a
+. "$ENV_DIR/.env"
+. "$ENV_DIR/secrets.env"
+set +a
 
 if [ -n "${BASTION_HOST}" ]; then
     ssh -L localhost:$SSH_PROXY_PORT:sqldb:$DB_PORT -p $BASTION_PORT -o ServerAliveInterval=60 $BASTION_USERNAME@$BASTION_HOST -N &
@@ -19,7 +25,7 @@ fi
 
 psql -v ON_ERROR_STOP=1 --host localhost --port $SSH_PROXY_PORT --username "$DB_USERNAME" --dbname "$DB_NAME" <<-EOSQL
     BEGIN;
-    TRUNCATE games.releases, games.games RESTART IDENTITY;
+    TRUNCATE games.games RESTART IDENTITY;
     \copy games.games(name,alternative_names,short_descr,long_descr,genres,companies,platforms,media_assets,esrb_rating,igdb) \
         FROM '~/yag/data/scrapers/igdb/games.csv' WITH (FORMAT csv, HEADER true, DELIMITER ',');
     COMMIT;

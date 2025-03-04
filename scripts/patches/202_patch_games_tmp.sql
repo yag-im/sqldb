@@ -17,22 +17,6 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     );
 
 INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
-    (1000001,
-     'The Adventures of Pinocchio',
-     null,
-     'This is an interactive movie game based on the 1996 live action movie by the same name. After Pinocchio realizes his dream of becoming a real boy, the evil Lorenzini kidnaps him and turns him back into a puppet. You must help Pinocchio''s creator, Geppetto, find and rescue him. You''ll go through Pinocchio''s home town, row a boat through monster-infested waters and visit Terra Magica, the fair where Lorenzini turns boys into donkeys. To succeed, you''ll have to dodge deadly traps, solve puzzles and outwit Lorenzini''s conniving henchmen. Sometimes, you''ll have to turn yourself into a puppet, a fish, a bird or even a donkey to rescue Pinocchio. Along the way you must collect six passwords, each reflecting a lesson in morality that Pinocchio learns.',
-     '',
-     '{13, 31}',
-     '[{"company": 2391, "porting": false, "developer": false, "publisher": true, "supporting": false}]',
-     '{6}',
-     '{"cover": {"image_id": "co7i7n"}, "screenshots": []}',
-     null,
-     8,
-     '{"id": 1000001, "slug": "the-adventures-of-pinocchio--1", "similar_ids": []}',
-     '{}'
-    );
-
-INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
     (1000002,
      'Mir Alisy',
      '{"Мир Алисы", "Alice''s Adventures in Wonderland"}',

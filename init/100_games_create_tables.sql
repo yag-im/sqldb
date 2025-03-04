@@ -49,7 +49,7 @@ CREATE TABLE games.games
 CREATE TABLE games.releases
 (
     id              BIGSERIAL PRIMARY KEY NOT NULL,
-    game_id         BIGINT                NOT NULL REFERENCES games.games (id),
+    game_id         BIGINT                NOT NULL,              -- REFERENCES games.games (id), removing FK to be able to update two tables independently
     uuid            TEXT UNIQUE           NOT NULL,
     name            TEXT                  NOT NULL,              -- localized name
     lang            TEXT                  NOT NULL,              -- en, ru, multi etc

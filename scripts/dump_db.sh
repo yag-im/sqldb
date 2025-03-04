@@ -2,14 +2,20 @@
 
 set -e
 
+if [ -z "$1" ]; then
+  echo "Usage: $0 <env> (dev, local or prod)"
+  exit 1
+fi
+
+ENV_NAME=$1
+ENV_DIR="envs/$ENV_NAME"
+
 set -a
-. .env
-. secrets.env
+. "$ENV_DIR/.env"
+. "$ENV_DIR/secrets.env"
 set +a
 
 BACKUP_PATH=$DATA_DIR/dump
-
-SSH_PROXY_PORT=2345
 
 if [ -n "${BASTION_HOST}" ]; then
     ssh -L localhost:$SSH_PROXY_PORT:sqldb:$DB_PORT -p $BASTION_PORT -o ServerAliveInterval=60 $BASTION_USERNAME@$BASTION_HOST -N &
@@ -19,8 +25,7 @@ else
     SSH_PROXY_PORT=$DB_PORT
 fi
 
-# TODO: fix pg_dump exec path
-/usr/lib/postgresql/16/bin/pg_dump -j 1 --dbname=postgresql://$DB_USERNAME:$PGPASSWORD@127.0.0.1:$SSH_PROXY_PORT/$DB_NAME -Fd -f $BACKUP_PATH
+$PGDUMP_EXEC_PATH -j 1 --dbname=postgresql://$DB_USERNAME:$PGPASSWORD@127.0.0.1:$SSH_PROXY_PORT/$DB_NAME -Fd -f $BACKUP_PATH
 
 if [ -n "${BASTION_HOST}" ]; then
     kill $pid
