@@ -3,7 +3,8 @@
 -- IGDB doesn't support custom ESRB ratings on their end, so patching them here
 UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'styrlitz',
-    'red-comrades-save-the-galaxy'
+    'red-comrades-save-the-galaxy',
+    'geisha'
 );
 
 -- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
