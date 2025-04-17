@@ -209,3 +209,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 70654, "slug": "thomas-and-friends-the-great-festival-adventure", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000012,
+     'Thomas and Friends - Trouble on the Tracks',
+     null,
+     'James has derailed and it''s up to Thomas and all of his friends to help him get back on track. This affects everyone on the Island of Sodor from the Horrid Lorry who has todo James'' work to Sir Topham Hatt who must organize the efforts of the other engines.
+This game includes eight engaging activities 3D graphics eight jigsaw puzzles. There''s a job for everybody to do in this story that proves how useful teamwork can be.',
+     '',
+     '{31}',
+     '[
+       {"company": 183, "developer": false, "porting": false, "publisher": true, "supporting": false}
+
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bfd3b3a6-875a-4670-8742-5e9db8689942"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 50425, "slug": "thomas-and-friends-trouble-on-the-tracks", "similar_ids": []}',
+     '{}'
+    );
