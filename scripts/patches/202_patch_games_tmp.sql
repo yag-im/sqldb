@@ -190,3 +190,22 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 217940, "slug": "congo-the-movie", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000011,
+     'Thomas & Friends: The Great Festival Adventure',
+     null,
+     'Thomas and his friends are getting ready for a festival. They have to do various activities to have the festival on tracks like preparing the rides, sorting the goods coming in for the event and much more.',
+     '',
+     '{31}',
+     '[
+       {"company": 183, "developer": false, "porting": false, "publisher": true, "supporting": false}
+
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "fc315bdb-73b7-4536-b4dd-380d885e95ac"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 70654, "slug": "thomas-and-friends-the-great-festival-adventure", "similar_ids": []}',
+     '{}'
+    );
