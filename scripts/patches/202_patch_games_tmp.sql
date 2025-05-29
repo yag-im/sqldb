@@ -229,3 +229,22 @@ This game includes eight engaging activities 3D graphics eight jigsaw puzzles. T
      '{"id": 50425, "slug": "thomas-and-friends-trouble-on-the-tracks", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000013,
+     'Tripitaka: The Pilgrimage of Tripitaka',
+     '{"Tripitaka Genshou Sanzou Gohousha no Tabi"}',
+     'The final game by Softedge, and the spiritual successor to Cosmology of Kyoto, dealing with Chinese history rather than Japanese. Currently lost media, due to only being sold in museums hosting the 1999 Silk Road Journey To The West exhibition.',
+     '',
+     '{31}',
+     '[
+       {"company": 37903, "developer": true, "porting": false, "publisher": true, "supporting": false}
+
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bafaf2c2-8303-478d-b767-fc2daf824157"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 254895, "slug": "tripitaka-the-pilgrimage-of-tripitaka", "similar_ids": []}',
+     '{}'
+    );
