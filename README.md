@@ -35,4 +35,4 @@ This procedure should be run periodically (after scraper's generated data (e.g. 
 Finally, init `releases` table from the [ports](https://github.com/yag-im/ports) project:
 
     cd scripts
-    python upsert_releases.sh {env}
+    ./upsert_releases.sh {env}
