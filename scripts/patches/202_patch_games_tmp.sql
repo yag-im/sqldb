@@ -254,12 +254,12 @@ Each campaign is divided up into multiple missions. The usual gameplay in each m
 The other section of the game is that someone has stolen the golden spike, and recruited six of the wildest outlaws of the wild west to sabotage your railroad. From time to time, a mission will arise to either deal with sabotage or capture an outlaw. These sections are isometric, and play like an adventure game.',
      '{13,31}',
      '[
-       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+       {"company": 1078, "developer": true, "porting": false, "publisher": true, "supporting": false}
      ]',
      '{6}',
      '{"cover": {"image_id": "e43f317b-682e-4aac-aba6-4420e6d291b8"}, "screenshots": []}',
      null,
      null,
-     '{"id": 1000014, "slug": "lionel-trains-presents-trans-con", "similar_ids": []}',
+     '{"id": 348978, "slug": "lionel-trains-presents-trans-con", "similar_ids": []}',
      '{}'
     );
