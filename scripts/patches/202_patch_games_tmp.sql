@@ -162,7 +162,6 @@ The disc version was extended with a stage played in the future in a totalitaria
      '{2, 31}',
      '[
        {"company": 21819, "developer": false, "porting": false, "publisher": true, "supporting": false}
-
      ]',
      '{6}',
      '{"cover": {"image_id": "c7d59012-d8ad-4183-95c1-b7a634730e69"}, "screenshots": []}',
@@ -181,7 +180,6 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{13, 31}',
      '[
        {"company": 1045, "developer": false, "porting": false, "publisher": true, "supporting": false}
-
      ]',
      '{6}',
      '{"cover": {"image_id": "fc4fe5cd-27f0-446a-b245-e7ebbc0a9216"}, "screenshots": []}',
@@ -200,7 +198,6 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{31}',
      '[
        {"company": 183, "developer": false, "porting": false, "publisher": true, "supporting": false}
-
      ]',
      '{6}',
      '{"cover": {"image_id": "fc315bdb-73b7-4536-b4dd-380d885e95ac"}, "screenshots": []}',
@@ -220,7 +217,6 @@ This game includes eight engaging activities 3D graphics eight jigsaw puzzles. T
      '{31}',
      '[
        {"company": 183, "developer": false, "porting": false, "publisher": true, "supporting": false}
-
      ]',
      '{6}',
      '{"cover": {"image_id": "bfd3b3a6-875a-4670-8742-5e9db8689942"}, "screenshots": []}',
@@ -239,12 +235,31 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{31}',
      '[
        {"company": 37903, "developer": true, "porting": false, "publisher": true, "supporting": false}
-
      ]',
      '{6}',
      '{"cover": {"image_id": "bafaf2c2-8303-478d-b767-fc2daf824157"}, "screenshots": []}',
      null,
      null,
      '{"id": 254895, "slug": "tripitaka-the-pilgrimage-of-tripitaka", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000014,
+     'Lionel Trains Presents: Trans-Con!',
+     '{}',
+     'Educational game focused on the history surrounding the transcontinental railroad. The player controls either the Union Pacific or Central Pacific railroads, and builds the railroad towards Utah. (Each railroad is a different campaign.)',
+     'Educational game focused on the history surrounding the transcontinental railroad. The player controls either the Union Pacific or Central Pacific railroads, and builds the railroad towards Utah. (Each railroad is a different campaign.)
+Each campaign is divided up into multiple missions. The usual gameplay in each mission consists of choosing the route for the railroad on a grid to connect one city to the next. There is a set budget for each mission, and exceeding that budget will fail the mission. There are sections of interest on the map, and building your railroad into that section can cause an event to occur. This can be good, bad, or give you a choice. For example, workers might start leaving to go to a local gold mine. The decision is to pay the workers more, get more workers, or force the workers to work harder. These decisions are presented by your loyal advisors: Calamity Jane, Wild Bill Hickok, and Tomahawk Beckwourth.
+The other section of the game is that someone has stolen the golden spike, and recruited six of the wildest outlaws of the wild west to sabotage your railroad. From time to time, a mission will arise to either deal with sabotage or capture an outlaw. These sections are isometric, and play like an adventure game.',
+     '{13,31}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "e43f317b-682e-4aac-aba6-4420e6d291b8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000014, "slug": "lionel-trains-presents-trans-con", "similar_ids": []}',
      '{}'
     );
