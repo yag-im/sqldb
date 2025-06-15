@@ -263,3 +263,21 @@ The other section of the game is that someone has stolen the golden spike, and r
      '{"id": 348978, "slug": "lionel-trains-presents-trans-con", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000015,
+     'Apollo XIII - A Week To Remember',
+     '{}',
+     'NASA''s worst nightmare turned into one of the space agency''s most heroic moments in 1970, when the Apollo 13 crew was forced to hobble home in a disabled capsule after an explosion seriously damaged the moon-bound spacecraft. Re-live the tragedy, the fear and the amazing effort put forth by Nasa that resulted in the safe return of the Astronauts.',
+     'NASA''s worst nightmare turned into one of the space agency''s most heroic moments in 1970, when the Apollo 13 crew was forced to hobble home in a disabled capsule after an explosion seriously damaged the moon-bound spacecraft. Re-live the tragedy, the fear and the amazing effort put forth by Nasa that resulted in the safe return of the Astronauts.',
+     '{31}',
+     '[
+       {"company": 42624, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "314f648d-d58d-4e43-ac87-0fb60e6667e7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000015, "slug": "apollo-xiii-a-week-to-remember", "similar_ids": []}',
+     '{}'
+    );
