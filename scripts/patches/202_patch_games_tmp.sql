@@ -281,3 +281,25 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000015, "slug": "apollo-xiii-a-week-to-remember", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000016,
+     'Apollo 13 - A Race Against Time',
+     '{}',
+     'Complete recreation of the flight of Apollo 13 usiing 3D animation, original artwork, historic photos, video and audio recordings.
+Listen in on the Flight Controllers as they struggle to bring the crippled spacecraft back to earth.
+An interview with Jim Lovell, commander of Apollo 13, reveals just what went wrong.',
+     'Complete recreation of the flight of Apollo 13 usiing 3D animation, original artwork, historic photos, video and audio recordings.
+Listen in on the Flight Controllers as they struggle to bring the crippled spacecraft back to earth.
+An interview with Jim Lovell, commander of Apollo 13, reveals just what went wrong.',
+     '{1000000}',
+     '[
+       {"company": 1000005, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "9dbb395c-8183-4e17-9a80-a2149ba07356"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000016, "slug": "apollo-13-a-race-against-time", "similar_ids": []}',
+     '{}'
+    );
