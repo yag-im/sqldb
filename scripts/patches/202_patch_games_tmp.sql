@@ -303,3 +303,21 @@ An interview with Jim Lovell, commander of Apollo 13, reveals just what went wro
      '{"id": 1000016, "slug": "apollo-13-a-race-against-time", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000017,
+     'Star Wars: Episode I Insider''s Guide',
+     '{}',
+     'The Star Wars Episode I Insider''s Guide was released by LucasArts in June 1999. It is a thorough guide of over 500 entries to the characters, technology, vehicles, and locations of Star Wars: Episode I The Phantom Menace. It also includes Behind the Scenes details, official trailers and posters of the film, additional information on the previously released films of the saga, and a guide to Expanded Universe material relating to Episode I.',
+     'The Star Wars Episode I Insider''s Guide was released by LucasArts in June 1999. It is a thorough guide of over 500 entries to the characters, technology, vehicles, and locations of Star Wars: Episode I The Phantom Menace. It also includes Behind the Scenes details, official trailers and posters of the film, additional information on the previously released films of the saga, and a guide to Expanded Universe material relating to Episode I.',
+     '{1000000}',
+     '[
+       {"company": 29757, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "85358a30-4251-4ab0-9c77-8079f5c3d27a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000017, "slug": "star-wars-episode-i-insiders-guide", "similar_ids": []}',
+     '{}'
+    );
