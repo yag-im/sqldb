@@ -339,3 +339,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 185866, "slug": "star-wars-jar-jars-journey-adventure-book", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000019,
+     'Star Wars: Behind the Magic',
+     '{}',
+     'Behind the Magic''s features include a detailed look at the original trilogy (with a complete script); details of the characters, locations, and technology; and a look at the making of the movies. A searchable glossary of entries is available. Several games are also included, including a trivia game and an area where you can test weapons on a stormtrooper.',
+     'Behind the Magic''s features include a detailed look at the original trilogy (with a complete script); details of the characters, locations, and technology; and a look at the making of the movies. A searchable glossary of entries is available. Several games are also included, including a trivia game and an area where you can test weapons on a stormtrooper.',
+     '{1000000}',
+     '[
+       {"company": 29757, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "125e255a-9158-4ac0-a90d-e259ee5cfe8f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000019, "slug": "star-wars-behind-the-magic", "similar_ids": []}',
+     '{}'
+    );
