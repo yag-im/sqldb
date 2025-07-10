@@ -321,3 +321,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000017, "slug": "star-wars-episode-i-insiders-guide", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000018,
+     'Star Wars: Jar Jar''s Journey Adventure Book',
+     '{}',
+     'An interactive tale with fourteen animated pages, Jar Jar''s Journey is a CD-ROM designed to immerse children ages 4 and up in the exciting story of Star Wars: Episode I The Phantom Menace. In this adventure book, children will read along with Jar Jar, Queen Amidala, Anakin Skywalker, and Qui-Gon Jinn as they follow Jar Jar on his exciting adventure from the Naboo swamp to Tatooine.',
+     'An interactive tale with fourteen animated pages, Jar Jar''s Journey is a CD-ROM designed to immerse children ages 4 and up in the exciting story of Star Wars: Episode I The Phantom Menace. In this adventure book, children will read along with Jar Jar, Queen Amidala, Anakin Skywalker, and Qui-Gon Jinn as they follow Jar Jar on his exciting adventure from the Naboo swamp to Tatooine.',
+     '{1000000}',
+     '[
+       {"company": 7044, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "2ad628f3-eaf2-4bac-a4a8-9760d710fd7c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 185866, "slug": "star-wars-jar-jars-journey-adventure-book", "similar_ids": []}',
+     '{}'
+    );
