@@ -357,3 +357,36 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000019, "slug": "star-wars-behind-the-magic", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000020,
+     'Disney''s Ready For Math With Pooh',
+     '{}',
+     'When Pooh floats down to land in the Hundred Acre Wood in Disney''s Ready for Math With Pooh, he comes to earth in what will become a garden as the game progresses. The player signs in on a wheelbarrow and chooses a path from the three directions given - in each of these places he''ll meet Pooh''s friends; Piglet, Owl, Tigger, Eeyore, Roo, and Pooh himself, and play games designed to exercise his math skills at one of three levels.
+
+Gameplay is identical to that of the sister game Disney''s Ready to Read with Pooh: pointing and clicking the mouse will perform actions, the cursor is a little bumblebee that flutters it''s wings whenever it is over a hotspot, and when dragging an object is necessary the game utilizes click-and-stick.',
+     'When Pooh floats down to land in the Hundred Acre Wood in Disney''s Ready for Math With Pooh, he comes to earth in what will become a garden as the game progresses. The player signs in on a wheelbarrow and chooses a path from the three directions given - in each of these places he''ll meet Pooh''s friends; Piglet, Owl, Tigger, Eeyore, Roo, and Pooh himself, and play games designed to exercise his math skills at one of three levels.
+
+Gameplay is identical to that of the sister game Disney''s Ready to Read with Pooh: pointing and clicking the mouse will perform actions, the cursor is a little bumblebee that flutters it''s wings whenever it is over a hotspot, and when dragging an object is necessary the game utilizes click-and-stick.',
+     '{1000000}',
+     '[
+       {"company": 95, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6,14}',
+     '{"cover": {"image_id": "co1wcu"}, "screenshots": [
+       {"width": 640, "height": 480, "image_id": "sc7itn"},
+       {"width": 640, "height": 480, "image_id": "sc7itr"},
+       {"width": 640, "height": 480, "image_id": "sc7ito"},
+       {"width": 640, "height": 480, "image_id": "sc7itp"},
+       {"width": 640, "height": 480, "image_id": "sc7itq"},
+       {"width": 640, "height": 480, "image_id": "sc7its"},
+       {"width": 640, "height": 480, "image_id": "sc7itu"},
+       {"width": 640, "height": 480, "image_id": "sc7itt"},
+       {"width": 640, "height": 480, "image_id": "sc7itw"},
+       {"width": 640, "height": 480, "image_id": "sc7itv"}
+     ]}',
+     null,
+     null,
+     '{"id": 85959, "slug": "disneys-ready-for-math-with-pooh", "similar_ids": []}',
+     '{}'
+    );
