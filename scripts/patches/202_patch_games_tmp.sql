@@ -390,3 +390,40 @@ Gameplay is identical to that of the sister game Disney''s Ready to Read with Po
      '{"id": 85959, "slug": "disneys-ready-for-math-with-pooh", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000021,
+     'Disney Learning: Baby',
+     '{}',
+     'This software is designed for the very youngest of computer users and is intended to introduce babies and toddlers to the joys of interactive entertainment and learning. The gentle "silly old bear" leads simple, forgiving games and exercises. Some activities involve the recognition of shapes and colors. Other Disney''s Winnie the Pooh characters join the fun too, as young ones can paint a picture with Eeyore or make music with little Roo. Piglet and Tigger offer even more for baby to watch, listen, and do.',
+     'This software is designed for the very youngest of computer users and is intended to introduce babies and toddlers to the joys of interactive entertainment and learning. The gentle "silly old bear" leads simple, forgiving games and exercises. Some activities involve the recognition of shapes and colors. Other Disney''s Winnie the Pooh characters join the fun too, as young ones can paint a picture with Eeyore or make music with little Roo. Piglet and Tigger offer even more for baby to watch, listen, and do.',
+     '{1000000}',
+     '[
+       {"company": 95, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "7d41325c-768a-48d6-8222-e418368e259c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000021, "slug": "disney-learning-baby", "similar_ids": []}',
+     '{}'
+    );
+
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000022,
+     'Animated StoryBook: Winnie the Pooh and the Honey Tree',
+     '{}',
+     'Interactive storybook based on Winnie the Pooh and the Honey Tree (1966) classic animated short. The game follows the cartoon''s story closely and has fully voiced interactive pages and a couple of very simple games.',
+     'Interactive storybook based on Winnie the Pooh and the Honey Tree (1966) classic animated short. The game follows the cartoon''s story closely and has fully voiced interactive pages and a couple of very simple games.',
+     '{1000000}',
+     '[
+       {"company": 95, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "c459900a-8845-4640-be75-9aae6953df32"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 342669, "slug": "animated-storybook-winnie-the-pooh-and-the-honey-tree", "similar_ids": []}',
+     '{}'
+    );
