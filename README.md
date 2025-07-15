@@ -32,7 +32,14 @@ This procedure should be run periodically (after scraper's generated data (e.g. 
     cd scripts
     ./update_tables.sh {env}
 
-Finally, init `releases` table from the [ports](https://github.com/yag-im/ports) project:
+At that point,  any existing records in `games.releases` table will become invaliated, so you need to refresh
+`games.releases` table from the [ports](https://github.com/yag-im/ports) project:
 
     cd scripts
     ./upsert_releases.sh {env}
+
+TODO: Never delete entries from the prod games.releases table — doing so will break all existing public external links!
+
+TODO: Switch to ID-agnostic URLs. The challenge with this approach is that, for example, the slug typically refers to a
+group of games, whereas yag.im focuses on individual releases (year/OS) identified by unique IDs.
+Using UUIDs might be a viable path forward, but URLs will look ugly.
