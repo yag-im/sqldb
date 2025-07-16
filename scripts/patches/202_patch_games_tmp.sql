@@ -427,3 +427,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 342669, "slug": "animated-storybook-winnie-the-pooh-and-the-honey-tree", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000023,
+     'StarFlyers: Alien Space Chase',
+     '{}',
+     'Katie Cadet and the StarFlyers are invited to see Colonel Cracker for the big vote of the space ambassadors. When All of a sudden, a convex anti-gravity bubble explodes and Vexar steals the vote and some of the ambassadors are missing. The Player must help Katie Cadet and the StarFlyers by solving 8 brain-tickling games and activities and save the vote once and for all.',
+     'Katie Cadet and the StarFlyers are invited to see Colonel Cracker for the big vote of the space ambassadors. When All of a sudden, a convex anti-gravity bubble explodes and Vexar steals the vote and some of the ambassadors are missing. The Player must help Katie Cadet and the StarFlyers by solving 8 brain-tickling games and activities and save the vote once and for all.',
+     '{2}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "67e0fed9-1b4b-42d1-aeb3-de01ce4afe86"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 122951, "slug": "starflyers-alien-space-chase", "similar_ids": []}',
+     '{}'
+    );
