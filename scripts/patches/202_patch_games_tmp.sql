@@ -445,3 +445,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 122951, "slug": "starflyers-alien-space-chase", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000024,
+     'Eyewitness Encyclopedia of Space and the Universe',
+     '{}',
+     'One of a series of educational titles from Dorling Kindersley that, in the UK, were eventually offered as free games with national newspapers.',
+     'One of a series of educational titles from Dorling Kindersley that, in the UK, were eventually offered as free games with national newspapers.',
+     '{1000000}',
+     '[
+       {"company": 18938, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "a23b7e86-0a5d-4645-8d1e-6ea5dd4f9937"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000024, "slug": "eyewitness-encyclopedia-of-space-and-the-universe", "similar_ids": []}',
+     '{}'
+    );
