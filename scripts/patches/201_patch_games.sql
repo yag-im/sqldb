@@ -10,7 +10,8 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'red-comrades-for-the-great-justice',
     'leisure-suit-larry-in-the-land-of-the-lounge-lizards',
     'leather-goddesses-of-phobos-2-gas-pump-girls-meet-the-pulsating-inconvenience-from-planet-x',
-    'personal-nightmare'
+    'personal-nightmare',
+    '7-dni-a-7-noci'
 );
 
 -- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
