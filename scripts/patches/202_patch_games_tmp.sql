@@ -481,3 +481,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000025, "slug": "living-books-maggies-farmyard-adventure", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000026,
+     'Putt-Putt and Fatty Bear''s Activity Pack',
+     '{}',
+     'Now, two of your child''s favorite friends have come together to offer an enchanting collection of 15 traditional, educational and fun-filled activities. Putt-Putt and Fatty Bear invite children to exercise their minds or just have fun! Putt-Putt and Fatty Bear''s Activity Pack helps kids learn through experimentation, exploration and play. Combining established learning techniques with lovable characters, lively animations, colorful graphics and brilliant sounds, the activity pack provides a positive, safe and challenging environment for children and adults. Putt-Putt and Fatty Bear''s Activity Pack also includes a collection of classic games designed to enhance early learning skills.',
+     'Now, two of your child''s favorite friends have come together to offer an enchanting collection of 15 traditional, educational and fun-filled activities. Putt-Putt and Fatty Bear invite children to exercise their minds or just have fun! Putt-Putt and Fatty Bear''s Activity Pack helps kids learn through experimentation, exploration and play. Combining established learning techniques with lovable characters, lively animations, colorful graphics and brilliant sounds, the activity pack provides a positive, safe and challenging environment for children and adults. Putt-Putt and Fatty Bear''s Activity Pack also includes a collection of classic games designed to enhance early learning skills.',
+     '{1000000}',
+     '[
+       {"company": 603, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "65318959-0d57-4b61-9bd1-c281555575cf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 10730, "slug": "putt-putt-and-fatty-bears-activity-pack", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000027,
+     'Putt-Putt''s Fun Pack',
+     '{}',
+     'A collection of thinking games inspired from the existing Putt-Putt games, including checkers, pinball, and tic-tac-toe. Intended as non-violent rainy-day fun for youngsters.',
+     'A collection of thinking games inspired from the existing Putt-Putt games, including checkers, pinball, and tic-tac-toe. Intended as non-violent rainy-day fun for youngsters.',
+     '{1000000}',
+     '[
+       {"company": 603, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "6975e023-e0f7-487f-b486-c72482be7aa9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 4253, "slug": "putt-putt-s-fun-pack", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000028,
+     'Putt Putt''s One Stop Fun Shop',
+     '{}',
+     'Kid''s join the lovable convertible, Putt-Putt, in an exciting world of self-expression and ongoing discovery. Ideas take shape in front of them as they design their own projects, instilling confidence and inspiring creativity.',
+     'Kid''s join the lovable convertible, Putt-Putt, in an exciting world of self-expression and ongoing discovery. Ideas take shape in front of them as they design their own projects, instilling confidence and inspiring creativity.',
+     '{1000000}',
+     '[
+       {"company": 603, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "5722b4b0-205d-4706-b0e1-e36f81ab3fa6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 47001, "slug": "putt-putts-one-stop-fun-shop", "similar_ids": []}',
+     '{}'
+    );
