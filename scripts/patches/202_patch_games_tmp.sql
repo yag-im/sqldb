@@ -463,3 +463,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000024, "slug": "eyewitness-encyclopedia-of-space-and-the-universe", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000025,
+     'Living Books: Maggie''s Farmyard Adventure',
+     '{}',
+     'The book is an interactive story of the adventure of Maggie''s cat. There are also modes to take part in games relating to the story, and to sing songs with Maggie''s mother. In the interactive book mode, as the story is read, the objects in the background are clickable.',
+     'The book is an interactive story of the adventure of Maggie''s cat. There are also modes to take part in games relating to the story, and to sing songs with Maggie''s mother. In the interactive book mode, as the story is read, the objects in the background are clickable.',
+     '{1000000}',
+     '[
+       {"company": 195, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "f6d61930-c795-41bd-9388-44670660bb97"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000025, "slug": "living-books-maggies-farmyard-adventure", "similar_ids": []}',
+     '{}'
+    );
