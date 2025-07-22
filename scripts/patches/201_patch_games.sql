@@ -11,7 +11,8 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'leisure-suit-larry-in-the-land-of-the-lounge-lizards',
     'leather-goddesses-of-phobos-2-gas-pump-girls-meet-the-pulsating-inconvenience-from-planet-x',
     'personal-nightmare',
-    '7-dni-a-7-noci'
+    '7-dni-a-7-noci',
+    'phantasmagoria-2-a-puzzle-of-flesh'
 );
 
 -- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
