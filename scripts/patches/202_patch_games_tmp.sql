@@ -535,3 +535,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 47001, "slug": "putt-putts-one-stop-fun-shop", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000029,
+     'Alice in Wonderland',
+     '{"Alenka v říši divů", "Alice au Pays des Merveilles", "Alicia en el País de las Maravillas", "Alicja w Krainie Czarów", "Алиса в Стране Чудес"}',
+     '"Alice in Wonderland," developed by Lexis Numerique for Windows and Mac, is an edutainment adventure game from 2000. It''s designed for children aged 8 and up and follows an episodic, non-linear story based on Lewis Carroll''s classic novel. The game features a mix of 3D models, hand-drawn cartoons, and full-motion video (FMV) of a live-action Alice. Players guide Alice through Wonderland, solving puzzles and riddles from characters like the Dodo and the Queen of Hearts. A core mechanic involves changing Alice''s size to access new areas. The game''s packaging describes it as an "interactive film" where kids can participate in the adventure rather than just being spectators.',
+     '',
+     '{2}',
+     '[
+       {"company": 1780, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "59453c4e-d900-465f-b4f8-9feac354a5d6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 140323, "slug": "alice-in-wonderland--4", "similar_ids": []}',
+     '{}'
+    );
