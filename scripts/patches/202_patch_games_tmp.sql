@@ -553,3 +553,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 140323, "slug": "alice-in-wonderland--4", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000030,
+     'Alice''s Adventures in Wonderland',
+     '{"Alice i eventyrland", "Alicia en el País de las Maravillas"}',
+     'Based on Lewis Caroll''s classic novel published in 1865, in this video game adaptation of Alice in Wonderland Alice travels through a strange world different from her own. This interactive animated storybook game was created using Klik & Play and contains four mini-games and John Tenniel''s book illustrations. Each page of the storybook has clickable, interactive surprises. There is also an option for the book to be read automatically. It is the first entry in the publisher''s Living Classics series.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 42980, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "6a0db528-ca7c-4f85-903a-732eb5fea088"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000030, "slug": "alices-adventures-in-wonderland", "similar_ids": []}',
+     '{}'
+    );
