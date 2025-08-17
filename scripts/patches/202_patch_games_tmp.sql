@@ -571,3 +571,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000030, "slug": "alices-adventures-in-wonderland", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000031,
+     'Story Machine: Magic Tales',
+     '{"La Macchina Delle Favole: Racconti di Magia", "La Maquina de Cuentos: Cuentos Magicos", "Story Maschine: Märchenzauber", "Verhalen Toverdoos: Magische Vertellingen"}',
+     'Story Machine: Magic Tales is an updated version of Spinnaker''s 1980s home computer games Story Machine and Kidwriter. Like the original, this is a storytelling game that aims to teach young players about language. Children can create stories of up to 20 pages, each of which can feature text and animated characters/props ("actors"). Compared to the original version, this CD-i update features much more advanced artwork, the ability to add music to scenes, and the ability to create longer stories. In addition to being able to save competed stories to the CD-i''s internal memory, it also has instructions for players on how to record their creations to VHS.
+The CD-i Story Machine was released in two volumes which feature similar gameplay but different themes. Magic Tales focuses on fantasy stories.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 38324, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{117}',
+     '{"cover": {"image_id": "a48a1b37-a780-43d0-b42c-ad886783afaf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000031, "slug": "story-machine-magic-tales", "similar_ids": []}',
+     '{}'
+    );
+
