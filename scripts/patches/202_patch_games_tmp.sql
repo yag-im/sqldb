@@ -591,3 +591,41 @@ The CD-i Story Machine was released in two volumes which feature similar gamepla
      '{}'
     );
 
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000032,
+     '1483 Anno Domini',
+     '{}',
+     '1483 Anno Domini is set in London of the year 1483. After Edward IV has died, Duke Richard throws the two heirs to the throne into the Tower of London. The player''s job is to break into the tower, break them out and prevent Richard from becoming king.
+This is a first-person adventure game which plays similar to a role-playing dungeon crawler without experience points. The dungeon is explored step by step (either by mouse or keyboard) and requires collecting and using puzzles items to progress. The inventory additionally holds utility (e.g. armor or weapons) and recovery items which improve health when used.
+Sometimes is is required to converse of fight with people. Combat takes place on a separate screen and both combatants have three postures: neutral, attack and defense. After entering the attack stance with a left click, the strength bar fills up and a second click attacks the enemy. Unless they are in a defense stance, they take attack based on how much strength was used. While waiting for the bar, the player is exposed to enemy attacks. The defense stance is entered and left with a right click and blocks attacks. Whoever loses all health first, loses the fight.',
+     '',
+     '{31}',
+     '[
+       {"company": 1000006, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "1da586fc-4f10-41fa-a1d8-afc60a98ac0c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000032, "slug": "1483-anno-domini", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000033,
+     'Вляпли!',
+     '{}',
+     'Long ago, in the Middle Ages, an artist-inventor received from his friend, an old witch, an elixir that allowed one to travel through time. Upon learning this, the chief inquisitor decided to seize this miraculous potion from him. During the chase, the artist managed to “shake off” his pursuers and had time to use the elixir. Thus, the artist found himself in the modern world, in Gosha’s room. While the artist was “waking up” after the journey, Gosha, out of curiosity and carelessness, used the elixir himself and began traveling into the past. The awakened artist barely had time to rush after Gosha and his Mukhtar…',
+     '',
+     '{2,31}',
+     '[
+       {"company": 27971, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "91110cb0-3230-4543-bf4c-160f543ccba1"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000033, "slug": "vlyapli", "similar_ids": []}',
+     '{}'
+    );
+
