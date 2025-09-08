@@ -629,3 +629,20 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{}'
     );
 
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000034,
+     'Dragonheart: Medieval Creativity Center',
+     '{}',
+     'Set of mini-games and activities based upon the 1996 fantasy film.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24260, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bb7946c4-47c5-49d5-9b91-e93e7698e85b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000034, "slug": "dragonheart-medieval-creativity-center", "similar_ids": []}',
+     '{}'
+    );
