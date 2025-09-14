@@ -646,3 +646,40 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000034, "slug": "dragonheart-medieval-creativity-center", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000035,
+     'Braveheart: The Heroes, Battles And History The Made The Movie!',
+     '{}',
+     'Land is power. Land is everything. It is a time of political upheaval, corruption in the church, and a crumbling feudal system. It is also a time bright with legend, a time of chivalry, valor, and a flourishing culture. Explore the forces that shaped the fight for Scottish independence as depicted in the epic motion picture, BRAVEHEART™ starring and directed by Mel Gibson and brought to life in this historically accurate recounting of what it was like to live and die in the Middle Ages. Journey to a medieval past, explore the making of a landmark feature film, and relive one of history’s most heroic eras.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000007, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "4bc6f621-1394-40c0-92af-51b2567c297c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000035, "slug": "braveheart-the-heroes-battles-and-history-that-made-the-movie", "similar_ids": []}',
+     '{}'
+    );
+
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000036,
+     'Heart of Darkness',
+     '{}',
+     'The game follows Andy, a child who hates his abusive teacher, loves his dog Whiskey, and has nyctophobia (fear of darkness).',
+     '',
+     '{8}',
+     '[
+       {"company": 5, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bb98a210-8fcd-4897-944b-4dd46cf0867e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 6433, "slug": "heart-of-darkness", "similar_ids": []}',
+     '{}'
+    );
