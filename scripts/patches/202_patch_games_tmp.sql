@@ -683,3 +683,22 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 6433, "slug": "heart-of-darkness", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000037,
+     'Chuck Jones'' Peter and the Wolf',
+     '{"Peter and the Wolf: Log Jam Game"}',
+     'Chuck Jones'' Peter and the Wolf is based on the TV movie of the same name (which itself is based on the musical composition Peter and the Wolf by Sergei Prokofiev). The main content is a linear storybook which re-tells the story of the movie through animations. Those, as well as the live-action introduction- are exclusively produced for the game. Supplemental content are biographies of Chuck Jones (video) and Prokofiev (text) as well as information on the orchestra.
+It also includes the game Peter and the Wolf: Log Jam Game which is a Frogger variant. Peter has to cross the river river by jumping over floating logs. There are four stages which change the speed of the logs and the time limit. Special logs (or items placed on the logs) have different effects when jumping on said log: egg (adds bonus points), oil can (makes the logs slippery), frozen clock (stops the timer), crazy clock (reverses time), frozen log (stops all logs on screen) and the wolf (pushes Peter from the log). When missing a jump, Peter will relocated one row back.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2346, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "6ccc210a-e85d-458f-9be3-8179d7dfa7da"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000037, "slug": "chuck-jones-peter-and-the-wolf", "similar_ids": []}',
+     '{}'
+    );
