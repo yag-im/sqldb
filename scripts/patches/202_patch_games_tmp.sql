@@ -702,3 +702,39 @@ It also includes the game Peter and the Wolf: Log Jam Game which is a Frogger va
      '{"id": 1000037, "slug": "chuck-jones-peter-and-the-wolf", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000038,
+     'Casper: Animated Activity Center',
+     '{}',
+     'Casper: Animated Activity Center is an educational computer game for ages 3 to 7, and is based on the Harvey Entertainment film Casper: A Spirited Beginning. The player begins at Ghost Central Station, where he/she can play six different activities and games, including puzzles, mazes, matching games, and an electronic colouring book. A couple of games and activities offer video clips from the film as a reward, and there is a scoring system which unlocks a bonus activity when enough points are collected from the other areas.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "f2539254-6926-4339-a085-100d9a2faa1c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000038, "slug": "casper-animated-activity-center", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000039,
+     'Casper: Animated Early Reader',
+     '{}',
+     'Casper: Animated Early Reader is an educational computer game for ages 5 to 7, and is based on the direct-to-video film Casper meets Wendy. Players join Casper, Fatso, Stinky, Stretch, and Wendy the Little Witch as they take part in reading games and activities. When the player finishes an activity, he/she is rewarded with Casper Coins, which they can be used to unlock video clips from the film.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "86b30d8d-0572-4a13-a256-e7c543a989ad"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000039, "slug": "casper-animated-early-reader", "similar_ids": []}',
+     '{}'
+    );
