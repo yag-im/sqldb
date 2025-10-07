@@ -738,3 +738,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000039, "slug": "casper-animated-early-reader", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000040,
+     'Julia: Back to the Sweet 60''s',
+     '{}',
+     'You control Julia, who has a very bad day. Her friend Mel wants to help her and tells Julia about a site on the internet, from where Julia is transported back into the 60''s. Mel keeps contact via video phone and tries to help. Julia finds out that somebody wants to prevent her parents from meeting each other which would have terrible consequences in the present and on Julia''s existence. Help Julia to find out who is behind this mystery and make everything right.',
+     '',
+     '{31}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "ecd2ef8f-8f9e-425c-a610-cb78a04e84a2"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000040, "slug": "julia-back-to-the-sweet-60s", "similar_ids": []}',
+     '{}'
+    );

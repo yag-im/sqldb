@@ -8,3 +8,4 @@ INSERT INTO games.companies(id, name) VALUES (1000004, 'LucasFan Games');
 INSERT INTO games.companies(id, name) VALUES (1000005, 'Computer Support Corporation');
 INSERT INTO games.companies(id, name) VALUES (1000006, 'TLC Tewi Verlag GmbH');
 INSERT INTO games.companies(id, name) VALUES (1000007, 'Midisoft Corporation');
+INSERT INTO games.companies(id, name) VALUES (1000008, 'Limesoft');
