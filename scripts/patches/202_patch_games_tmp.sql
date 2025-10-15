@@ -756,3 +756,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000040, "slug": "julia-back-to-the-sweet-60s", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000041,
+     'Posel Bohů',
+     '{}',
+     'April 1945: The remnants of Nazi army leave the Czechoslovakia. But one unit takes time to hide and bury something in tunnel somewhere in Western Bohemia. 53 years later, there is construction at work and the tunnel entrance is discovered. Following the anonymous phone call, archaeologist Stanislav Novotný is dispatched to scout the area and discover if the find has any historical value. It has - and his search lead him to Prague, Amsterdam and Mexico, following the secret of the Mayans...
+Posel Bohů (Messenger of the Gods) is point and click adventure using the 1st-person view. The game doesn''t use scrolling, you can see the whole screen at the same time and if any of the items presented there requires a closer look, the player can get it by clicking on the item and the detail then fills the whole screen. The movement between location is handled by arrows on the lower right part of the screen and the directions the player can take are highlighted (similar to adventure games from Legend Entertainment. The story is advanced by item combination, dialogs (these are fully voiced, contrary to the descriptive texts) and puzzle solving.
+In 2005, the game was remade with minor changes in the script and puzzles as NiBiRu: Age of Secrets.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 6029, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "c87e5a43-8260-4e43-8859-47fffb62f601"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000041, "slug": "posel-bohu", "similar_ids": []}',
+     '{}'
+    );
