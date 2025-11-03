@@ -776,3 +776,22 @@ In 2005, the game was remade with minor changes in the script and puzzles as NiB
      '{"id": 1000041, "slug": "posel-bohu", "similar_ids": []}',
      '{}'
     );
+
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000042,
+     'Bill & Ben: Flowerpot Fun!',
+     '{}',
+     'Get ready for some entertaining flowerpot shenanigans with Bill & Ben Flowerpot Fun! This vintage video game is perfect for PC gamers who are looking for a unique and quirky gaming experience. Join the mischievous flowerpot duo in their adventures as they navigate through different levels filled with obstacles and challenges. With its retro graphics and catchy soundtrack, Bill & Ben Flowerpot Fun is sure to keep you hooked for hours. Whether you''re a fan of puzzle games or just looking for something different to add to your collection, this game is definitely worth checking out. So what are you waiting for? Grab your mouse and let the flowerpot fun begin!',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2615, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "de0b0e74-a3a9-473d-816d-c63c555b0b97"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000042, "slug": "bill-and-ben-flowerpot-fun", "similar_ids": []}',
+     '{}'
+    );
