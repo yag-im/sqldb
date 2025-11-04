@@ -795,3 +795,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000042, "slug": "bill-and-ben-flowerpot-fun", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000043,
+     'Magic Tales: The Princess and the Crab',
+     '{}',
+     '"The Princess and the Crab" is a game based on Italian fairy tales. The protagonist is Marina, a princess who is uninterested in courtly matters and prefers to admire and care for her fish pond. One day she buys a new crab for her pond. She discovers that the crab is in fact an enchanted prince, who can return to his true form at noon every day. The prince manages to tell her how to defeat the witch who enchanted him. Marina starts learning swordfighting and music and then sets off for the Rocks of Ruin. All ends well: she manages to defeat the witch and free the prince. The princess and the prince get married and decide to go on a journey after their wedding.
+
+The "Magic Tales" series includes six interactive storybooks, based on fairy tales from different parts of the world. They are all framed as stories read by Grandpa Mouse to his grandchildren. Each story consists of twelve pages and if "Play" mode is selected, the player can also click on different parts of the scenery to see what will happen.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "4edb763f-667e-4f5b-9226-e43155266809"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000043, "slug": "magic-tales-the-princess-and-the-crab", "similar_ids": []}',
+     '{}'
+    );
