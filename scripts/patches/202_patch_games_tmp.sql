@@ -815,3 +815,58 @@ The "Magic Tales" series includes six interactive storybooks, based on fairy tal
      '{"id": 1000043, "slug": "magic-tales-the-princess-and-the-crab", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000044,
+     'Blinky Bill''s Extraordinary Balloon Adventure',
+     '{}',
+     'Blinky and Co get kidnapped by a ringmaster for his circus, through this encounter they meet many kidnapped animals. They then steal a hot air balloon. All the while the ringmaster is hot on their tail!',
+     '',
+     '{1000000}',
+     '[
+       {"company": 55596, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "623c50bb-1810-4a3e-b71b-0fe4b2dc9f17"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000044, "slug": "blinky-bills-extraordinary-balloon-adventure", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000045,
+     'Blinky Bill and the Magician',
+     '{}',
+     'Blinky Bill a cartoon character who originated in Australia who''s been around since the 1930''s. He''s featured in comics, an animated movie, a couple of TV series'' as well as computer games. This title is based on a televised program from the series ''The Adventures Of Blinky Bill''.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 55596, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "1cfab854-3b82-4e0f-8530-923e81aefa29"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000045, "slug": "blinky-bill-and-the-magician", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000046,
+     'Snow White and the Seven Hansels',
+     '{"Królewna Śnieżka i siedmiu Jaśków", "Schneewittchen und die 7 Hänsel", "Белоснежка и семь гномов"}',
+     'Snow White and the Seven Hansels is a point-and-click adventure game which combines 3 fairy tales: Snow White, Hansel and Gretel, Little Red Riding Hood. Game offers the possibility to lead the stories as they are to the end or do interesting mixes and "fairy-tales-crossing" which can lead to different ends of all of the stories, for example: Snow White eating witch''s house or Little Red Riding Hood forgetting about her grandma.
+Game is split into 10 scenes per each story and each of the scenes can be accessed at any time by the player. Game does not offer any mini games or difficulty settings and only a mouse is required to play the game.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15820, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "96092d59-ef68-4960-82f9-958b71693dc0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000046, "slug": "snow-white-and-the-seven-hansels", "similar_ids": []}',
+     '{}'
+    );
