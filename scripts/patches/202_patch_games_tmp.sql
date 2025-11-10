@@ -861,12 +861,30 @@ Game is split into 10 scenes per each story and each of the scenes can be access
      '',
      '{1000000}',
      '[
-       {"company": 15820, "developer": false, "porting": false, "publisher": true, "supporting": false}
+       {"company": 22817, "developer": false, "porting": false, "publisher": true, "supporting": false}
      ]',
      '{6}',
      '{"cover": {"image_id": "96092d59-ef68-4960-82f9-958b71693dc0"}, "screenshots": []}',
      null,
      null,
      '{"id": 1000046, "slug": "snow-white-and-the-seven-hansels", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000047,
+     'Louis Cat Orze: The Mystery of the Queen''s Necklace',
+     '{}',
+     'Scandal in 1697: the Queen''s necklace was stolen from the French court! Now the player has to assist Louis Cat Orze, the pet of Louis XIV, to investigate the crime and catch the culprits. Each day (the investigation takes place over six days which can be freely changed from a menu), the player can visit various locations in Versailles and the court. Inside the single-screen locations, the player can click on persons and items to trigger dialogue (without participation of the player character) or acquire hints like notes. The winning condition is visiting the king during the last day and answer multiple-choice questions to name the perpetrator and proof.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 19063, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "17cac0cf-5f13-4edc-b067-119ee405ba4e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000047, "slug": "louis-cat-orze-the-mystery-of-the-queens-necklace", "similar_ids": []}',
      '{}'
     );
