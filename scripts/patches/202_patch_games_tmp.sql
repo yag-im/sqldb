@@ -888,3 +888,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000047, "slug": "louis-cat-orze-the-mystery-of-the-queens-necklace", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000048,
+     'T''alvi',
+     '{}',
+     'A very short, mystery-tinged fantasy: the protagonist is on an island from which one can travel using books, and an unknown boy is imprisoned in one of them. Created using the Adventure Maker engine.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 1000009, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "17f90be5-f3fc-4d4d-b6e7-855ad38d8bd7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000048, "slug": "talvi", "similar_ids": []}',
+     '{}'
+    );
