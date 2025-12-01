@@ -13,7 +13,12 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'personal-nightmare',
     '7-dni-a-7-noci',
     'phantasmagoria-2-a-puzzle-of-flesh',
-    'nuclear-titbit'
+    'nuclear-titbit',
+    'spellcasting-101-sorcerers-get-all-the-girls'
+);
+
+UPDATE games.games set esrb_rating = 10 WHERE igdb->>'slug' IN (
+    'quest-for-glory-ii-trial-by-fire'
 );
 
 -- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
