@@ -906,3 +906,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000048, "slug": "talvi", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000049,
+     'Bambou: Le Sauveur De La Jungle',
+     '{}',
+     'A children’s interactive book from around 1998, which apparently was never released outside of France. A remote village named Kwuri, lost in the jungle, is terrorized by a giant serpent called Yékéké. Bambu, the smallest warrior, decides to take on the monster.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 938, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "be405274-20c5-473a-b690-4d8ff07ba6f1"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000049, "slug": "bambou-le-sauveur-de-la-jungle", "similar_ids": []}',
+     '{}'
+    );
