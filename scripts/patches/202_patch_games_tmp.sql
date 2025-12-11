@@ -924,3 +924,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000049, "slug": "bambou-le-sauveur-de-la-jungle", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000050,
+     'Волшебный Сон',
+     '{"Magic Dream"}',
+     'The boy Vitya and his favorite plush teddy bear find themselves in a magical land. The toy is kidnapped by a frightening gray wolf, and the brave little boy sets off to find it. Traditional adventure elements are mixed with mini-games. In the end, there’s the traditional "happy end".',
+     '',
+     '{13,31}',
+     '[
+       {"company": 8174, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bffa1c7c-d812-4ffc-89b9-e1584520f316"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000050, "slug": "magic-dream", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000051,
+     'Алмазный Птах',
+     '{}',
+     'Old (possibly first) russian point-and-click adventure game where the player embarks on a fantastical journey to find the legendary Diamond Bird said to grant wishes. The game features classic puzzles, quirky characters, and a charming fairy-tale atmosphere reminiscent of 1990s Russian quest games.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 1000011, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "7a597d9f-c8d1-441f-969a-b7156c326d3d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000051, "slug": "almaznyy-ptakh", "similar_ids": []}',
+     '{}'
+    );
