@@ -960,3 +960,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000051, "slug": "almaznyy-ptakh", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000052,
+     'Alice in Musicland',
+     '{"Алиса в музыкальной стране"}',
+     'Rare russian point-and-click adventure from the 1990s, where a young girl named Alice travels through a whimsical world ruled by musical themes and animated instruments. Players solve light puzzles, meet quirky characters, and explore charming hand-drawn locations, all wrapped in an educational, music-focused storyline.',
+     '',
+     '{1000000,13,31}',
+     '[
+       {"company": 1000011, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "774e5498-f866-4669-b7d8-10d20aa22916"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000052, "slug": "alice-in-musicland", "similar_ids": []}',
+     '{}'
+    );
