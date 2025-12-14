@@ -978,3 +978,41 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000052, "slug": "alice-in-musicland", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000053,
+     'Аркона',
+     '{"Arcona"}',
+     'The indie game Arcona attempts to tell a story based on the beliefs of the ancient Polabian Slavs, a now-extinct pagan tribe. It’s difficult to judge the game’s historical accuracy, since very little is known about this people, and the city of Arcona existed only until the 12th century. Still, it’s clear that kindly wizards and neat old ladies have little in common with the grimy tribesmen who sacrificed livestock to secure better harvests. Overall, the game feels rather sparse; its main strengths are a couple of atmospheric tracks and the unusual choice of subject matter.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 1000012, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "23f18abb-cbca-43be-84a1-71da4b7cac32"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000053, "slug": "arcona", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000054,
+     'WuKung: A Legendary Adventure',
+     '{}',
+     'WuKung: A Legendary Adventure is a point-and-click adventure game based on the popular Monkey God mythos of ancient China. The Emperor is seeking The Book of Governance, an artifact containing all the wisdom necessary to rule a kingdom in a just fashion. He dispatches the monk SamChang on a quest to find it. Along the way, SamChang meets WuKung, an extraordinary and magical monkey. When SamChang disappears, it''s up to WuKung to track him down with the help of his friends Eddy (a pig demon) and Seamoure (a river demon), then together find the Book sought by the Emperor.
+
+The typical adventure gameplay involves solving puzzles to progress the story. Eventually three characters become available and it is possible to switch between them. Four actions are available as part of the HUD. There is also an inventory system where items are stored.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 1000013, "developer": true, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "ad1a1019-e3fd-4c31-89e3-e6c32135aacf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000054, "slug": "wukung-a-legendary-adventure", "similar_ids": []}',
+     '{}'
+    );
