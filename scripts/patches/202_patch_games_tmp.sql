@@ -1016,3 +1016,40 @@ The typical adventure gameplay involves solving puzzles to progress the story. E
      '{"id": 1000054, "slug": "wukung-a-legendary-adventure", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000055,
+     'SchoolHouse Rock!: Exploration Station',
+     '{}',
+     'An educational game that teaches elements of science for an audience of children aged six to ten. It is based on the Schoolhouse Rock! TV series. It features the character Interplanet Janet, a half human-half robot girl with wings. She crashed her spaceship on Earth and now wants to go home again. The player needs to help her to restore her ship. This is done by playing ten activities where the player helps Janet get the energy crystals to power her ship, as well as acquire the parts to help the ship run. Along the way coins are collected and those are used for the final stage where a board game leads Janet back to her home.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "9d247d1f-49b7-42e9-81e9-ed5ef6455271"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000055, "slug": "schoolhouse-rock-exploration-station", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000056,
+     'Chitty Chitty Bang Bang''s Adventure in Tinker Town',
+     '{}',
+     'An educational puzzle game where players help repair the titular flying car within the whimsical Tinker Town. Players assist characters like Otto the airbag, Flammer the hammer, and Screwy Lou to solve tasks such as fixing pipes and restoring power. ',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2013, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "51880e21-252e-4231-8299-9a55b02a50f9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000056, "slug": "chitty-chitty-bang-bangs-adventure-in-tinker-town", "similar_ids": []}',
+     '{}'
+    );
+
