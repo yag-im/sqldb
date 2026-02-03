@@ -1039,7 +1039,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     (1000056,
      'Chitty Chitty Bang Bang''s Adventure in Tinker Town',
      '{}',
-     'An educational puzzle game where players help repair the titular flying car within the whimsical Tinker Town. Players assist characters like Otto the airbag, Flammer the hammer, and Screwy Lou to solve tasks such as fixing pipes and restoring power. ',
+     'An educational puzzle game where players help repair the titular flying car within the whimsical Tinker Town. Players assist characters like Otto the airbag, Flammer the hammer, and Screwy Lou to solve tasks such as fixing pipes and restoring power.',
      '',
      '{1000000}',
      '[
@@ -1053,3 +1053,38 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{}'
     );
 
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000057,
+     'Eyewitness History of the World 2.0',
+     '{}',
+     'Eyewitness History of the World 2.0 is an interactive multimedia encyclopedia. It presents world history—from ancient civilizations through modern times—through a rich, visual, and exploratory format that includes thousands of articles, hundreds of photographs, animations, videos, biographies, maps, and text. The program lets users navigate world events, cultures, and historical figures with cross-referenced content and search tools, making it both an educational reference and an engaging way to explore how people, places, and ideas shaped global history.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "87e2bdc2-495a-46ea-9387-809a954925a3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000057, "slug": "eyewitness-history-of-the-world-2-0", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000058,
+     'Frog And Toad Are Friends',
+     '{}',
+     'Inspired by Arnold Lobel’s beloved children’s books. Players join Frog and Toad in a series of gentle, story-driven mini-games that focus on reading comprehension, simple puzzles, and exploration. With hand-drawn illustrations, calm pacing, and a warm sense of humor, the game was designed for young children and early readers, capturing the cozy, timeless feel of the original stories.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000014, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "792952ac-879d-4e3b-a1ee-d2c53a0e8924"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000058, "slug": "frog-and-toad-are-friends", "similar_ids": []}',
+     '{}'
+    );

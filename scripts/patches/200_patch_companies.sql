@@ -14,3 +14,4 @@ INSERT INTO games.companies(id, name) VALUES (1000010, 'Sampo Oy');
 INSERT INTO games.companies(id, name) VALUES (1000011, 'So\USE Interactive Entertainment');
 INSERT INTO games.companies(id, name) VALUES (1000012, 'Artefact');
 INSERT INTO games.companies(id, name) VALUES (1000013, 'Abudoe Software, Inc.');
+INSERT INTO games.companies(id, name) VALUES (1000014, 'Harper Kids Interactive');
