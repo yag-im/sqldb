@@ -1088,3 +1088,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000058, "slug": "frog-and-toad-are-friends", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000059,
+     'The Busy World of Richard Scarry: Best Reading Program Ever',
+     '{}',
+     'Mr. Fixit has built a brand new storymobile, but he''s forgotten the stories. Huckle and Lowly help him find more stories by playing mini-games at the Busytown Schoolhouse, the supermarket, the beach, a campsite, and Farmer Soybeans'' farm.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24260, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "923d5151-3a40-4afb-82dc-97d02dc3001e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000059, "slug": "richard-scarrys-best-reading-program-ever", "similar_ids": []}',
+     '{}'
+    );
