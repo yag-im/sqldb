@@ -1106,3 +1106,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000059, "slug": "richard-scarrys-best-reading-program-ever", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000060,
+     'Yoho Ahoy: All Aboard!',
+     '{}',
+     'Cheerful educational adventure for young kids that invites players onto a playful pirate ship. Through simple point-and-click activities, songs, and mini-games, children explore numbers, shapes, and problem-solving while sailing with a friendly crew across colorful seas. Fun, gentle, and easy to play, it’s designed as an early learning experience rather than a challenge-heavy game.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 28634, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "ce7277a1-43fa-4149-a295-80c7ee2b7518"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000060, "slug": "yoho-ahoy-all-aboard", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000061,
+     'Tweenies: Ready To Play',
+     '{}',
+     'Join the Tweenies - Bella, Milo, Jake, and Fizz - in a cheerful collection of simple games and activities designed just for preschoolers. With bright visuals, friendly voices, and easy point-and-click play, it helps young kids build early learning and coordination skills while having fun in the colorful Tweenies world.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2615, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "c8c61dc4-73ca-4c4e-9df3-0f2e4241f8d5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000061, "slug": "tweenies-ready-to-play", "similar_ids": []}',
+     '{}'
+    );
