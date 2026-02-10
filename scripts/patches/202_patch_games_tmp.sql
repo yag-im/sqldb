@@ -1160,3 +1160,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000062, "slug": "arthurs-math-games", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000063,
+     'Toy Story 2 Read-Along',
+     '{}',
+     'A children’s audio story CD that retells the movie’s adventure in an easy-to-follow, read-along format. Featuring lively narration, music, and sound effects inspired by the film, it lets kids read the story while listening along, bringing Woody, Buzz, and the rest of the toys to life in a fun, screen-free way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000015, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "0b2ed473-7be4-45cd-bc2f-a150cea41557"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000063, "slug": "toy-story-2-read-along", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000064,
+     'James Discovers Math',
+     '{}',
+     'A children’s educational game that introduces basic math concepts through simple puzzles and friendly activities. Players help James explore everyday situations while practicing counting, addition, and problem-solving in a gentle, approachable way designed for young learners.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 195, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "83f8076b-7941-449c-89b6-8d1377bbf494"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000064, "slug": "james-discovers-math", "similar_ids": []}',
+     '{}'
+    );
