@@ -1142,3 +1142,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000061, "slug": "tweenies-ready-to-play", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000062,
+     'Arthur''s Math Games',
+     '{"Arthur''s Math Carnival"}',
+     'Learn math with Arthur and friends in a set of fun, kid-friendly activities that build early skills in counting, addition, subtraction, and problem-solving. With familiar characters and gentle challenges, this educational game makes practicing math feel like play.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17047, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "f9b8b68a-df44-4e0b-8a5d-27278d19bf95"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000062, "slug": "arthurs-math-games", "similar_ids": []}',
+     '{}'
+    );
