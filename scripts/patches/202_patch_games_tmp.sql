@@ -1196,3 +1196,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000064, "slug": "james-discovers-math", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000065,
+     'Crayola Art Studio',
+     '{}',
+     'Creative art program for kids that lets players draw, paint, and design pictures using digital Crayola tools. With bright colors, easy-to-use controls, and playful effects, it encourages creativity and artistic expression in a fun, kid-friendly environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000016, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "edae664a-c64f-40c6-a00e-d091078d0d26"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000065, "slug": "crayola-art-studio", "similar_ids": []}',
+     '{}'
+    );
