@@ -1151,7 +1151,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '',
      '{1000000}',
      '[
-       {"company": 17047, "developer": false, "porting": false, "publisher": true, "supporting": false}
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
      ]',
      '{6}',
      '{"cover": {"image_id": "f9b8b68a-df44-4e0b-8a5d-27278d19bf95"}, "screenshots": []}',
