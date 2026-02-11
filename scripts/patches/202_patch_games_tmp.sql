@@ -1232,3 +1232,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000066, "slug": "crayola-art-studio-2", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000067,
+     'The Gigglebone Gang: World Tour',
+     '{}',
+     'Lighthearted children’s adventure game that follows a group of quirky characters as they travel around the world. Through simple puzzles, playful activities, and humorous interactions, the game introduces young players to different locations while emphasizing fun, exploration, and comedy.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 13904, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "3d9fc846-96cf-4318-b529-3f4b08f046f8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000067, "slug": "the-gigglebone-gang-world-tour", "similar_ids": []}',
+     '{}'
+    );
