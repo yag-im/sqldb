@@ -1214,3 +1214,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000065, "slug": "crayola-art-studio", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000066,
+     'Crayola Art Studio 2',
+     '{}',
+     'Follow-up to the original kids’ art software, published by Micrografx. It expands on the first version with more than 25 creative activities — including painting with Crayola crayons, markers and watercolors, coloring books, crafts, and fun mini-games — designed to spark imagination and develop basic skills for children ages roughly 3–12.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000016, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "97573627-bd77-488e-a282-eb6768e3210c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000066, "slug": "crayola-art-studio-2", "similar_ids": []}',
+     '{}'
+    );
