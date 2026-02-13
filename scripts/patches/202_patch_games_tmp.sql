@@ -1304,3 +1304,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000070, "slug": "madeline-classroom-companion-1st-and-2nd-grade-reading", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000071,
+     'Madeline 1st and 2nd Grade Math',
+     '{}',
+     'Educational PC game that helps young learners practice essential math skills through playful activities set in Madeline’s charming world. Aimed at first- and second-grade students, it introduces concepts like addition, subtraction, counting, patterns, time, and basic problem-solving using colorful animations, friendly characters, and age-appropriate challenges that make learning math feel fun and approachable.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "53e3d83a-a583-4219-add9-fd9b96757b4d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000071, "slug": "madeline-1st-and-2nd-grade-math", "similar_ids": []}',
+     '{}'
+    );
