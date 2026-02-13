@@ -1250,3 +1250,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000067, "slug": "the-gigglebone-gang-world-tour", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000068,
+     'Candy Land',
+     '{}',
+     'Digital adaptation of the classic Hasbro board game for Windows PCs. Designed for young children, it features colorful animations, simple point-and-click controls, and familiar Candy Land characters and locations. Players take turns drawing cards and moving along the candy-themed path, making it an easy, non-competitive introduction to computer games and basic turn-based play.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 183, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "2835f1ec-7987-46a3-a76b-6dfb85bce63a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000068, "slug": "candy-land", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000069,
+     'Disney''s Magic Artist Classic',
+     '{}',
+     'Creative art and animation program that lets kids draw, paint, and animate using Disney characters and themed tools. With simple controls, stamps, sound effects, and guided activities, it encourages creativity and self-expression while making digital art fun and accessible for younger users.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 95, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "57c19bd9-5240-4627-9973-a11316b7b569"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000069, "slug": "disneys-magic-artist-classic", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000070,
+     'Madeline: Classroom Companion - 1st & 2nd Grade Reading',
+     '{}',
+     'Educational PC game designed to help early readers build confidence and literacy skills. Featuring the curious Parisian heroine Madeline, the game offers a collection of gentle mini-games and activities focused on phonics, vocabulary, reading comprehension, and basic spelling, all presented through colorful animations and familiar characters tailored for first- and second-grade learners.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "f5a49d03-87a3-4c43-aa64-2c6d2be85e6b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000070, "slug": "madeline-classroom-companion-1st-and-2nd-grade-reading", "similar_ids": []}',
+     '{}'
+    );
