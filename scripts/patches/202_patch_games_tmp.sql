@@ -1322,3 +1322,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000071, "slug": "madeline-1st-and-2nd-grade-math", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000072,
+     'Madeline: Classroom Companion - Preschool & Kindergarten',
+     '{}',
+     'Early-learning educational game designed for preschool and kindergarten children. Guided by Madeline and her friends, players explore interactive activities that build foundational skills such as letter recognition, early phonics, counting, shapes, colors, and basic problem-solving, all presented through gentle gameplay, bright visuals, and a supportive classroom-style environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "a5fea1dd-b526-4fd4-957c-d0ecaf9cde72"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000072, "slug": "madeline-classroom-companion-preschool-and-kindergarten", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000073,
+     'The Beginners Bible: Noah''s Ark Activity Center',
+     '{}',
+     'Children’s educational game based on the biblical story of Noah’s Ark. Designed for young learners, it offers a variety of gentle, point-and-click activities and mini-games that focus on early skills such as matching, counting, memory, and problem-solving, all presented with colorful visuals and a friendly, storybook-style atmosphere.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 42662, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "f3969b1c-9b95-4040-b06e-d96e12eb6020"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000073, "slug": "the-beginners-bible-noahs-ark-activity-center", "similar_ids": []}',
+     '{}'
+    );
