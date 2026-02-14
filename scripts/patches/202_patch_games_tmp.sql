@@ -1358,3 +1358,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000073, "slug": "the-beginners-bible-noahs-ark-activity-center", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000074,
+     'Reader Rabbit''s Reading 1',
+     '{}',
+     'An updated version of the original Reader Rabbit educational game for DOS. In this edition, The Learning Company''s trademark Rabbit is dismayed to learn that all the words in Wordville have been lost from the books, newspapers and letters; the player''s goal is to load new words from the Word Factory onto Ernest the word train and deliver them to Wordville as replacements.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "98fc8d36-2cf4-4f00-a7cc-34a3fcb7e0e5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000074, "slug": "reader-rabbits-reading-1", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000075,
+     'Reader Rabbit''s Reading 2',
+     '{}',
+     'Third, reworked release of the original Reader Rabbit 2 (1991) and Reader Rabbit 2: Deluxe! (1996). It is an educational game, for children aged five to eight or in the first or second grade of the US school system, that teaches reading skills. The basic concept and content is identical to the original 1991 game, with most of the improvements in the graphic department which are entirely redone. Wordville where the game is set is running out of words. Reader Rabbit, Ernest the Train and Mat the Mouse collect words to fill up Wordville by doing four different activities: Alphabet Dance, Match Patch, Vowel Pond, and Word Mine.* Alphabet Dance is set in a barn. There are four dancers and children need to look at the first letter of their names and put the dancers in the correct order following the alphabet.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "ce0d3386-1e4a-4000-8e7b-e04a6c31ada9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000075, "slug": "reader-rabbits-reading-2", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000076,
+     'Sesame Street - Elmo''s Preschool',
+     '{}',
+     'Educational game designed for young children, featuring Elmo from the long-running television series Sesame Street. The game combines entertainment and learning, with Elmo acting as both tutor and playmate as preschoolers practice early skills such as number, letter, shape, and color recognition, as well as spelling, sound identification, and basic problem solving.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "2a6ad49d-6c01-4840-9936-3a79aa253926"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000076, "slug": "sesame-street-elmos-preschool", "similar_ids": []}',
+     '{}'
+    );
