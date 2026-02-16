@@ -1484,3 +1484,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000080, "slug": "the-story-of-creation", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000081,
+     'Bookie Bookworm Talking Books: Daniel and the Lions'' Den & 4 Other Stories',
+     '{}',
+     'Educational PC interactive storybook collection. Designed for kids, it presents beloved Bible and classic tales as narrated, illustrated digital books. Each story features full-page artwork, spoken narration you can follow along with, and interactive elements you can click to trigger animations, sounds, or word-by-word reading to help young readers engage with the text and build literacy skills.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 51852, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "d926b6c8-98b3-4162-96e5-6f4ff758e724"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000081, "slug": "bookie-bookworm-talking-books-daniel-and-the-lions-den-and-4-other-stories", "similar_ids": []}',
+     '{}'
+    );
