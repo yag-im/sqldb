@@ -1502,3 +1502,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000081, "slug": "bookie-bookworm-talking-books-daniel-and-the-lions-den-and-4-other-stories", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000082,
+     'Mixed-Up Mother Goose Deluxe',
+     '{}',
+     'Whimsically updated edutainment adventure for PC and Mac from Sierra On-Line. Aimed at young children, players explore a colorful Mother Goose Land where classic nursery rhymes have been scrambled — it’s up to a child avatar to find misplaced items and return them to familiar characters like Humpty Dumpty and Little Bo Peep. With enhanced SVGA graphics, point-and-click gameplay, and lively musical renditions of beloved rhymes, this charming title blends simple puzzles with interactive storytelling and singing to make learning fun.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "82a16811-9f8e-47b2-a6f4-1eed12b16a07"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000082, "slug": "mixed-up-mother-goose-deluxe", "similar_ids": []}',
+     '{}'
+    );
