@@ -1430,3 +1430,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000077, "slug": "sesame-street-elmos-preschool-deluxe", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000078,
+     'Goldilocks and the Three Bears',
+     '{}',
+     'This adaptation of the fairy "Goldilocks and the Three Bears" is designed for children aged 3 to 6 years, teaching them the concept of reading and relating spoken words with written ones. The game is narrated by English actress Daphne Oxenford and was created using Klik & Play with an easy to navigate interface. Each page comes with objects that can be clicked for interaction as well as re-readable text.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 42980, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "5ca9f2ae-3350-4807-a5da-706ced8edcd4"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000078, "slug": "goldilocks-and-the-three-bears", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000079,
+     'JumpStart Pre-K',
+     '{"Jumpstart Preschool: Year 2 - Trucks N'' Things"}',
+     'In this game for the 3 - 5 year old, the player is taken to the colorful main page: a town map full of clickable icons leading to activities and song. Each activity begins at the easiest level, and can be adjusted manually, or the game will automatically adjust as the player responds with correct answers. All actions are point and click and there are many clickable places on the map and in each area that produce animations. As the player progresses through an area, correct answers will earn him stars, and four stars give him a chance to pick an object (trees, playground equipment, characters) to place in the town park named for him.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 27767, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "78c37807-199b-4c77-afe1-b66f91f9b115"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000079, "slug": "jumpstart-pre-k", "similar_ids": []}',
+     '{}'
+    );
