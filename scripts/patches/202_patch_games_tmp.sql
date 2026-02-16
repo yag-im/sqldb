@@ -1520,3 +1520,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000082, "slug": "mixed-up-mother-goose-deluxe", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000083,
+     'Looney Tunes Animated Jigsaws: Merrie Masquerades',
+     '{}',
+     'Puzzle game in the Looney Tunes Animated Jigsaws series. Players choose from a collection of animated jigsaw puzzles featuring classic Warner Bros. Looney Tunes characters and scenes — from Bugs Bunny and Daffy Duck to Tweety and Elmer Fudd — and assemble them at varying difficulty levels. As each puzzle is completed, colorful cartoon artwork comes together with playful animations from the original shorts, making it a relaxed, family-friendly title that blends casual gameplay with nostalgic Looney Tunes charm.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1327, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "de357db2-6bdd-483f-9d75-79b3e8898c6c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000083, "slug": "looney-tunes-animated-jigsaws-merrie-masquerades", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000084,
+     'All Dogs Go To Heaven 2 Animated Moviebook',
+     '{}',
+     'Interactive Animated Moviebook PC game based on the animated film All Dogs Go to Heaven 2. It presents the movie’s story as a clickable digital storybook with narrated text, full-motion animated scenes, and simple puzzle and mini-game activities woven into the narrative. Designed for young players, the game lets you explore around two dozen story pages, solve fun challenges like jigsaws and spelling games, and follow Charlie, Itchy, and friends on their adventure to find Gabriel’s missing horn.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "bed37de1-b201-425c-9905-bda6ea02388c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000084, "slug": "all-dogs-go-to-heaven-2-animated-moviebook", "similar_ids": []}',
+     '{}'
+    );
