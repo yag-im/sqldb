@@ -1412,3 +1412,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000076, "slug": "sesame-street-elmos-preschool", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000077,
+     'Sesame Street - Elmo''s Preschool Deluxe',
+     '{}',
+     'Educational game designed for young children, featuring Elmo from the long-running television series Sesame Street. The game combines entertainment and learning, with Elmo acting as both tutor and playmate as preschoolers practice early skills such as number, letter, shape, and color recognition, as well as spelling, sound identification, and basic problem solving.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "72e30a82-a602-4438-9f1e-652ba880f708"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000077, "slug": "sesame-street-elmos-preschool-deluxe", "similar_ids": []}',
+     '{}'
+    );
