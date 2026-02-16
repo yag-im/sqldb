@@ -1466,3 +1466,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000079, "slug": "jumpstart-pre-k", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000080,
+     'The Story of Creation',
+     '{}',
+     'This game presents the biblical creation narrative through interactive scenes, simple puzzles, and narrated lessons. Designed for young players, it focuses on gentle exploration and learning rather than challenge, blending storytelling with basic point-and-click gameplay.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000017, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "23f9c3bb-f15c-4e4a-a90b-23d03a19325e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000080, "slug": "the-story-of-creation", "similar_ids": []}',
+     '{}'
+    );
