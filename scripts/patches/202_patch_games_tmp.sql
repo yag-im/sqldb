@@ -1574,3 +1574,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000085, "slug": "snow-white-and-the-magic-mirror", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000086,
+     'a Little Golden Book: The Saggy Baggy Elephant',
+     '{}',
+     'A charming interactive PC storybook based on the classic Little Golden Book of the same name. Aimed at preschoolers, this educational CD-ROM blends narrated storytelling with animated scenes, simple puzzles, matching activities, coloring fun, and other mini-games as young players follow Sooki the elephant on his journey of self-discovery in the jungle. It combines warm visuals and gentle gameplay to help reinforce early learning skills while bringing a beloved children’s tale to life on screen.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2006, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "45dd7f90-48f0-4538-a25a-7520ef8458c6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000086, "slug": "a-little-golden-book-the-saggy-baggy-elephant", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000087,
+     'The Secret of the Hunchback',
+     '{}',
+     'An interactive storybook for PC inspired by The Hunchback of Notre-Dame. It presents the tale through illustrated pages with narrated text, simple animations, and light interactive elements rather than traditional puzzles. Designed for younger audiences, it focuses on storytelling, atmosphere, and gentle exploration as readers follow Quasimodo through medieval Paris.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000018, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "c1254c08-c205-48b5-95ca-6ff887c87430"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000087, "slug": "the-secret-of-the-hunchback", "similar_ids": []}',
+     '{}'
+    );
