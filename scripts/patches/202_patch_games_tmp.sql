@@ -1556,3 +1556,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000084, "slug": "all-dogs-go-to-heaven-2-animated-moviebook", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000085,
+     'Snow White and the Magic Mirror',
+     '{}',
+     'Interactive storybook adventure for PC based on the straight-to-video animated short Snow White and the Magic Mirror (1994). Players click through beautifully illustrated scenes with narration and music, watch clips from the film, and engage with simple mini-games like object-finding and sliding puzzles as they follow Snow White’s fairy-tale journey involving the jealous Queen and her enchanted mirror.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000018, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "23769228-2b59-4217-802b-5535ec5085e0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000085, "slug": "snow-white-and-the-magic-mirror", "similar_ids": []}',
+     '{}'
+    );
