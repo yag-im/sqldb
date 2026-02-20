@@ -1700,3 +1700,22 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000092, "slug": "fisher-price-read-and-play-the-lie", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000093,
+     'Barney Under The Sea',
+     '{}',
+     'Preschool educational game featuring Barney the Dinosaur on an underwater adventure. Through colorful ocean scenes, songs, and simple interactive activities, children explore sea life while developing early learning skills such as counting, matching, and problem-solving in a fun, friendly environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17047, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c7c9a-d3d6-78a2-9787-523797f2b465"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000093, "slug": "barney-under-the-sea", "similar_ids": []}',
+     '{}'
+    );
+
