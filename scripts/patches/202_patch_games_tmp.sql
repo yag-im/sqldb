@@ -1664,3 +1664,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000090, "slug": "fisher-price-read-and-play-baxters-birthday", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000091,
+     'Fisher Price Read & Play: Yolanda Yellsalot',
+     '{}',
+     'Educational title designed to help early readers explore emotions and communication. Through interactive storytelling and simple activities, kids follow Yolanda as she learns about using her voice appropriately, encouraging reading skills, listening, and social understanding in a playful, age-friendly way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "7f9843b8-efea-463d-8b7d-1d2b25d29be0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000091, "slug": "fisher-price-read-and-play-yolanda-yellsalot", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000092,
+     'Fisher Price Read & Play: The Lie',
+     '{}',
+     'Interactive children’s story that helps young players understand honesty and the consequences of telling lies. Through simple reading activities and point-and-click interaction, kids follow a relatable story that builds early reading skills while teaching important social and moral lessons.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "7f0870b4-a088-4cd1-9863-9f9b10b955d1"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000092, "slug": "fisher-price-read-and-play-the-lie", "similar_ids": []}',
+     '{}'
+    );
