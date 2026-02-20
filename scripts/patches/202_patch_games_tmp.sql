@@ -1610,3 +1610,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000087, "slug": "the-secret-of-the-hunchback", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000088,
+     'Fisher Price Read & Play: After the Beanstalk',
+     '{}',
+     'Educational PC game for young children that blends interactive storybook narration with simple learning activities. Based on the classic Jack and the Beanstalk tale, players help Jack on his adventure by listening to the story, clicking through colorful scenes, and playing bite-sized games that build early reading, problem-solving, and vocabulary skills. Friendly characters, cheerful animation, and easy-to-use controls make it a playful introduction to computers and stories for preschoolers.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "99f5b8c1-1cbb-4725-b1bd-25d50cf430a5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000088, "slug": "fisher-price-read-and-play-after-the-beanstalk", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000089,
+     'Fisher Price Read & Play: Louie Lumbfield and his Heroic Wet Dog Trail',
+     '{}',
+     'Educational interactive storybook CD-ROM from the Fisher-Price Read & Play “Puddle Books” series. In it, young players follow Louie and his loyal dog Harris through a neighborhood adventure filled with clickable scenes, narrated storytelling, and light activities as Louie prepares a special day and imagines heroic tales about his wet dog’s exploits.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "207dd8f9-195b-46af-bc7f-8573250715e9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000089, "slug": "fisher-price-read-and-play-louie-lumbfield-and-his-heroic-wet-dog", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000090,
+     'Fisher Price Read & Play: Baxter''s Birthday',
+     '{}',
+     'Cheerful interactive storybook game for young children. Players join Baxter the bear as he prepares for and celebrates his birthday, moving through colorful scenes, listening to narrated storytelling, and enjoying simple clickable activities that build early reading and problem-solving skills. With friendly characters and gentle gameplay, it’s designed to make learning fun for preschoolers.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "11a855c9-41c1-4cfb-ac0d-0f13ee06e5b8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000090, "slug": "fisher-price-read-and-play-baxters-birthday", "similar_ids": []}',
+     '{}'
+    );
