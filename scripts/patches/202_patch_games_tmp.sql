@@ -1772,3 +1772,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000096, "slug": "dr-seuss-reading-games", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000097,
+     'Dr. Seuss Preschool and Kindergarten Reading',
+     '{}',
+     'A 2-CD edutainment suite that combines interactive storytelling with curriculum-based activities.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c82ce-dea6-7a91-9c50-5791f913e5dd"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000097, "slug": "dr-seuss-preschool-and-kindergarten-reading", "similar_ids": []}',
+     '{}'
+    );
