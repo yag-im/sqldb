@@ -1719,3 +1719,56 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{}'
     );
 
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000094,
+     'Math Workshop Deluxe',
+     '{"Math Workshop v2.0"}',
+     'Educational program designed to strengthen core math skills through interactive lessons and practice activities. Aimed at elementary-level learners, it covers topics such as arithmetic, problem-solving, and number concepts, offering a structured yet approachable way to build math confidence at one’s own pace.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 195, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c7d68-d33b-70aa-92af-df81ba2d0029"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000094, "slug": "math-workshop-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000095,
+     'Barney''s Night Before Christmas',
+     '{}',
+     'Festive children’s CD-ROM adventure that invites young players to join Barney the Dinosaur on Christmas Eve. Through simple point-and-click activities, songs, and gentle puzzles, kids help spread holiday cheer while building early learning skills in a warm, storybook-style setting.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000019, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c828f-31c0-7009-8d55-4dba367c8806"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000095, "slug": "barneys-night-before-christmas", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000096,
+     'Dr. Seuss Reading Games',
+     '{}',
+     'Educational children’s CD-ROM that brings classic Dr. Seuss stories to life through interactive reading activities. Featuring colorful characters, rhyming games, and simple challenges, it helps young players build early reading and vocabulary skills in a playful, story-driven environment inspired by beloved Seuss books.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c82a0-887a-79d6-b87f-043ca3a487fc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000096, "slug": "dr-seuss-reading-games", "similar_ids": []}',
+     '{}'
+    );
