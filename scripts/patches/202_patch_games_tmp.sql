@@ -1790,3 +1790,93 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000097, "slug": "dr-seuss-preschool-and-kindergarten-reading", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000098,
+     'Reader Rabbit 2: Deluxe!',
+     '{}',
+     'This release only comes on CD-ROM and supports Windows 95 natively as a new platform and no longer DOS. The game is redone entirely and while the content such as the story and the mini-games are identical, the lay-out, graphics and animation have been redone entirely.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c86aa-04eb-7da5-bcba-0f1fe61a83c3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000098, "slug": "reader-rabbit-2-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000099,
+     'Curious George ABC Adventure',
+     '{}',
+     'In this second installment of the Curious George Young Readers’ Series, Curious George ABC Adventure focuses on letter names and shapes, alphabetical order, basic letter phonemes, matching and sorting first letters and first letter sounds, and basic vocabulary and listening skills. The targeted age group is 3 to 6. Activities feature the Postcard Capers, Bakers Dozen, Go Fish, I Spy A Butterfly, Sky Writer, and also features a bonus activity for printing out a storybook featuring Curious George.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 3454, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c86b7-3871-7ca3-8828-6877125d92e9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000099, "slug": "curious-george-abc-adventure", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000100,
+     'Curious George Reads, Writes, & Spells for Grades 1 & 2',
+     '{}',
+     'Curious George becomes a reporter for the local newspaper. Children become part of a Curious George adventure while learning reading skills and storytelling. They get to write 30 different stories and two great articles for Curious George’s newspapers.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 3454, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c86c4-0f3a-7204-a2c0-70b345dcb7d6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000100, "slug": "curious-george-reads-writes-and-spells-for-grades-1-and-2", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000101,
+     'Franklin the Turtle: Clubhouse Adventures',
+     '{}',
+     'Children’s educational adventure based on the popular Franklin book and TV series. Players join Franklin and his friends in the clubhouse, exploring interactive activities that promote reading, problem-solving, cooperation, and social skills in a gentle, kid-friendly point-and-click environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c86cd-73dd-765d-a119-7feddea5c763"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000101, "slug": "franklin-the-turtle-clubhouse-adventures", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000102,
+     'My Personal Tutor: Alphabet Playhouse',
+     '{}',
+     'Colorful early-learning PC game that helps young children master the alphabet through playful, interactive activities. Kids explore a friendly playhouse filled with letter games, songs, and animations designed to build letter recognition, phonics, and basic reading skills in a fun, pressure-free way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 128, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c87bd-3149-7ea1-91df-af682fe702e8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000102, "slug": "microsoft-my-personal-tutor-alphabet-playhouse", "similar_ids": []}',
+     '{}'
+    );
