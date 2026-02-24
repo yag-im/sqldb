@@ -16,6 +16,6 @@ SET uuid = (
     to_hex(((('x' || substring(replace(uuid::text, '-', '') from 17 for 1))::bit(4) & b'0011') | b'1000')::int) ||
     -- 5. Rand_B: Keep characters 18 through 32
     substring(replace(uuid::text, '-', '') from 18)
-    )::uuid;
+    )::uuid WHERE ts_added < '2026-02-19 20:30:05.000000';;
 
 ALTER TABLE games.releases DROP COLUMN ts_added;
