@@ -1880,3 +1880,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000102, "slug": "microsoft-my-personal-tutor-alphabet-playhouse", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000103,
+     '102 Dalmatians Read-Along',
+     '{}',
+     'Children’s audio story that brings the Disney film 102 Dalmatians to life through narrated storytelling, character voices, music, and sound effects. Designed to follow along with the companion book, it helps young listeners build reading skills while enjoying an engaging, easy-to-follow retelling of the movie’s adventure.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000015, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c8dc3-3c9b-7470-a445-6b88f657db53"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000103, "slug": "102-dalmatians-read-along", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000104,
+     'The Emperor''s New Groove Read-Along',
+     '{}',
+     'Fun, storybook-style audio experience based on Disney’s animated hit The Emperor''s New Groove. Designed for young listeners, the CD features narrated storytelling, character dialogue, music, and sound effects that follow the film’s comedic tale of Emperor Kuzco’s misadventures. Children can read along with the accompanying book while enjoying the humor, lessons, and lively performances from the movie in an engaging audio format.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000015, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c8dd3-764a-78bd-95e9-2d6002fa2042"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000104, "slug": "the-emperors-new-groove-read-along", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000105,
+     'Math Blaster: Cross Terrain Challenge',
+     '{}',
+     'Educational action-adventure that blends arcade-style gameplay with math practice. Players race across varied terrains, piloting futuristic vehicles and solving math problems to progress through missions. Designed for elementary and middle-school learners, the game reinforces skills like addition, subtraction, multiplication, and division while keeping the pace fast and competitive.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 29911, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c97cf-f685-7807-8ddb-fd1ca7f2c47b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000105, "slug": "math-blaster-cross-terrain-challenge", "similar_ids": []}',
+     '{}'
+    );
