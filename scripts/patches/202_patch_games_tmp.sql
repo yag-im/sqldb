@@ -1970,3 +1970,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000107, "slug": "sesame-street-baby-and-me", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000108,
+     'Sesame Street Ernie''s Adventures in Space',
+     '{}',
+     'Educational CD-ROM game where young children join Ernie on a playful space journey filled with mini-games and activities. Through exploration, problem-solving, and simple puzzles, kids learn early math, logic, and thinking skills, all wrapped in the familiar humor and warmth of Sesame Street characters.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ca17d-10f1-7525-9018-27ffb40bb0f3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000108, "slug": "sesame-street-ernies-adventures-in-space", "similar_ids": []}',
+     '{}'
+    );
