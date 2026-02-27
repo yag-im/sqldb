@@ -1934,3 +1934,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000105, "slug": "math-blaster-cross-terrain-challenge", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000106,
+     'Reader Rabbit''s Get Ready for Reading Ages 4-6',
+     '{"Reader Rabbit 1"}',
+     'Early-learning edutainment game designed for children ages 4–6. Through colorful, point-and-click activities, kids practice letter recognition, phonics, vocabulary, and basic reading skills. Guided by Reader Rabbit and friends, the game uses songs, stories, and mini-games to build confidence in pre-reading and early literacy in a playful, self-paced environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019c9d20-7048-75a1-831a-df73ae278064"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000106, "slug": "reader-rabbits-get-ready-for-reading-ages-4-6", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000107,
+     'Sesame Street: Baby & Me',
+     '{}',
+     'Gentle early-learning PC game designed for parents and very young children to explore together. Set in a warm Sesame Street environment, it focuses on bonding activities like songs, simple games, peek-a-boo, and cause-and-effect play, helping babies develop early sensory, motor, and listening skills while encouraging shared screen time with a caregiver.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ca15c-0256-7d41-b8fa-6f1d159336ba"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000107, "slug": "sesame-street-baby-and-me", "similar_ids": []}',
+     '{}'
+    );
