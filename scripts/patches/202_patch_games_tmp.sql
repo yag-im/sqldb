@@ -1988,3 +1988,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000108, "slug": "sesame-street-ernies-adventures-in-space", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000109,
+     'Maurice Sendak''s Little Bear: Kindergarten Thinking Adventures',
+     '{}',
+     'Cheerful educational CD-ROM game based on the beloved Little Bear books and TV series. In this interactive adventure, young players join Little Bear as he prepares for a camping trip by helping him pack, visit friends, and complete a series of fun learning activities designed to build early thinking skills like sorting, pattern recognition, matching, and problem-solving — all within a gentle, story-driven journey set in Little Bear’s world.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ca520-6dba-7f09-b2be-ea8f181b7855"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000109, "slug": "maurice-sendaks-little-bear-kindergarten-thinking-adventures", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000110,
+     'Maurice Sendak''s Little Bear: Preschool Thinking Adventures',
+     '{}',
+     'In this gentle preschool-focused adventure, players join Little Bear as he prepares for a “Just Because” party by visiting friends, gathering ingredients, and helping with simple tasks. Along the way are a variety of interactive learning activities—like vegetable picking, matching games, and creative play—designed to reinforce early thinking skills such as sorting, pattern recognition, problem solving, and basic reasoning for ages 3–5.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ca531-ec7f-70e1-b35c-4d905e8c0cac"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000110, "slug": "maurice-sendaks-little-bear-preschool-thinking-adventures", "similar_ids": []}',
+     '{}'
+    );
