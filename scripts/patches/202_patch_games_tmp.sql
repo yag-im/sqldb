@@ -2024,3 +2024,75 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000110, "slug": "maurice-sendaks-little-bear-preschool-thinking-adventures", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000111,
+     'Pony Girl',
+     '{"Full fart i stallet!", "Komm mit in den Stall!", "Pennyhorse"}',
+     'Horse-care and riding simulation game for PC where you play as a young girl learning the ins and outs of stable life. Players take on everyday tasks like feeding and caring for horses at a local club, build friendships with other characters, and — if they do well — earn chances to ride and compete in club riding events. The game blends horse management with light competition and social interaction in a casual, equestrian-focused experience.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000020, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ca674-bbdc-762b-a84c-e9d16893be7a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000111, "slug": "pony-girl", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000112,
+     'Stuart Little: His Adventures in Wordland',
+     '{}',
+     'Educational PC game where kids join Stuart Little on a story-driven word and literacy adventure. In the game, Stuart discovers a secret coded note from Aunt Polly telling him about an exciting journey — and players help him decode it by playing a variety of fun, literacy-focused activities like letter and word puzzles, rhyming challenges, and spelling tasks. As they progress through different themed areas, players build reading and vocabulary skills while exploring imaginative environments with Stuart and his friends.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019caa89-c9b9-7c23-9012-e503b3f55620"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000112, "slug": "stuart-little-his-adventures-in-wordland", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000113,
+     'Reading Blaster Mission 2: Planet Of The Lost Things',
+     '{}',
+     'Educational adventure game that builds reading and language skills through interactive missions and mini-games. Players join Blaster and his crew on a colorful alien planet, solving word puzzles, improving vocabulary, and practicing comprehension while helping recover lost items and complete their mission in a fun, story-driven setting.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cab47-4369-73ea-a43d-a2beb6e000f2"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000113, "slug": "reading-blaster-mission-2-planet-of-the-lost-things", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000114,
+     'Franklin the Turtle: After School',
+     '{}',
+     'Gentle educational game for young children based on the beloved Franklin series. Players explore familiar after-school activities with Franklin and his friends, encouraging learning through simple games that focus on problem-solving, social skills, and early cognitive development in a calm, friendly environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 489, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cab6f-5778-7de1-898d-e0a5bd02ce38"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000114, "slug": "franklin-the-turtle-after-school", "similar_ids": []}',
+     '{}'
+    );
