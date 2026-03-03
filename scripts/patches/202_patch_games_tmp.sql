@@ -2096,3 +2096,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000114, "slug": "franklin-the-turtle-after-school", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000115,
+     'FairyTale: A True Story - Activity Center',
+     '{}',
+     'Whimsical educational PC game based on the 1997 family film FairyTale: A True Story. In this charming activity center, children explore enchanted environments—like a magical glen, a cozy house, and a theater—discovering hidden fairies, collecting fairy dust, taking and developing photos, and completing a variety of creative puzzles and minigames. Through its interactive activities, the game encourages reading, creativity, problem‑solving, and exploration in a playful, fairy‑themed setting.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 29911, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cb56b-cba1-7566-b16c-cd7b381c526a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000115, "slug": "fairytale-a-true-story-activity-center", "similar_ids": []}',
+     '{}'
+    );
