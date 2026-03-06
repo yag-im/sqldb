@@ -2114,3 +2114,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000115, "slug": "fairytale-a-true-story-activity-center", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000116,
+     'Kid Pix Deluxe 4',
+     '{}',
+     'Creative art and drawing program for kids that lets them paint, animate, and build colorful scenes using fun tools and sounds. It features stamps, stickers, silly brushes, and simple animation tools that allow children to create interactive pictures and short animated stories. Designed to encourage creativity and exploration, it combines drawing, music, and playful effects in an easy-to-use interface aimed at younger users.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc18a-9603-7c84-9a77-41581091a6fc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000116, "slug": "kid-pix-deluxe-4", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000117,
+     'Math Blaster Mission 2: Race for the Omega Trophy',
+     '{}',
+     'Educational adventure game where players travel across space competing in a high-stakes intergalactic race while solving math challenges. By answering problems involving addition, subtraction, multiplication, and division, players earn boosts and overcome obstacles on their way to winning the Omega Trophy. The game blends fast-paced gameplay with learning, making math practice fun through colorful sci-fi environments and arcade-style action.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc4b6-471d-71e2-b5a2-69e8849771e3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000117, "slug": "math-blaster-mission-2-race-for-the-omega-trophy", "similar_ids": []}',
+     '{}'
+    );
