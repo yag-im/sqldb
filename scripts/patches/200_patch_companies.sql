@@ -21,3 +21,4 @@ INSERT INTO games.companies(id, name) VALUES (1000017, 'Little Ark Interactive')
 INSERT INTO games.companies(id, name) VALUES (1000018, 'UAV Corp.');
 INSERT INTO games.companies(id, name) VALUES (1000019, 'Lyrick Studios');
 INSERT INTO games.companies(id, name) VALUES (1000020,'Stabenfeldt AB');
+INSERT INTO games.companies(id, name) VALUES (1000021,'Putnam New Media');

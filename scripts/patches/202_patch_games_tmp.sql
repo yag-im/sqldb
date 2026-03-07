@@ -2186,3 +2186,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000119, "slug": "haxerier-och-trollkonster", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000120,
+     'Anno''s Learning Games',
+     '{}',
+     'Educational CD-ROM that presents a collection of interactive puzzles and mini-games designed to teach basic mathematics, logic, and problem-solving skills. Inspired by Mitsumasa Anno’s puzzle books, the program features animated characters and playful challenges such as pattern recognition, rule-guessing games, card puzzles, and logic problems, aimed primarily at elementary-school children.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000021, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc929-a18b-756f-b76a-8bfd221d6f5b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000120, "slug": "annos-learning-games", "similar_ids": []}',
+     '{}'
+    );
