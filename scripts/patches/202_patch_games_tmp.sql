@@ -2204,3 +2204,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000120, "slug": "annos-learning-games", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000121,
+     'Spell It Deluxe',
+     '{}',
+     'The program teaches spelling through a series of interactive activities and mini-games led by a cartoon frog character, helping players practice identifying correct spellings, completing words, solving crossword puzzles, and correcting misspelled sentences. It includes over 4,000 words divided into multiple difficulty levels and allows users to create their own custom word lists, making it suitable for learners of different ages.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc9ae-c9ac-7a22-95a6-92001d1f52f8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000121, "slug": "spell-it-deluxe", "similar_ids": []}',
+     '{}'
+    );

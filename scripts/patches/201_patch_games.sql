@@ -119,3 +119,46 @@ WHERE igdb ->> 'slug' IN (
     'schoolhouse-rock-america-rock',
     'schoolhouse-rock-math-rock'
 );
+
+-- remove copyrighted titles
+UPDATE games.releases SET is_visible = FALSE where name ilike '%barbie%';
+
+UPDATE games.releases SET is_visible = FALSE where name ilike '%disney%';
+
+UPDATE games.releases SET is_visible = FALSE where name ilike '%mickey%';
+
+UPDATE games.releases SET is_visible = FALSE where name ilike '%mario%';
+
+UPDATE games.releases
+SET is_visible = false
+WHERE game_id IN (
+    SELECT id
+    FROM games.games
+    WHERE EXISTS (
+        SELECT 1
+        FROM jsonb_array_elements(games.companies) AS comp(elem)
+        WHERE comp.elem->>'publisher' = 'true'
+          AND (comp.elem->>'company')::int IN (
+            SELECT id
+            FROM games.companies
+            WHERE name ILIKE '%disney%'
+        )
+    )
+);
+
+UPDATE games.releases
+SET is_visible = false
+WHERE game_id IN (
+    SELECT id
+    FROM games.games
+    WHERE EXISTS (
+        SELECT 1
+        FROM jsonb_array_elements(games.companies) AS comp(elem)
+        WHERE comp.elem->>'publisher' = 'true'
+          AND (comp.elem->>'company')::int IN (
+            SELECT id
+            FROM games.companies
+            WHERE name ILIKE '%mattel%'
+        )
+    )
+);
