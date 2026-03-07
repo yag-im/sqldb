@@ -2150,3 +2150,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000117, "slug": "math-blaster-mission-2-race-for-the-omega-trophy", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000118,
+     'The King''s Secret',
+     '{}',
+     'Whimsical, educational adventure game for PC and Macintosh where you guide a king on a quest to find the meaning of life. As you explore a fantasy world, you make choices that shape the story and complete simple mini‑quests that teach general knowledge and social lessons. With multiple branching storypaths and lighthearted decision‑making, the goal is to lead the king toward happiness and discovery.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc50f-5c16-783d-969d-3244f34bfec6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000118, "slug": "the-kings-secret", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000119,
+     'Häxerier och Trollkonster',
+     '{}',
+     'Multimedia PC game that immerses players in a whimsical world of magic and puzzles. Featuring charming voice acting and interactive adventures, the game invites players to explore magical scenarios, solve challenges, and experience a playful, enchanted universe aimed at children and teens.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 52070, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cc6db-8e95-78e1-a849-4a50b5bcc4dc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000119, "slug": "haxerier-och-trollkonster", "similar_ids": []}',
+     '{}'
+    );
