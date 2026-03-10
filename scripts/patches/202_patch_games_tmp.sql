@@ -2222,3 +2222,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000121, "slug": "spell-it-deluxe", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000122,
+     'Math Shop Deluxe',
+     '{}',
+     'Educational math game where players run their own virtual shop while solving arithmetic problems. Customers arrive with different purchases, and players must quickly calculate totals, make correct change, and manage transactions. Through fast-paced gameplay and colorful visuals, the game helps build skills in addition, subtraction, multiplication, and money handling, making math practice engaging for elementary-age learners.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 6398, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cd033-a35d-7489-a315-641822f7e4e3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000122, "slug": "math-shop-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000123,
+     'Flygande Start - Engelska',
+     '{}',
+     'Swedish educational computer program designed to help young learners take their first steps in English. Through colorful scenes, spoken words, and simple interactive mini-games, children practice basic vocabulary, pronunciation, and everyday phrases. The software focuses on common topics such as animals, food, colors, and objects, making it an engaging introduction to English for early elementary school students.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21799, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cd59f-7482-7f77-9355-47ed94e402b3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000123, "slug": "flygande-start-engelska", "similar_ids": []}',
+     '{}'
+    );

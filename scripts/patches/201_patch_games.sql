@@ -21,11 +21,6 @@ UPDATE games.games set esrb_rating = 10 WHERE igdb->>'slug' IN (
     'quest-for-glory-ii-trial-by-fire'
 );
 
--- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
-UPDATE games.releases set is_visible = false where name IN (
-    'Myst'
-);
-
 -- custom descriptions
 UPDATE games.games set short_descr = 'A full-motion video, point-and-click action-adventure game rated (AO) Adults Only. Hint: use Ctrl+F4 to swap CDs during the game.' WHERE igdb ->> 'slug' = 'riana-rouge';
 UPDATE games.games set short_descr = short_descr || ' HINT: Search for "Stealth Affair Color Protection" to bypass the protection screen.' WHERE igdb ->> 'slug' = 'james-bond-007-the-stealth-affair';
@@ -121,80 +116,30 @@ WHERE igdb ->> 'slug' IN (
 );
 
 -- remove copyrighted titles
-UPDATE games.releases SET is_visible = FALSE where name ilike '%barbie%';
+-- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel
+UPDATE games.releases set is_visible = false where name IN (
+    'Myst'
+    );
 
-UPDATE games.releases SET is_visible = FALSE where name ilike '%disney%';
+UPDATE games.releases SET is_visible = false
+WHERE name ilike '%barbie%' OR
+    name ilike '%disney%' OR
+    name ilike '%mickey%' OR
+    name ilike '%mario%' OR
+    name ilike '%rugrats%';
 
-UPDATE games.releases SET is_visible = FALSE where name ilike '%mickey%';
-
-UPDATE games.releases SET is_visible = FALSE where name ilike '%mario%';
-
-UPDATE games.releases SET is_visible = FALSE where name ilike '%rugrats%';
-
-UPDATE games.releases
+UPDATE games.releases r
 SET is_visible = false
-WHERE game_id IN (
-    SELECT id
-    FROM games.games
-    WHERE EXISTS (
-        SELECT 1
-        FROM jsonb_array_elements(games.companies) AS comp(elem)
-        WHERE comp.elem->>'publisher' = 'true'
-          AND (comp.elem->>'company')::int IN (
-            SELECT id
-            FROM games.companies
-            WHERE name ILIKE '%disney%'
-        )
-    )
-);
-
-UPDATE games.releases
-SET is_visible = false
-WHERE game_id IN (
-    SELECT id
-    FROM games.games
-    WHERE EXISTS (
-        SELECT 1
-        FROM jsonb_array_elements(games.companies) AS comp(elem)
-        WHERE comp.elem->>'publisher' = 'true'
-          AND (comp.elem->>'company')::int IN (
-            SELECT id
-            FROM games.companies
-            WHERE name ILIKE '%mattel%'
-        )
-    )
-);
-
-UPDATE games.releases
-SET is_visible = false
-WHERE game_id IN (
-    SELECT id
-    FROM games.games
-    WHERE EXISTS (
-        SELECT 1
-        FROM jsonb_array_elements(games.companies) AS comp(elem)
-        WHERE comp.elem->>'publisher' = 'true'
-          AND (comp.elem->>'company')::int IN (
-            SELECT id
-            FROM games.companies
-            WHERE name ILIKE '%lucas%'
-        )
-    )
-);
-
-UPDATE games.releases
-SET is_visible = false
-WHERE game_id IN (
-    SELECT id
-    FROM games.games
-    WHERE EXISTS (
-        SELECT 1
-        FROM jsonb_array_elements(games.companies) AS comp(elem)
-        WHERE comp.elem->>'publisher' = 'true'
-          AND (comp.elem->>'company')::int IN (
-            SELECT id
-            FROM games.companies
-            WHERE name ILIKE '%hasbro%'
-        )
+WHERE EXISTS (
+    SELECT 1
+    FROM jsonb_array_elements(r.companies) AS comp(elem)
+    WHERE (comp.elem->>'publisher')::boolean = true
+      AND (comp.elem->>'id')::int IN (
+        SELECT id
+        FROM games.companies
+        WHERE name ILIKE '%disney%'
+           OR name ILIKE '%mattel%'
+           OR name ILIKE '%lucas%'
+           OR name ILIKE '%hasbro%'
     )
 );
