@@ -2258,3 +2258,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000123, "slug": "flygande-start-engelska", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000124,
+     'Reading Mansion',
+     '{}',
+     'Educational children’s game that helps early learners build reading and phonics skills through interactive activities set inside a colorful mansion. Players explore different rooms, each featuring mini-games focused on letter recognition, word building, pronunciation, and basic comprehension, making reading practice fun and engaging.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 45859, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cd874-307c-7987-ab0e-188138a3164d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000124, "slug": "reading-mansion", "similar_ids": []}',
+     '{}'
+    );
