@@ -2276,3 +2276,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000124, "slug": "reading-mansion", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000125,
+     'Looney Tunes: Wuv & Marriage: Animated Jigsaws',
+     '{}',
+     'Children’s puzzle game featuring characters from the Looney Tunes universe. Players solve animated jigsaw puzzles based on scenes from the classic cartoon short “Wabbit Twouble”–style romance theme between Bugs Bunny and Elmer Fudd. As puzzles are completed, short animated clips and humorous moments are revealed, combining classic cartoon comedy with simple problem-solving gameplay.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000022, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cddae-f7fb-7ae2-b174-24ac60ec5c07"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000125, "slug": "looney-tunes-wuv-and-marriage-animated-jigsaws", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000126,
+     'Animal Planet: The Ultimate Wildlife Adventure!',
+     '{}',
+     'Educational CD-ROM that lets players explore Earth’s major ecosystems and learn about wildlife from around the world. Through interactive panoramas and multimedia content, users can discover more than a thousand animals, read facts about their habitats and behavior, and observe how different species live in environments such as forests, deserts, and oceans. The program combines exploration with educational material to introduce players to biodiversity and the natural world.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 11417, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cddf6-33bc-7159-a013-2d923afe7784"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000126, "slug": "animal-planet-the-ultimate-wildlife-adventure", "similar_ids": []}',
+     '{}'
+    );
