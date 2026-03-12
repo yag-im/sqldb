@@ -2312,3 +2312,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000126, "slug": "animal-planet-the-ultimate-wildlife-adventure", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000127,
+     'Tillbaka Till Historien',
+     '{}',
+     'Educational adventure game that introduces players to different periods of human history through interactive exploration and puzzles. Players travel through historical settings, meet characters from the past, and complete activities that teach about daily life, inventions, and important events, making history engaging and accessible for younger audiences.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000023, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cde2c-970b-74b3-a416-b81b1f0c8e25"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000127, "slug": "tillbaka-till-historien", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000128,
+     'Pyramiden: Gåtan vid Nilens Strand',
+     '{}',
+     'Educational adventure game that takes players to ancient Egypt to solve a historical mystery along the banks of the Nile. Through exploration, puzzles, and interactive challenges, players learn about Egyptian civilization, including pyramids, pharaohs, daily life, and mythology, while uncovering clues that help unravel the game’s central riddle.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21799, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cde5c-b668-7f03-a71b-0e470b265ce8"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000128, "slug": "pyramiden-gatan-vid-nilens-strand", "similar_ids": []}',
+     '{}'
+    );

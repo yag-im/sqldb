@@ -1,6 +1,7 @@
 \c yag;
 
 -- IGDB doesn't support custom ESRB ratings on their end, so patching them here
+-- MATURE
 UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'styrlitz',
     'red-comrades-save-the-galaxy',
@@ -17,8 +18,10 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'spellcasting-101-sorcerers-get-all-the-girls'
 );
 
+-- TEEN
 UPDATE games.games set esrb_rating = 10 WHERE igdb->>'slug' IN (
-    'quest-for-glory-ii-trial-by-fire'
+    'quest-for-glory-ii-trial-by-fire',
+    'no-11-downing-street-the-adventures-of-ninja-nanny-and-sherrlock-sheltie'
 );
 
 -- custom descriptions
