@@ -7,7 +7,7 @@ CREATE TABLE accounts.users
     name      TEXT                  NULL,
     tz        TEXT                  NOT NULL DEFAULT 'UTC',
     apps_lib  JSONB                 NULL,  -- {"wishlist": [], "own": [], "completed": []}
-    dob       DATE                  NOT NULL DEFAULT '1970-01-01',
+    dob       DATE                  NOT NULL DEFAULT CURRENT_DATE,
     is_active BOOLEAN               NOT NULL DEFAULT TRUE
 );
 

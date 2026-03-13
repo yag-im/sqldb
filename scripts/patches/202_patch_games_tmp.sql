@@ -2348,3 +2348,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000128, "slug": "pyramiden-gatan-vid-nilens-strand", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000129,
+     'Tracker Finds A New Home',
+     '{}',
+     'Children’s edutainment adventure where players help Tracker search for a safe and welcoming place to live. Through simple puzzles, exploration, and interactive scenes, the game encourages observation and problem-solving while telling a gentle story about friendship, responsibility, and finding where you belong. Designed for young players, it combines colorful visuals with easy gameplay and educational elements.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21827, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ce43d-84b4-73ff-9362-e443203b7bc2"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000129, "slug": "tracker-finds-a-new-home", "similar_ids": []}',
+     '{}'
+    );
