@@ -2366,3 +2366,93 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000129, "slug": "tracker-finds-a-new-home", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000130,
+     'Håkan Bråkan',
+     '{}',
+     'Swedish children’s adventure game based on the popular character created by Anders Jacobsson and Sören Olsson. Players follow the mischievous younger brother from the Håkan Bråkan stories as he gets into humorous situations and solves simple puzzles. Designed for younger audiences, the game combines light exploration, mini-games, and interactive storytelling inspired by the books and the TV series Håkan Bråkan.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ced7f-1c27-7de9-b58d-58e21de64662"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000130, "slug": "hakan-brakan", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000131,
+     'Sing-Alongs: Barnyard Rhythm & Moos',
+     '{}',
+     'Children’s musical game that invites young players to explore a lively farm filled with catchy songs and playful characters. Kids can sing along to barnyard-themed tunes, interact with animals, and enjoy simple activities designed to encourage rhythm, listening, and early learning through music and fun.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cee6c-aa72-7d2e-92e1-e7dc95efcc3b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000131, "slug": "sing-alongs-barnyard-rhythm-and-moos", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000132,
+     'Kid Phonics 1',
+     '{}',
+     'Children’s educational game designed to teach early reading and phonics skills. Through colorful animations, simple mini-games, and interactive activities, kids practice recognizing letters, sounds, and basic word building in a playful environment aimed at beginning readers.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ceea4-0400-7848-b592-8e91900f3847"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000132, "slug": "kid-phonics-1", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000133,
+     'TV Star',
+     '{"Wannabe"}',
+     'Simulation and management game where players build a career in the television industry. Taking the role of an aspiring celebrity, you participate in TV shows, manage your public image, and make strategic choices to gain popularity and rise to fame in the competitive world of entertainment.',
+     '',
+     '{13}',
+     '[
+       {"company": 2451, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ceeb4-6459-71a2-8989-7fc710bb686a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000133, "slug": "tv-star", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000134,
+     'Zootopia',
+     '{}',
+     'Children’s educational game set in a lively animal-themed world. Through interactive activities and simple mini-games, players explore environments filled with animals while learning basic skills such as problem solving, observation, and early concepts in a fun, kid-friendly setting.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000024, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cf029-51d9-7393-bad1-edc9b0b31cce"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000134, "slug": "zootopia", "similar_ids": []}',
+     '{}'
+    );

@@ -1,7 +1,7 @@
 \c yag;
 
 -- IGDB doesn't support custom ESRB ratings on their end, so patching them here
--- MATURE
+-- ADULT
 UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'styrlitz',
     'red-comrades-save-the-galaxy',
@@ -15,29 +15,31 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     '7-dni-a-7-noci',
     'phantasmagoria-2-a-puzzle-of-flesh',
     'nuclear-titbit',
-    'spellcasting-101-sorcerers-get-all-the-girls'
+    'spellcasting-101-sorcerers-get-all-the-girls',
+    'dreamweb',
+    'leather-goddesses-of-phobos',
+    'elvira-mistress-of-the-dark',
+    'elvira-ii-the-jaws-of-cerberus',
+    'waxworks',
+    'tender-loving-care',
+    'rex-nebular-and-the-cosmic-gender-bender',
+    'tequila-and-boom-boom',
+    'les-manley-in-search-for-the-king'
 );
 
--- TEEN
-UPDATE games.games set esrb_rating = 10 WHERE igdb->>'slug' IN (
-    'quest-for-glory-ii-trial-by-fire',
-    'no-11-downing-street-the-adventures-of-ninja-nanny-and-sherrlock-sheltie'
+-- KID
+UPDATE games.games set esrb_rating = 9 WHERE igdb->>'slug' IN (
+    'kaspar-i-nudadalen'
 );
 
--- custom descriptions
-UPDATE games.games set short_descr = 'A full-motion video, point-and-click action-adventure game rated (AO) Adults Only. Hint: use Ctrl+F4 to swap CDs during the game.' WHERE igdb ->> 'slug' = 'riana-rouge';
-UPDATE games.games set short_descr = short_descr || ' HINT: Search for "Stealth Affair Color Protection" to bypass the protection screen.' WHERE igdb ->> 'slug' = 'james-bond-007-the-stealth-affair';
-
-DELETE FROM games.releases where name = 'King''s Quest';
-
--- update an EDUCATIONAL genre
+-- missing genre
 -- get new candidates:
 /*
-select gr.id, game_id, gr.name, gg.genres, gg.igdb->'slug'
-from games.releases gr
-         join games.games gg ON (gg.id) = gr.game_id
-WHERE NOT (1000000 = ANY(gg.genres))
-order by id desc;
+SELECT r.id, r.uuid, r.name, g.genres, g.igdb->>'slug' as igdb_slug
+FROM games.releases r
+    JOIN games.games g on r.game_id = g.id
+WHERE esrb_rating is null AND NOT (1000000 = ANY(g.genres))
+LIMIT 500;
 */
 
 UPDATE games.games
@@ -115,7 +117,103 @@ WHERE igdb ->> 'slug' IN (
     'lets-explore-the-airport',
     'lets-explore-the-farm',
     'schoolhouse-rock-america-rock',
-    'schoolhouse-rock-math-rock'
+    'schoolhouse-rock-math-rock',
+    'adiboo-magical-playland',
+    'amazon-trail-3rd-edition-rainforest-adventures',
+    'animated-storybook-winnie-the-pooh-and-the-honey-tree',
+    'big-thinkers-1st-grade',
+    'bill-nye-the-science-guy-stop-the-rock',
+    'blinky-bills-ghost-cave',
+    'capn-crunchs-crunchling-adventure',
+    'casper-brainy-book',
+    'castle-explorer--1',
+    'curious-george-early-learning-adventure',
+    'darby-the-dragon',
+    'easy-bake-kitchen',
+    'ecoquest-ii-lost-secret-of-the-rainforest',
+    'fisher-price-big-action-garage',
+    'fisher-price-learning-in-toyland',
+    'freddi-fish-and-luthers-water-worries',
+    'gadget-invention-travel-and-adventure',
+    'great-adventures-by-fisher-price-wild-western-town',
+    'great-adventures-castle',
+    'gregory-and-the-hot-air-balloon',
+    'har-kommer-pippi-langstrump',
+    'jumpstart-kindergarten--1',
+    'jumpstart-toddlers',
+    'living-books-aesops-the-tortoise-and-the-hare',
+    'living-books-arthurs-birthday',
+    'living-books-arthurs-computer-adventure',
+    'living-books-arthurs-reading-race',
+    'living-books-arthurs-teacher-trouble',
+    'living-books-dr-seusss-abc',
+    'living-books-green-eggs-and-ham',
+    'living-books-just-grandma-and-me--1',
+    'living-books-little-monster-at-school--1',
+    'living-books-ruffs-bone',
+    'living-books-sheila-rae-the-brave',
+    'living-books-stellaluna',
+    'living-books-the-berenstain-bears-get-in-a-fight',
+    'living-books-the-berenstain-bears-in-the-dark',
+    'living-books-the-cat-in-the-hat',
+    'living-books-the-new-kid-on-the-block',
+    'magic-school-bus-volcano-adventure',
+    'math-rabbit-deluxe',
+    'mega-math-blaster',
+    'mickeys-space-adventure',
+    'my-favorite-monster',
+    'once-upon-a-time-abracadabra',
+    'once-upon-a-time-baba-yaga',
+    'orlys-draw-a-story',
+    'pajama-sams-games-to-play-on-any-day',
+    'pajama-sams-lost-and-found',
+    'peppers-adventures-in-time',
+    'pettson-o-findus-i-snickarbon',
+    'pettson-o-findus-i-tradgarden',
+    'pettson-o-findus-och-mucklornas-varld',
+    'rayman-brain-games',
+    'reader-rabbit-1st-grade',
+    'reader-rabbit-3',
+    'reading-blaster-2000',
+    'reading-blaster-ages-9-12',
+    'rocketts-new-school',
+    'skipper-and-skeeto-mollys-musikmaskine',
+    'skipper-and-skeeto-tales-from-paradise-park',
+    'skipper-and-skeeto-the-great-treasure-hunt',
+    'snowball--1',
+    'storybook-weaver-deluxe',
+    'the-jungle-book',
+    'the-magic-school-bus-explores-bugs',
+    'the-magic-school-bus-explores-in-the-age-of-dinosaurs',
+    'the-magic-school-bus-explores-the-ocean',
+    'the-magic-school-bus-explores-the-world-of-animals',
+    'thomas-and-friends-the-great-festival-adventure',
+    'thomas-and-friends-trouble-on-the-tracks',
+    'tiffys-magical-tales-pinocchio',
+    'welcome-to-bodyland',
+    'where-in-the-world-is-carmen-sandiego-treasures-of-knowledge',
+    'a-dot-j-s-world-of-discovery',
+    'alice-an-interactive-museum',
+    'blues-art-time-activities',
+    'bygg-bilar-med-mulle-meck',
+    'bygg-hus-med-mulle-meck',
+    'cosmic-relief-prof-renegade-to-the-rescue',
+    'freddi-fishs-one-stop-fun-shop',
+    'josephine-and-friends',
+    'josephine-at-school',
+    'josephine-on-holiday',
+    'jumpstart-1st-grade-reading',
+    'jumpstart-kindergarten-reading',
+    'jumpstart-phonics',
+    'pajama-sams-one-stop-fun-shop',
+    'pajama-sams-sock-works',
+    'search-for-the-golden-dolphin',
+    'sesame-street-the-three-grouchketeers',
+    'super-solvers-treasure-mountain',
+    'thinkin-things-collection-2',
+    'treasure-cove--1',
+    'treasure-mathstorm',
+    'zoombinis-logical-journey'
 );
 
 -- remove copyrighted titles
@@ -146,3 +244,9 @@ WHERE EXISTS (
            OR name ILIKE '%hasbro%'
     )
 );
+
+-- custom descriptions
+UPDATE games.games set short_descr = 'A full-motion video, point-and-click action-adventure game rated (AO) Adults Only. Hint: use Ctrl+F4 to swap CDs during the game.' WHERE igdb ->> 'slug' = 'riana-rouge';
+UPDATE games.games set short_descr = short_descr || ' HINT: Search for "Stealth Affair Color Protection" to bypass the protection screen.' WHERE igdb ->> 'slug' = 'james-bond-007-the-stealth-affair';
+
+DELETE FROM games.releases where name = 'King''s Quest';

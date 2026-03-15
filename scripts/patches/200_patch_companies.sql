@@ -24,3 +24,4 @@ INSERT INTO games.companies(id, name) VALUES (1000020,'Stabenfeldt AB');
 INSERT INTO games.companies(id, name) VALUES (1000021,'Putnam New Media');
 INSERT INTO games.companies(id, name) VALUES (1000022,'SouthPeak Interactive');
 INSERT INTO games.companies(id, name) VALUES (1000023,'Bajoum Interactive AB');
+INSERT INTO games.companies(id, name) VALUES (1000024,'KidSoft');
