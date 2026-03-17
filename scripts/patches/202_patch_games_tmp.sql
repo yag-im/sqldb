@@ -2456,3 +2456,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000134, "slug": "zootopia", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000135,
+     'The Great Moomin Party',
+     '{}',
+     'A game about waking the Moomin family and setting up a Spring Festival party. Game has a number of minigames, such as a side-scrolling ballooning game, directing a play and navigating a maze.',
+     '',
+     '{9,31}',
+     '[
+       {"company": 11758, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cf9d1-6326-74b1-a7a2-72c8ee0c97a7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000135, "slug": "the-great-moomin-party", "similar_ids": []}',
+     '{}'
+    );

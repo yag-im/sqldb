@@ -36,7 +36,7 @@ CREATE TABLE games.games
     alternative_names TEXT[],
     short_descr       TEXT,
     long_descr        TEXT,
-    genres            INT[]                 NOT NULL,
+    genres            INT[]                 NULL,
     companies         JSONB,                          -- array of companies involved (devs, pubs etc)
     platforms         INT[]                 NULL,
     media_assets      JSONB                 NOT NULL, -- covers and screenshots refs

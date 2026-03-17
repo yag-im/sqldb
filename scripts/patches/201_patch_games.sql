@@ -29,7 +29,9 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
 
 -- KID
 UPDATE games.games set esrb_rating = 9 WHERE igdb->>'slug' IN (
-    'kaspar-i-nudadalen'
+    'kaspar-i-nudadalen',
+    'i-spy-spooky-mansion--1',
+    'the-great-moomin-party'
 );
 
 -- missing genre
@@ -104,9 +106,6 @@ WHERE igdb ->> 'slug' IN (
     'richard-scarrys-busytown-best-math-ever',
     '3-d-dinosaur-adventure',
     'math-for-the-real-world',
-    'qin-tomb-of-the-middle-kingdom',
-    'karma-curse-of-the-12-caves',
-    'aliens-a-comic-book-adventure',
     'the-great-math-adventure',
     'the-great-word-adventure',
     'the-universe-according-to-virgil-reality',
@@ -213,7 +212,8 @@ WHERE igdb ->> 'slug' IN (
     'thinkin-things-collection-2',
     'treasure-cove--1',
     'treasure-mathstorm',
-    'zoombinis-logical-journey'
+    'zoombinis-logical-journey',
+    'jumpstart-spanish'
 );
 
 -- remove copyrighted titles
