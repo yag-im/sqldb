@@ -2492,3 +2492,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000136, "slug": "moomintrolls-the-quest-for-the-hobgoblins-ruby", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000137,
+     'Alcohol 101',
+     '{}',
+     'Educational PC game designed to teach players about the effects of alcohol on the body and decision-making. Set in a virtual college campus, the game places players in social scenarios where they must make choices about drinking, helping them understand concepts like blood alcohol concentration, peer pressure, and responsible behavior in a safe, interactive way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000025, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cfd3b-3aa4-7eac-9b04-b3d94ec36e63"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000137, "slug": "alcohol-101", "similar_ids": []}',
+     '{}'
+    );

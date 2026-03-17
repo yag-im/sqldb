@@ -1,32 +1,5 @@
 \c yag;
 
--- IGDB doesn't support custom ESRB ratings on their end, so patching them here
--- ADULT
-UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
-    'styrlitz',
-    'red-comrades-save-the-galaxy',
-    'geisha',
-    'fascination',
-    'plumbers-don-t-wear-ties',
-    'red-comrades-for-the-great-justice',
-    'leisure-suit-larry-in-the-land-of-the-lounge-lizards',
-    'leather-goddesses-of-phobos-2-gas-pump-girls-meet-the-pulsating-inconvenience-from-planet-x',
-    'personal-nightmare',
-    '7-dni-a-7-noci',
-    'phantasmagoria-2-a-puzzle-of-flesh',
-    'nuclear-titbit',
-    'spellcasting-101-sorcerers-get-all-the-girls',
-    'dreamweb',
-    'leather-goddesses-of-phobos',
-    'elvira-mistress-of-the-dark',
-    'elvira-ii-the-jaws-of-cerberus',
-    'waxworks',
-    'tender-loving-care',
-    'rex-nebular-and-the-cosmic-gender-bender',
-    'tequila-and-boom-boom',
-    'les-manley-in-search-for-the-king'
-);
-
 -- missing genre
 -- get new candidates:
 /*
