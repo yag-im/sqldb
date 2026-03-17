@@ -2474,3 +2474,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000135, "slug": "the-great-moomin-party", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000136,
+     'Moomintrolls: The Quest for the Hobgoblin''s Ruby',
+     '{}',
+     'Explore the whimsical Moominvalley, solve puzzles, and interact with beloved characters as you search for the legendary ruby stolen by a mischievous hobgoblin. A charming point-and-click game perfect for fans of the Moomins and classic adventure gameplay.',
+     '',
+     '{9,31}',
+     '[
+       {"company": 10536, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019cfcb6-eafa-765c-8528-6be3be3ebfe7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000136, "slug": "moomintrolls-the-quest-for-the-hobgoblins-ruby", "similar_ids": []}',
+     '{}'
+    );

@@ -27,13 +27,6 @@ UPDATE games.games set esrb_rating = 11 WHERE igdb->>'slug' IN (
     'les-manley-in-search-for-the-king'
 );
 
--- KID
-UPDATE games.games set esrb_rating = 9 WHERE igdb->>'slug' IN (
-    'kaspar-i-nudadalen',
-    'i-spy-spooky-mansion--1',
-    'the-great-moomin-party'
-);
-
 -- missing genre
 -- get new candidates:
 /*
