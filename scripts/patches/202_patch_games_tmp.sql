@@ -2332,24 +2332,6 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     );
 
 INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
-    (1000128,
-     'Pyramiden: Gåtan vid Nilens Strand',
-     '{}',
-     'Educational adventure game that takes players to ancient Egypt to solve a historical mystery along the banks of the Nile. Through exploration, puzzles, and interactive challenges, players learn about Egyptian civilization, including pyramids, pharaohs, daily life, and mythology, while uncovering clues that help unravel the game’s central riddle.',
-     '',
-     '{1000000}',
-     '[
-       {"company": 21799, "developer": false, "porting": false, "publisher": true, "supporting": false}
-     ]',
-     '{6}',
-     '{"cover": {"image_id": "019cde5c-b668-7f03-a71b-0e470b265ce8"}, "screenshots": []}',
-     null,
-     null,
-     '{"id": 1000128, "slug": "pyramiden-gatan-vid-nilens-strand", "similar_ids": []}',
-     '{}'
-    );
-
-INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
     (1000129,
      'Tracker Finds A New Home',
      '{}',
@@ -2508,5 +2490,41 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      null,
      null,
      '{"id": 1000137, "slug": "alcohol-101", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000138,
+     'Ultimate Writing & Creativity Center',
+     '{}',
+     'Educational PC program designed to help children develop writing, storytelling, and creative thinking skills. It offers a variety of interactive tools and activities, including story prompts, word processors, and creative exercises, encouraging users to craft their own stories, poems, and projects in a fun, guided environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 20225, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d03c3-d8a5-7adc-b6f7-0cb9a6b76311"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000138, "slug": "ultimate-writing-and-creativity-center", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000139,
+     'Looney Tunes Taz and Tweety''s Funny Farm',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d0459-219e-7124-8f40-07b4c0e34a61"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000139, "slug": "looney-tunes-taz-and-tweetys-funny-farm", "similar_ids": []}',
      '{}'
     );
