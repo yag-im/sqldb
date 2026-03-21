@@ -2528,3 +2528,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000139, "slug": "looney-tunes-taz-and-tweetys-funny-farm", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000140,
+     'Trazan & Banarne presenterar: Speltajm',
+     '{}',
+     'Children’s PC game hosted by the playful jungle duo Trazan and Banarne. The game features a collection of fun mini-games, songs, and interactive activities designed to entertain while encouraging creativity, rhythm, and basic problem-solving skills. With its colorful presentation and humor rooted in Swedish children’s entertainment, it’s aimed primarily at younger players.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 9953, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d0c75-fef0-7d1c-a204-641d3662695e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000140, "slug": "trazan-and-banarne-presenterar-speltajm", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000141,
+     'Julens Hjältar',
+     '{}',
+     'Children’s PC game based on the popular holiday TV series of the same name. It combines light adventure and mini-games, letting players help festive characters complete Christmas-themed tasks, solve simple puzzles, and spread holiday cheer. Designed for younger audiences, it features colorful visuals, familiar characters, and an emphasis on storytelling and seasonal fun.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d0e30-689a-76d0-928f-b1ae84fe4b85"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000141, "slug": "julens-hjaltar", "similar_ids": []}',
+     '{}'
+    );
