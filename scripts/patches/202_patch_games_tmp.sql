@@ -2564,3 +2564,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000141, "slug": "julens-hjaltar", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000142,
+     'My Very First Little People Farm',
+     '{}',
+     'A cheerful and easy-to-play children’s game set on a friendly farm, lets young players explore daily farm life through simple activities, colorful characters, and interactive mini-games. Designed for early learners, it encourages curiosity, basic problem-solving, and creativity in a safe, playful environment.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d139c-6723-799c-a56d-acc60796ea81"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000142, "slug": "my-very-first-little-people-farm", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000143,
+     'När Karusellerna Sover',
+     '{}',
+     'Charming children’s adventure game based on the beloved Swedish Christmas TV series from Sveriges Television. Set in a magical amusement park that comes alive at night, players join a young hero exploring whimsical environments, solving simple puzzles, and interacting with quirky characters. With its cozy holiday atmosphere and gentle gameplay, it’s designed especially for younger players and fans of the original story.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 28654, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d13d5-10a2-71d8-b026-6754fd053efe"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000143, "slug": "nar-karusellerna-sover", "similar_ids": []}',
+     '{}'
+    );
