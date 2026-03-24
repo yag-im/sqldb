@@ -179,8 +179,9 @@ WHERE igdb ->> 'slug' IN (
     'treasure-cove--1',
     'treasure-mathstorm',
     'zoombinis-logical-journey',
-    'jumpstart-spanish'
-);
+    'jumpstart-spanish',
+    'treasures-of-the-smithsonian'
+) AND NOT (1000000 = ANY(COALESCE(genres, '{}')));
 
 -- remove copyrighted titles
 -- DMCA https://lumendatabase.org/notices/47379973?utm_medium=panel

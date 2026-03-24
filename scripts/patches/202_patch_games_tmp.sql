@@ -2600,3 +2600,76 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000143, "slug": "nar-karusellerna-sover", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000144,
+     'Alfons Åberg: Bara överallt!',
+     '{}',
+     'Children’s educational adventure game based on the stories by Gunilla Bergström. Players explore Alfons’ everyday world, where ordinary moments turn into imaginative adventures. Through a collection of mini-games and interactive activities, kids join Alfons, his dad, and friends while solving simple tasks, playing, and discovering creative transformations of everyday objects.
+The game focuses on creativity, exploration, and light learning, featuring colorful visuals, voice interactions, and multiple small games suitable for young children.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49502, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d165b-9e1e-7fa1-9f19-ae91674b40b2"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000144, "slug": "alfons-aberg-bara-oeverallt", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000145,
+     'Dieselråttor & Sjömansmöss: Jakten på Solkatten',
+     '{}',
+     'Children’s adventure and edutainment PC game based on the 2002 TV Christmas calendar. Players explore a whimsical underground machine world alongside characters like Dieselråttan Estragon, solving puzzles and taking part in 24 mini-games tied to calendar “doors.” The game blends simple activities for younger players with a larger point-and-click style adventure focused on the quest to find the mysterious “Solkatten.”',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d16a2-1c17-7b1a-a477-dffd0c1e1980"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000145, "slug": "dieselrattor-and-sjoemansmoess-jakten-pa-solkatten", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000146,
+     'TV:s Julkalender 2000: Ronny & Julia',
+     '{}',
+     'The game lets players step into the world of Ronny and Julia through a mix of mini-games and interactive activities inspired by the TV series. Designed for younger audiences, it combines simple puzzles, playful tasks, and story-driven segments that follow the characters’ adventures and their friendship despite rivalry between their families.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d1782-358b-7872-8f59-1b2e22d3b13f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000146, "slug": "ronny-and-julia", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000147,
+     'Air and Space Smithsonian Dreams of Flight',
+     '{}',
+     'Educational PC game that lets players explore the history and science of aviation through interactive exhibits inspired by the Smithsonian’s National Air and Space Museum. Featuring multimedia presentations, simulations, and virtual tours, it offers an engaging look at iconic aircraft, the pioneers of flight, and the principles that make flying possible.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 22213, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d1d9e-7be4-70bc-9c55-7b3b43d9ae22"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000147, "slug": "air-and-space-smithsonian-dreams-of-flight", "similar_ids": []}',
+     '{}'
+    );
