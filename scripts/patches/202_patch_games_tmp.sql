@@ -2673,3 +2673,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000147, "slug": "air-and-space-smithsonian-dreams-of-flight", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000148,
+     'Muzzy at the Disco',
+     '{}',
+     'Educational children’s PC game from the BBC’s Muzzy language-learning series. Set in a lively disco environment, the game uses music, simple dialogue, and interactive mini-activities to introduce basic vocabulary and phrases in a foreign language. Featuring familiar characters like Muzzy, it encourages young players to learn through repetition, songs, and playful exploration.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2615, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d2813-dd33-7ceb-b6ad-af345206f99f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000148, "slug": "muzzy-at-the-disco", "similar_ids": []}',
+     '{}'
+    );

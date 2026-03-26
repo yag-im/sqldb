@@ -180,7 +180,8 @@ WHERE igdb ->> 'slug' IN (
     'treasure-mathstorm',
     'zoombinis-logical-journey',
     'jumpstart-spanish',
-    'treasures-of-the-smithsonian'
+    'treasures-of-the-smithsonian',
+    'chefrens-pyramid'
 ) AND NOT (1000000 = ANY(COALESCE(genres, '{}')));
 
 -- remove copyrighted titles
