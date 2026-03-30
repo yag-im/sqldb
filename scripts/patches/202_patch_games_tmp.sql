@@ -2691,3 +2691,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000148, "slug": "muzzy-at-the-disco", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000149,
+     'Learn to Type',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 62965, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d3b6c-331e-7e4b-8ec8-b9cd9aa1b5a3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000149, "slug": "type-to-learn", "similar_ids": []}',
+     '{}'
+    );
