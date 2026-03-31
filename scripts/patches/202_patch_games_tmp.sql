@@ -2709,3 +2709,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000149, "slug": "type-to-learn", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000150,
+     'Istiden',
+     '{}',
+     'Swedish children’s PC adventure game based on the TV series Världens minsta lillasyster. Players guide a group of children stranded in a snowy valley after their boat is damaged, helping them gather food, wood, and missing boat parts through exploration and a variety of fun mini-games.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d45f0-2a9b-7c93-994b-bf6128191299"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000150, "slug": "istiden", "similar_ids": []}',
+     '{}'
+    );
