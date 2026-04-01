@@ -32,4 +32,9 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$YAG_DB" <<-EOSQL
   GRANT USAGE                          ON SCHEMA games TO $PORTSVC_USER;
   GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA games TO $PORTSVC_USER;
   GRANT ALL                            ON ALL TABLES IN SCHEMA games TO $PORTSVC_USER;
+
+  -- jukeboxsvc user
+  GRANT USAGE                          ON SCHEMA cluster TO $JUKEBOXSVC_USER;
+  GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA cluster TO $JUKEBOXSVC_USER;
+  GRANT ALL                            ON ALL TABLES IN SCHEMA cluster TO $JUKEBOXSVC_USER;
 EOSQL
