@@ -2727,3 +2727,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000150, "slug": "istiden", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000151,
+     'Typing Instructor Deluxe',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 45310, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d462c-0ef0-7aa4-8a4d-e8aa7bd661b6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000151, "slug": "typing-instructor-deluxe", "similar_ids": []}',
+     '{}'
+    );
