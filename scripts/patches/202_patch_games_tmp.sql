@@ -2694,7 +2694,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
 
 INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
     (1000149,
-     'Learn to Type',
+     'Type to Learn',
      '{}',
      '',
      '',
@@ -2743,5 +2743,41 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      null,
      null,
      '{"id": 1000151, "slug": "typing-instructor-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000152,
+     'Apselut spunk: Astrid Lindgrens sagovärld',
+     '{}',
+     'Children’s educational adventure CD-ROM based on the stories of Astrid Lindgren. The game lets young players explore a magical story world inspired by beloved characters and settings from her books, with interactive mini-games, simple puzzles, music, and narrated activities designed for early learners. It combines play and learning in a family-friendly format, encouraging creativity, reading, and discovery through classic Swedish children’s literature.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49502, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d659d-8418-7e8d-95b0-9420c7d3cb47"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000152, "slug": "apselut-spunk-astrid-lingrens-sagovarld", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000153,
+     'Crazy Paint: Animaniacs On Location',
+     '{}',
+     'Fun children’s PC art game that lets players create colorful pictures with Yakko, Wakko, and Dot from Animaniacs. Featuring silly sound effects, wacky painting tools, and printable scenes inspired by the Warner Bros. cartoon world, it turns drawing into a playful interactive experience designed for hours of creative fun.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 14055, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d73a2-eaa5-7926-9d89-cd9918d3b522"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000153, "slug": "crazy-paint-animaniacs-on-location", "similar_ids": []}',
      '{}'
     );
