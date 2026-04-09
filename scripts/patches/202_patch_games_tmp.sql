@@ -2781,3 +2781,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000153, "slug": "crazy-paint-animaniacs-on-location", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000154,
+     'Barna Hedenhös På Stockholmen',
+     '{}',
+     'Educational children’s CD-ROM adventure based on the beloved Swedish Barna Hedenhös stories. Designed for young players, it combines storytelling, simple interactive activities, and colorful Stone Age-themed scenes as the Hedenhös family explores life on Stockholmen in a fun and imaginative way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 37370, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d73b1-4d0e-753f-8246-6f516ec04ecd"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000154, "slug": "barna-hedenhos-pa-stockholmen", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000155,
+     'Crazy Paint: Back To The Drawing Board',
+     '{}',
+     'Fun children’s PC coloring and drawing game featuring Pinky and the Brain. Players can paint pre-made scenes, use creative brushes and patterns, and enjoy an interactive cartoon art experience inspired by the popular animated series.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 14055, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d7460-b437-716c-aaa6-67b41c589e4a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000155, "slug": "crazy-paint-back-to-the-drawing-board", "similar_ids": []}',
+     '{}'
+    );
