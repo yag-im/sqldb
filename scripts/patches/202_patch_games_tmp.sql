@@ -2817,3 +2817,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000155, "slug": "crazy-paint-back-to-the-drawing-board", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000156,
+     'Pixeline: In the attic',
+     '{"Pixelina på farmors vind"}',
+     'Children’s point-and-click PC game where players join Pixelina in exploring her grandmother’s attic, filled with toys, puzzles, and fun mini-games. Designed for younger players, it combines colorful animation, simple gameplay, and an imaginative setting that encourages curiosity and play.',
+     '',
+     '{2,31}',
+     '[
+       {"company": 23201, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d7d5f-c875-7fb9-a1c8-64f44d8cd570"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000156, "slug": "pixeline-in-the-attic", "similar_ids": []}',
+     '{}'
+    );
