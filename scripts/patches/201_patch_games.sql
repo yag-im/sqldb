@@ -209,7 +209,6 @@ WHERE EXISTS (
         WHERE name ILIKE '%disney%'
            OR name ILIKE '%mattel%'
            OR name ILIKE '%lucas%'
-           OR name ILIKE '%hasbro%'
     )
 );
 

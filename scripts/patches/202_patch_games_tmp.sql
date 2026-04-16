@@ -2835,3 +2835,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000156, "slug": "pixeline-in-the-attic", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000157,
+     'Math Blaster: Ages 9-12',
+     '{}',
+     'Educational PC adventure game where players explore a mysterious crater world while solving math puzzles and logic challenges. Aimed at children in grades 4–6, it teaches skills such as fractions, decimals, estimation, and problem-solving through a colorful point-and-click journey featuring Blasternaut, G.C., and Spot.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d82cc-3962-7777-8dca-459ae3f33f7f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000157, "slug": "math-blaster-ages-9-12", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000158,
+     'Eva och Adam: Ny i klassen',
+     '{}',
+     'Swedish PC quiz and party game based on the popular Eva & Adam series. Players join the class at Backaskolan and answer fun, quirky, and sometimes embarrassing questions about friends, love, school, music, and everyday life to find out who they might end up with at the big Friday party. Designed for ages 8–14, it can be played alone or with friends.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 37370, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d831c-3b63-7984-bcf0-812e9c5e217e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000158, "slug": "eva-och-adam-ny-i-klassen", "similar_ids": []}',
+     '{}'
+    );
