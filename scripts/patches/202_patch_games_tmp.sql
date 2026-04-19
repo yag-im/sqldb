@@ -2871,3 +2871,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000158, "slug": "eva-och-adam-ny-i-klassen", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000159,
+     'Hygglos Pyjamasparty',
+     '{}',
+     'Charming children’s PC game centered around a fun pajama party with cute monster-like characters. Players explore the house, help prepare for the sleepover, invite friends, decorate rooms, and enjoy a variety of simple point-and-click mini-games and activities, making it a cozy and playful adventure for younger kids.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 6398, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d93b4-2dca-7582-ac0a-1748e81fcca3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000159, "slug": "hygglos-pyjamasparty", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000160,
+     'Uncle Julius and the Anywhere Machine',
+     '{}',
+     'Humorous children’s story about a quirky inventor, Uncle Julius, who creates a machine that can instantly transport people anywhere they wish. What begins as an exciting invention quickly turns chaotic as unexpected destinations, misunderstandings, and mishaps pile up. The story blends imagination, light sci-fi, and comedy, showing how even brilliant ideas can go hilariously wrong.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 43076, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019d9d62-87af-789d-9e4e-d2b322100ec7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000160, "slug": "uncle-julius-and-the-anywhere-machine", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000161,
+     'Oregon Trail II: 25th Anniversary Limited Edition',
+     '{}',
+     'Special re-release of the classic educational adventure game that lets players experience the historic westward journey along the Oregon Trail. This edition includes the original gameplay—managing supplies, making life-or-death decisions, and facing challenges like disease, weather, and river crossings—along with added bonus content celebrating the game’s legacy. It combines historical learning with strategic gameplay and a touch of nostalgia for both new players and longtime fans.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 20225, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019da125-3c5a-7c5f-b16c-d49a6f02e540"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000161, "slug": "oregon-trail-ii-25th-anniversary-limited-edition", "similar_ids": []}',
+     '{}'
+    );
