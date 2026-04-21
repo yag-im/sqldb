@@ -2925,3 +2925,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000161, "slug": "oregon-trail-ii-25th-anniversary-limited-edition", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000162,
+     'TKKG: The Secret of Dragon Claw Manor',
+     '{"TKKG: Das Rätsel der Villa Drachenkralle"}',
+     'Classic point-and-click adventure based on the popular German youth detective series. Players join Tim, Karl, Klößchen, and Gaby as they investigate a mysterious manor tied to the legend of the “Dragon Claw.” Featuring puzzle-solving, exploration, and light detective work, the game blends suspense with humor in a story-driven experience aimed at younger audiences.',
+     '',
+     '{1000000,2,31}',
+     '[
+       {"company": 23971, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019dad9c-c3a9-76fe-b896-3b46b8124155"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000162, "slug": "tkkg-the-secret-of-dragon-claw-manor", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000163,
+     'Henry Sinclair: Rymdhamn Jorden',
+     '{}',
+     'Swedish point-and-click adventure game that follows young inventor Henry Sinclair as he navigates a futuristic space harbor orbiting Earth. Combining puzzle-solving, exploration, and a light sci-fi narrative, the game challenges players to repair systems, interact with quirky characters, and uncover mysteries within the orbital station. Its educational tone and imaginative setting make it a distinctive entry in early 2000s Scandinavian edutainment games.',
+     '',
+     '{2,31}',
+     '[
+       {"company": 59243, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019daddd-a062-7e6a-bca4-d76730b0173f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000163, "slug": "henry-sinclair-rymdhamn-jorden", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000164,
+     'Richard Scarry''s Busytown: Best Christmas Ever',
+     '{}',
+     'Festive children’s adventure set in the charming world of Richard Scarry. Players join familiar Busytown characters to help prepare for Christmas by solving simple puzzles, completing mini-games, and spreading holiday cheer in a colorful, interactive environment designed for young audiences.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 34280, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019db14a-48e1-7031-a128-4459aab8170e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000164, "slug": "richard-scarrys-busytown-best-christmas-ever", "similar_ids": []}',
+     '{}'
+    );
