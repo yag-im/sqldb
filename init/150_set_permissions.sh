@@ -27,6 +27,8 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$YAG_DB" <<-EOSQL
   GRANT SELECT                         ON ALL TABLES IN SCHEMA games TO $APPSVC_USER;
   GRANT USAGE                          ON SCHEMA stats TO $APPSVC_USER;
   GRANT SELECT                         ON TABLE stats.users_dcs TO $APPSVC_USER;
+  GRANT USAGE                          ON SCHEMA accounts TO $APPSVC_USER;
+  GRANT SELECT                         ON TABLE accounts.users TO $APPSVC_USER;
 
   -- portsvc user
   GRANT USAGE                          ON SCHEMA games TO $PORTSVC_USER;
