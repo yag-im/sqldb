@@ -2979,3 +2979,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000164, "slug": "richard-scarrys-busytown-best-christmas-ever", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000165,
+     'Barney Goes to the Circus',
+     '{}',
+     'Children’s edutainment title where players join Barney and friends on a fun-filled circus adventure. Designed for young audiences, the game features simple point-and-click activities, colorful mini-games, and basic learning tasks that encourage creativity, counting, and problem-solving in a playful carnival setting.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17047, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019db7ff-968c-7e61-9ef9-8ea127a2ed3e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000165, "slug": "barney-goes-to-the-circus", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000166,
+     'Ollie & Olivia: Den ihåliga Eken',
+     '{}',
+     'Children’s point-and-click adventure game where players follow the curious duo Ollie and Olivia as they explore the mysterious Hollow Oak. Through simple puzzles and interactive storytelling, kids help the characters uncover secrets hidden inside the enchanted tree while learning problem-solving skills in a playful, storybook-style world.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 10402, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019dc279-98a4-7868-ba87-5ab1de4c75eb"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000166, "slug": "ollie-och-olivia-den-ihaliga-eken", "similar_ids": []}',
+     '{}'
+    );
