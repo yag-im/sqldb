@@ -3015,3 +3015,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000166, "slug": "ollie-och-olivia-den-ihaliga-eken", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000167,
+     'Wimzie''s House: A Surprise for Horace',
+     '{}',
+     'Charming children’s PC game based on the popular TV series. Players join Wimzie and friends as they plan a fun birthday surprise for Horace, exploring colorful environments, solving simple puzzles, and completing playful mini-games along the way. Designed for young audiences, it focuses on creativity, problem-solving, and friendly storytelling in a cheerful, interactive world.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1762, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019dc76e-81ae-778b-99dd-68b9379b55eb"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000167, "slug": "wimzies-house-a-surprise-for-horace", "similar_ids": []}',
+     '{}'
+    );
