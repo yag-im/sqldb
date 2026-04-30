@@ -27,3 +27,5 @@ INSERT INTO games.companies(id, name) VALUES (1000023,'Bajoum Interactive AB');
 INSERT INTO games.companies(id, name) VALUES (1000024,'KidSoft');
 INSERT INTO games.companies(id, name) VALUES (1000025,'The Century Council');
 INSERT INTO games.companies(id, name) VALUES (1000026,'Alega Skolmateriel AB');
+INSERT INTO games.companies(id, name) VALUES (1000027,'Australian Broadcasting Corporation');
+INSERT INTO games.companies(id, name) VALUES (1000028,'Columbia Healthcare Corporation');

@@ -3033,3 +3033,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000167, "slug": "wimzies-house-a-surprise-for-horace", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000168,
+     'A.D.A.M. The Inside Story',
+     '{}',
+     'Interactive multimedia encyclopedia focused on human anatomy. It provides detailed visuals, animations, and explanatory content about the structure and function of the human body.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000028, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019de033-8216-72e7-afb4-c1f98c6a01c3"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000168, "slug": "adam-the-inside-story", "similar_ids": []}',
+     '{}'
+    );
