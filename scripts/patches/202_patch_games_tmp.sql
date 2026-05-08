@@ -3051,3 +3051,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000168, "slug": "adam-the-inside-story", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000169,
+     'Magic Tales: Imo and the King',
+     '{}',
+     'Interactive children’s storybook adventure where young players help Imo on a magical journey to restore peace to the kingdom through puzzles, exploration, and animated storytelling.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e054a-8c03-72e9-8e84-a488854d63db"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000169, "slug": "magic-tales-imo-and-the-king", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000170,
+     'Magic Tales: The Little Samurai',
+     '{}',
+     'Interactive children’s storybook game that follows a young samurai-in-training on a journey through feudal Japan, featuring animated scenes, simple puzzles, and narrated storytelling.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e0571-d3b0-7fe2-9d8a-f9de983d877d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000170, "slug": "magic-tales-the-little-samurai", "similar_ids": []}',
+     '{}'
+    );
