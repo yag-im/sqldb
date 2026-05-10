@@ -3087,3 +3087,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000170, "slug": "magic-tales-the-little-samurai", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000171,
+     'Kid Pix Studio Deluxe',
+     '{}',
+     'A creative educational game that lets children draw pictures, make animations, add music and sound effects, and create interactive multimedia projects using simple kid-friendly tools. The Deluxe edition expanded the classic Kid Pix formula with more stamps, backgrounds, transitions, and digital storytelling features for Windows and Macintosh PCs.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 608, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e0ad9-88bb-7639-9657-afcb4fe6a761"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000171, "slug": "kid-pix-studio-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000172,
+     'The Berenstain Bears: Treehouse Classroom',
+     '{}',
+     'Educational children’s PC game that lets players join the Berenstain Bears in a fun treehouse filled with learning activities, puzzles, and mini-games designed to teach reading, math, and problem-solving skills for young kids.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21722, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e0f72-37c1-7c13-9495-a3604715cbfc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000172, "slug": "the-berenstain-bears-treehouse-classroom", "similar_ids": []}',
+     '{}'
+    );
