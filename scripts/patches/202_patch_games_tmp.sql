@@ -3123,3 +3123,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000172, "slug": "the-berenstain-bears-treehouse-classroom", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000173,
+     'The Berenstain Bears: When Little Bears Are Scaredy Bears',
+     '{}',
+     'Educational adventure game for young children where players help Brother and Sister Bear overcome their fears through interactive activities, simple puzzles, and story-driven lessons about courage and confidence.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e1315-70da-7466-bef0-55938e21fc0c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000173, "slug": "the-berenstain-bears-when-little-bears-are-scaredy-bears", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000174,
+     'Timmy''s Sea Adventure',
+     '{}',
+     'Children’s educational adventure game that takes players on an exciting underwater journey filled with colorful sea creatures, puzzles, and learning activities. Designed for young kids, the game combines exploration and simple problem-solving with fun animated scenes and interactive gameplay.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000030, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e1a1a-531b-75b9-912a-627bd5586432"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000174, "slug": "timmys-sea-adventure", "similar_ids": []}',
+     '{}'
+    );
