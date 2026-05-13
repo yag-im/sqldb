@@ -3159,3 +3159,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000174, "slug": "timmys-sea-adventure", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000175,
+     'Sesame Street: Elmo''s Reading Basics',
+     '{}',
+     'Educational adventure game that helps young children build early reading and phonics skills through interactive activities, colorful animations, and guidance from Elmo and other familiar Sesame Street characters. Designed for preschool learners, the game combines simple lessons with playful exploration to make learning fun.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e1cf8-e775-7a58-9863-cabee602f096"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000175, "slug": "elmos-reading-basics", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000176,
+     'Häst & Ponny - i stallet',
+     '{}',
+     'Educational children’s game where players explore life at a horse stable, learn about caring for horses and ponies, and take part in fun activities and mini-games focused on riding, grooming, and stable management. Designed for younger players, the game combines simple gameplay with educational content about horses and everyday stable life.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 58943, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e1f1c-e6e2-7757-8a0a-792a922a9729"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000176, "slug": "hast-och-ponny-i-stallet", "similar_ids": []}',
+     '{}'
+    );

@@ -31,3 +31,5 @@ INSERT INTO games.companies(id, name) VALUES (1000027,'Australian Broadcasting C
 INSERT INTO games.companies(id, name) VALUES (1000028,'Columbia Healthcare Corporation');
 INSERT INTO games.companies(id, name) VALUES (1000029,'Virgin Sound and Vision');
 INSERT INTO games.companies(id, name) VALUES (1000030,'FRAGMENT, s.r.o.');
+INSERT INTO games.companies(id, name) VALUES (1000031,'Micro-Intel');
+
