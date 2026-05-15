@@ -3180,7 +3180,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
 
 INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
     (1000176,
-     'Häst & Ponny - i stallet',
+     'Häst & Ponny - I stallet',
      '{}',
      'Educational children’s game where players explore life at a horse stable, learn about caring for horses and ponies, and take part in fun activities and mini-games focused on riding, grooming, and stable management. Designed for younger players, the game combines simple gameplay with educational content about horses and everyday stable life.',
      '',
@@ -3193,5 +3193,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      null,
      null,
      '{"id": 1000176, "slug": "hast-och-ponny-i-stallet", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000177,
+     'Häst & Ponny - Varsagod och rid!',
+     '{}',
+     'Children’s horse-riding game that lets players learn the basics of riding and caring for horses through simple activities, mini-games, and interactive stable adventures. Aimed at younger audiences, the game combines educational content with lighthearted gameplay focused on horses and pony riding.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 54241, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e1f2f-97c1-7218-9851-0746d2260287"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000177, "slug": "hast-och-ponny-varsagod-och-rid", "similar_ids": []}',
      '{}'
     );
