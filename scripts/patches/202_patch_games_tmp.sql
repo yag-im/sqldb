@@ -3213,3 +3213,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000177, "slug": "hast-och-ponny-varsagod-och-rid", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000178,
+     'Kalas med Rut och Knut',
+     '{}',
+     'Children’s PC game, featuring the characters Rut and Knut in a collection of playful educational mini-games and activities. Designed for younger players, the game combines simple puzzles, music, and interactive tasks with colorful cartoon-style graphics and a lighthearted atmosphere.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e2e68-7b15-70fa-b6d5-87437815267c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000178, "slug": "kalas-med-rut-och-knut", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000179,
+     'Opening Night',
+     '{}',
+     'Educational entertainment title where players step into the role of organizing and running a theater production. The game focuses on planning, coordination, and creative decision-making—covering tasks like staging, casting, scheduling, and managing resources to ensure a successful opening performance. It blends light simulation gameplay with learning elements typical of MECC’s edutainment catalog from the mid-1990s.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1087, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e31d6-a0e4-7ee0-b8f5-806a5100b38d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000179, "slug": "opening-night--2", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000180,
+     'Mamma Mu och Kråkan',
+     '{}',
+     'Children’s educational adventure game based on the popular Scandinavian characters Mamma Mu and Kråkan. Players explore colorful environments, solve simple puzzles, and take part in playful activities designed for younger audiences, featuring humor, music, and interactive learning elements.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49502, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e37db-ee81-77f4-9af9-a55f51df9347"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000180, "slug": "mamma-mu-och-krakan", "similar_ids": []}',
+     '{}'
+    );
