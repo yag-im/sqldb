@@ -3267,3 +3267,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000180, "slug": "mamma-mu-och-krakan", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000181,
+     'Hälge',
+     '{}',
+     'Swedish hunting-themed adventure and mini-game collection based on the popular comic character Hälge the moose. Players explore forests, meet quirky characters, and complete humorous activities inspired by Scandinavian outdoor life and the comic’s lighthearted humor..',
+     '',
+     '{2,31}',
+     '[
+       {"company": 9953, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e40f1-249b-7ab7-a246-ae37367b755d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000181, "slug": "halge", "similar_ids": []}',
+     '{}'
+    );
