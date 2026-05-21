@@ -3272,7 +3272,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     (1000181,
      'Hälge',
      '{}',
-     'Swedish hunting-themed adventure and mini-game collection based on the popular comic character Hälge the moose. Players explore forests, meet quirky characters, and complete humorous activities inspired by Scandinavian outdoor life and the comic’s lighthearted humor..',
+     'Swedish hunting-themed adventure and mini-game collection based on the popular comic character Hälge the moose. Players explore forests, meet quirky characters, and complete humorous activities inspired by Scandinavian outdoor life and the comic’s lighthearted humor.',
      '',
      '{2,31}',
      '[
@@ -3283,5 +3283,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      null,
      null,
      '{"id": 1000181, "slug": "halge", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000182,
+     'Bolek i Lolek: Na tropie zaginionej księgi ortografii',
+     '{}',
+     'educational PC game for children in which Bolek and Lolek solve spelling challenges and word puzzles while searching for the missing “Book of Orthography.” The game features a collection of mini-games designed to teach Polish spelling rules in a fun, family-friendly way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 26506, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e484b-056d-7825-96a9-8dfe56554b38"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000182, "slug": "bolek-i-lolek-na-tropie-zaginionej-ksiegi-ortografii", "similar_ids": []}',
      '{}'
     );
