@@ -3290,7 +3290,7 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
     (1000182,
      'Bolek i Lolek: Na tropie zaginionej księgi ortografii',
      '{}',
-     'educational PC game for children in which Bolek and Lolek solve spelling challenges and word puzzles while searching for the missing “Book of Orthography.” The game features a collection of mini-games designed to teach Polish spelling rules in a fun, family-friendly way.',
+     'Educational PC game for children in which Bolek and Lolek solve spelling challenges and word puzzles while searching for the missing “Book of Orthography.” The game features a collection of mini-games designed to teach Polish spelling rules in a fun, family-friendly way.',
      '',
      '{1000000}',
      '[
@@ -3301,5 +3301,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      null,
      null,
      '{"id": 1000182, "slug": "bolek-i-lolek-na-tropie-zaginionej-ksiegi-ortografii", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000183,
+     'Woodii: Stavningsjakten',
+     '{}',
+     'Swedish educational adventure game where players join the friendly character Woodii on a fun journey filled with spelling challenges, word puzzles, and language-based mini-games designed to help children improve their Swedish vocabulary and orthography skills. Check https://archive.org/details/4-woodi for serial numbers. Use "/" key to print dash ("-").' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 76216, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5060-912c-7013-8468-da2c9f7f14a1"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000183, "slug": "woodii-stavningsjakten", "similar_ids": []}',
      '{}'
     );
