@@ -3321,3 +3321,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000183, "slug": "woodii-stavningsjakten", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000184,
+     'Halvan: Här kommer Flygplanet',
+     '{}',
+     'Children’s educational adventure game based on the popular Swedish “Halvan” book series. Players join Halvan on an exciting airport-themed journey where they can explore airplanes, interact with colorful characters, and complete simple activities and mini-games designed for younger children.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 21799, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e51a3-6dbf-7763-b2a3-7c421a0d4471"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000184, "slug": "halvan-har-kommer-flygplanet", "similar_ids": []}',
+     '{}'
+    );
