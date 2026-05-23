@@ -3357,3 +3357,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000185, "slug": "gnottene", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000186,
+     'My First Amazing History Explorer',
+     '{}',
+     'Educational children’s PC game that introduces young players to world history through interactive activities, animated characters, and exploration-based learning. Players travel through different historical periods while solving puzzles and discovering famous events, inventions, and civilizations.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e529a-6d54-7e73-8004-605808cf4fdf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000186, "slug": "my-first-amazing-history-explorer", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000187,
+     'Kinderventures: Pocket & Tails Go To Town',
+     '{}',
+     'Children’s educational adventure game where players join Pocket and Tails on a fun-filled trip to town, solving simple puzzles and exploring interactive locations designed to encourage learning and creativity for young players.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000032, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5347-16ca-73a5-bcd1-fb9e6144c71f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000187, "slug": "kinderventures-pocket-and-tails-go-to-town", "similar_ids": []}',
+     '{}'
+    );
