@@ -3339,3 +3339,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000184, "slug": "halvan-har-kommer-flygplanet", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000185,
+     'Gnottarna',
+     '{"Gnottene"}',
+     'Children’s educational adventure game where players explore the magical world of the Gnottarna characters through mini-games, puzzles, and interactive learning activities designed for younger audiences. Released in 2003, the game combines colorful animation with simple gameplay focused on creativity and problem-solving.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5284-a2e2-7524-a6c7-943621d0b116"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000185, "slug": "gnottene", "similar_ids": []}',
+     '{}'
+    );
