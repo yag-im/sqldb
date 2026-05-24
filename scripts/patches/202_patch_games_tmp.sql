@@ -3393,3 +3393,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000187, "slug": "kinderventures-pocket-and-tails-go-to-town", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000188,
+     'En Decemberdröm',
+     '{}',
+     'Swedish children''s educational adventure game based on the Christmas calendar TV series of the same name. Players explore festive winter environments, solve simple puzzles, and interact with characters from the show in a cozy holiday-themed story aimed at younger audiences.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 1612, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5add-8ca3-7ab6-ae37-b2d37ca57ebf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000188, "slug": "en-decemberdrom", "similar_ids": []}',
+     '{}'
+    );

@@ -217,3 +217,13 @@ UPDATE games.games set short_descr = 'A full-motion video, point-and-click actio
 UPDATE games.games set short_descr = short_descr || ' HINT: Search for "Stealth Affair Color Protection" to bypass the protection screen.' WHERE igdb ->> 'slug' = 'james-bond-007-the-stealth-affair';
 
 DELETE FROM games.releases where name = 'King''s Quest';
+
+-- invalid screenshots: https://discord.com/channels/1251206620822638684/1251209459271860277/1507845065555316938
+UPDATE games.games
+SET media_assets =
+    jsonb_set(
+        media_assets,
+        '{screenshots}',
+        '[]'::jsonb
+    )
+WHERE id = 89210;

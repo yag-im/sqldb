@@ -34,3 +34,4 @@ INSERT INTO games.companies(id, name) VALUES (1000030,'FRAGMENT, s.r.o.');
 INSERT INTO games.companies(id, name) VALUES (1000031,'Micro-Intel');
 --INSERT INTO games.companies(id, name) VALUES (76216, 'Active Media Group');
 INSERT INTO games.companies(id, name) VALUES (1000032, 'Optical Data Interactive');
+INSERT INTO games.companies(id, name) VALUES (1000033, 'Focus on the Family');
