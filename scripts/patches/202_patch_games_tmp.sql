@@ -3411,3 +3411,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000188, "slug": "en-decemberdrom", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000189,
+     'Josefin & Sofus i Morotsparken',
+     '{}',
+     'Educational children’s game where the rabbit friends Josefin and Sofus explore a colorful amusement park filled with mini-games, puzzles, and learning activities. Players can enjoy attractions ranging from word and counting challenges to fun arcade-style games, all presented in a playful Scandinavian cartoon style designed for younger children.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 41814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5b47-484b-7c72-a6c4-fe0f26fdc13d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000189, "slug": "josefin-och-sofus-i-morotsparken", "similar_ids": []}',
+     '{}'
+    );
