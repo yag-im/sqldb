@@ -3429,3 +3429,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000189, "slug": "josefin-och-sofus-i-morotsparken", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000190,
+     'Pony Girl 2',
+     '{}',
+     '' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000020, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e5d2f-ab85-7b1c-80ec-9c58b8804567"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000190, "slug": "pony-girl-2", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000191,
+     'Fem myror är fler än fyra elefanter',
+     '{}',
+     'Swedish educational children’s game based on the classic TV series of the same name. Players explore colorful mini-games focused on letters, numbers, logic, and language skills, featuring familiar characters and voices from the original show. Designed for younger children, the game combines playful humor, interactive activities, and simple learning exercises in a classic late-1990s Scandinavian edutainment style.' ,
+     '',
+     '{1000000}',
+     '[
+       {"company": 21814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e6013-7995-7cb1-bfe5-176a8f3a14b5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000191, "slug": "fem-myror-ar-fler-an-fyra-elefanter", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000192,
+     'Mamma Mu och Kråkan: Vinterlek',
+     '{}',
+     'Children’s educational adventure game based on the popular Swedish characters Mamma Mu and Kråkan. Set in a snowy winter landscape, the game features playful mini-games, simple puzzles, and interactive activities designed to entertain younger players while encouraging creativity and learning.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49502, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e6170-835f-7f9c-929c-6c0eb3fcdc46"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000192, "slug": "mamma-mu-och-krakan-vinterlek", "similar_ids": []}',
+     '{}'
+    );
