@@ -1,5 +1,6 @@
 /*
-INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, dgpu, igpu)
+-- dev env
+INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
 VALUES (
     'f973b9a3-2d9b-4168-bbff-a9fa1d1bc5dc',
     '172.17.0.1',
@@ -7,11 +8,12 @@ VALUES (
     'us-west-1',
     'dedicated',
     'rise-3',
-    NULL,
-    'intel');
+    '2026-01-01 00:00:00');
 */
 
-INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, dgpu, igpu)
+-- only dedicated jukebox nodes should be inserted manually;
+-- vm jukebox nodes are inserted automatically by the orchestrator
+INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
 VALUES (
    'd77f5742-b554-4374-8262-29512d68b684',
    '192.168.12.2',
@@ -19,10 +21,10 @@ VALUES (
    'us-east-1',
    'dedicated',
    'rise-3',
-   NULL,
-   'intel');
+   '2026-01-01 00:00:00'
+);
 
-INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, dgpu, igpu)
+INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
 VALUES (
    'ed9bd877-1337-4158-bad7-f97aecfce9e6',
    '192.168.13.2',
@@ -30,25 +32,28 @@ VALUES (
    'us-west-1',
    'dedicated',
    'rise-3',
-   NULL,
-   'intel');
+   '2026-01-01 00:00:00'
+);
 
-INSERT INTO cluster.appstor_nodes(uuid, private_ip, region, node_type, flavor, share_id)
+-- appstor nodes should be inserted manually;
+INSERT INTO cluster.appstor_nodes(uuid, private_ip, region, node_type, flavor, share_id, created_ts)
 VALUES (
     'b5157279-85ee-4d11-9399-8ab23a1baee3',
     '192.168.12.200',
     'us-east-1',
     'public-cloud-instance',
     'b3-8',
-    0
+    0,
+    '2026-01-01 00:00:00'
 );
 
-INSERT INTO cluster.appstor_nodes(uuid, private_ip, region, node_type, flavor, share_id)
+INSERT INTO cluster.appstor_nodes(uuid, private_ip, region, node_type, flavor, share_id, created_ts)
 VALUES (
    '2a5c4e38-b969-495a-9149-cd632af65039',
    '192.168.13.200',
    'us-west-1',
    'public-cloud-instance',
    'b3-8',
-   0
+   0,
+   '2026-01-01 00:00:00'
 );
