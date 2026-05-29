@@ -3483,3 +3483,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000192, "slug": "mamma-mu-och-krakan-vinterlek", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000193,
+     'Math Blaster Ages 6-9',
+     '{}',
+     'Colorful educational PC game that combines arcade-style action with math challenges for young players. Set in a futuristic space adventure, kids solve addition, subtraction, and problem-solving activities while exploring alien worlds, defeating enemies, and completing mini-games alongside Blaster and his robotic friends. The game blends learning with fast-paced gameplay and became one of the most memorable edutainment titles of the late 1990s.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e7000-6543-7c39-a211-169079891278"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000193, "slug": "math-blaster-ages-6-9", "similar_ids": []}',
+     '{}'
+    );
