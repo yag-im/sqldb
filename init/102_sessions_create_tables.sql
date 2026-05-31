@@ -25,6 +25,10 @@ CREATE TABLE sessions.sessions_logs
     ws_conn          JSONB                   NOT NULL
 );
 
+CREATE INDEX IF NOT EXISTS idx_sessions_logs_created
+    ON sessions.sessions_logs (created)
+    INCLUDE (session_id, user_id, status, app_release_uuid);
+
 CREATE OR REPLACE FUNCTION sessions.update_sessions_timestamp()
     RETURNS TRIGGER AS
 $$

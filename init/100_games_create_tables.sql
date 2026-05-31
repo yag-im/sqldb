@@ -43,23 +43,24 @@ CREATE TABLE games.games
     addl_artifacts    JSONB,                          -- downloadable content (arts, soundtracks etc)
     esrb_rating       INT,
     igdb              JSONB,
-    refs              JSONB
+    refs              JSONB,
+    tags              TEXT[]                DEFAULT '{}'
 );
 
 CREATE TABLE games.releases
 (
     id              BIGSERIAL PRIMARY KEY NOT NULL,
-    game_id         BIGINT                NOT NULL,              -- REFERENCES games.games (id), removing FK to be able to update two tables independently
+    game_id         BIGINT                NOT NULL, -- REFERENCES games.games (id), removing FK to be able to update two tables independently
     uuid            TEXT UNIQUE           NOT NULL,
-    name            TEXT                  NOT NULL,              -- localized name
-    lang            TEXT                  NOT NULL,              -- en, ru, multi etc
-    platform_id     INT                   NOT NULL,              -- REFERENCES games.platforms (id),
-    distro          JSONB                 NOT NULL,              -- format (e.g. 2CD), url, files
+    uuidv4          UUID UNIQUE           NULL,     -- obsolete, will be removed in the future
+    name            TEXT                  NOT NULL, -- localized name
+    lang            TEXT                  NOT NULL, -- en, ru, multi etc
+    platform_id     INT                   NOT NULL, -- REFERENCES games.platforms (id),
+    distro          JSONB                 NOT NULL, -- format (e.g. 2CD), url, files
     year_released   INT                   NOT NULL,
-    companies       JSONB                 NOT NULL,              -- array of companies involved and their roles (devs, pubs etc)
+    companies       JSONB                 NOT NULL, -- array of companies involved and their roles (devs, pubs etc)
     runner          JSONB                 NOT NULL,
-    app_reqs        JSONB                 NOT NULL,              -- app requirements: resolution, color_bits, midi, memory, cpu, dgpu, igpu etc
-    media_assets    JSONB,                                       -- localized covers and screenshots refs
-    is_visible      BOOL                  NOT NULL DEFAULT true, -- useful when copyright owners requested to remove
-    ts_added        TIMESTAMP             NOT NULL DEFAULT CURRENT_TIMESTAMP
+    app_reqs        JSONB                 NOT NULL, -- app requirements: resolution, color_bits, midi, memory, cpu, dgpu, igpu etc
+    media_assets    JSONB,                          -- localized covers and screenshots refs
+    is_visible      BOOL                  NOT NULL DEFAULT true -- useful when copyright owners requested to remove
 );

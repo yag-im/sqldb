@@ -33,7 +33,7 @@ This procedure should be run periodically (after scraper's generated data (e.g. 
     cd scripts
     ./update_tables.sh {env}
 
-At that point,  any existing records in `games.releases` table will become invaliated, so you need to refresh
+At that point, any existing records in `games.releases` table will become invaliated, so you need to refresh
 `games.releases` table from the [ports](https://github.com/yag-im/ports) project:
 
     cd scripts

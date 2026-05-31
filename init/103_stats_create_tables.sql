@@ -12,6 +12,9 @@ CREATE TABLE stats.webrtc_stats_logs
 );
 CREATE INDEX webrtc_stats_logs_idx ON stats.webrtc_stats_logs (created, user_id);
 
+CREATE INDEX IF NOT EXISTS idx_webrtc_stats_session_created
+    ON stats.webrtc_stats_logs (session_id, created DESC);
+
 CREATE TABLE stats.users_dcs
 (
     id               BIGSERIAL PRIMARY KEY NOT NULL,
