@@ -44,3 +44,33 @@ TODO: Never delete entries from the prod games.releases table — doing so will 
 TODO: Switch to ID-agnostic URLs. The challenge with this approach is that, for example, the slug typically refers to a
 group of games, whereas yag.im focuses on individual releases (year/OS) identified by unique IDs.
 Using UUIDs might be a viable path forward, but URLs will look ugly.
+
+### Migrate data from prod DB to local DB
+
+    docker stop yag-sqldb
+    make clean
+    make docker-build
+    make docker-run
+    cd scripts
+    ./dump_db.sh prod
+
+    ls ~/yag/data/sqldb/dumps
+    ./restore_db.sh local CHANGEME***1780260958***CHANGEME
+
+    # in local DB:
+    # update jukebox nodes
+    TRUNCATE cluster.jukebox_nodes;    
+    INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
+    VALUES (
+        'f973b9a3-2d9b-4168-bbff-a9fa1d1bc5dc',
+        '172.17.0.1',
+        '172.17.0.1',
+        'us-west-1',
+        'dedicated',
+        'rise-3',
+        '2026-01-01 00:00:00');
+    
+    # drop sessions
+    TRUNCATE sessions.sessions;
+
+

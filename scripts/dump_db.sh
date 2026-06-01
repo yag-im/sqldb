@@ -15,7 +15,8 @@ set -a
 . "$ENV_DIR/secrets.env"
 set +a
 
-BACKUP_PATH=$DATA_DIR/dump
+BACKUP_DIR=$DATA_DIR/dumps
+BACKUP_FILE_PATH=$BACKUP_DIR/$(date +%s).dump
 
 if [ -n "${BASTION_HOST}" ]; then
     ssh -L localhost:$SSH_PROXY_PORT:sqldb:$DB_PORT -p $BASTION_PORT -o ServerAliveInterval=60 $BASTION_USERNAME@$BASTION_HOST -N &
@@ -25,7 +26,12 @@ else
     SSH_PROXY_PORT=$DB_PORT
 fi
 
-$PGDUMP_EXEC_PATH -j 1 --dbname=postgresql://$DB_USERNAME:$PGPASSWORD@127.0.0.1:$SSH_PROXY_PORT/$DB_NAME -Fd -f $BACKUP_PATH
+$PGDUMP_EXEC_PATH \
+    -j 1 \
+    --dbname=postgresql://$DB_USERNAME:$PGPASSWORD@127.0.0.1:$SSH_PROXY_PORT/$DB_NAME \
+    -Fc \
+    --data-only \
+    -f $BACKUP_FILE_PATH
 
 if [ -n "${BASTION_HOST}" ]; then
     kill $pid
