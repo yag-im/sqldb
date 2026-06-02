@@ -3501,3 +3501,60 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000193, "slug": "math-blaster-ages-6-9", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000194,
+     'Dr. Health''nstein''s Body Fun',
+     '{}',
+     'Created by the Cancer Research Foundation of America. Dr. Health''nstein''s Body Fun is a non-stop adventure that encourages healthy choices, discourages drug use and promotes a lifetime of fitness and health. Just make the right moves, achieve a great health rating and you''ll end up a winner...in this game and in life.
+Visit Dr. Health''nsein''s laboratory and use her diabolical anatomy machine. Then step into the good doctor''s Remote Body Monitor for a futuristic physical that sends you traveling through time. Race along the surprise-packed game board and hold on for the ride of your life!',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000035, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e8610-92c2-7102-aec0-4d88d66838ad"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000194, "slug": "dr-healthnsteins-body-fun", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000195,
+     'Safety Monkey',
+     '{}',
+     'Edutainment game that teaches children basic safety in a variety of locations. The child can click on certain areas of the screen to receive more information about an area or item and how to use it safely. In some scenarios the child is asked what action should be taken, and then Safety Monkey provides positive feedback.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19063, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e861c-d483-7a4d-be05-7fae8b4b4ef9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000195, "slug": "safety-monkey", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000196,
+     'I Love Science!',
+     '{}',
+     'I Love Science! is an educational science computer game for ages 7 to 11 and is targeted to grade 2 to grade 5 students. Players meet Al Luminium, Mo Mentum, and Rosie Gardener, as they explore physics, chemistry, and biology by playing games and activities as well as trying experiments on the topic of science. There are some running gags in the game which adds an extra effect to the targeted age group. The physics section teaches children about electricity, gravity, and simple machines, while the biology section teaches children about the human body, plant growth, and food chains. The chemistry section teaches children about solids, liquids and gases, heating and cooling, and crystals, and as a bonus, there are some Earth and Space Science topics, which are the water cycle, planets, and the Sun and Moon.
+
+There are over a hundred science experiments and over a thousand science problems included in the game, as well as 60 printable experiments for off-computer use.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e8922-b2a5-79c8-a787-57209e344ac6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000196, "slug": "i-love-science", "similar_ids": []}',
+     '{}'
+    );
