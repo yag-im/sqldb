@@ -3558,3 +3558,93 @@ There are over a hundred science experiments and over a thousand science problem
      '{"id": 1000196, "slug": "i-love-science", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000197,
+     'I Love Science!',
+     '{}',
+     'Educational title where you learn about various aspects of chemistry. You have bailed out of a plane and crashed through the window of Dr. Sulfur''s lab, where some mutated creatures have put various labs and experiments into disarray. You need to use knowledge of chemistry to set things right. Your guide is a mechanical giant flying nose, which doesn''t make too much sense and isn''t really explained.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19846, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e8932-57c0-716c-ac39-d872d0084af9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000197, "slug": "dr-sulfurs-night-lab", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000198,
+     'Mission Masters: Freezing Frenzy (Language Arts Grade 3)',
+     '{}',
+     'Educational adventure game where player join the Mission Masters on a mission to stop the villains Will Chill and his sister from freezing the world after they steal an ice-making machine. Through a series of interactive challenges, children develop third-grade language arts skills, including vocabulary, spelling, grammar, reading comprehension, creative writing, and problem-solving.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19846, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e9070-b557-71f0-9ec4-bbdce59d8bd0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000198, "slug": "mission-masters-freezing-frenzy-language-arts-grade-3", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000199,
+     'Mission Masters: Defeat Dirty D! (Math Grade 3)',
+     '{}',
+     'Educational adventure game that combines third-grade math learning with a fun secret-agent storyline. Players must stop the mischievous bully Dirty D, who is causing chaos in an amusement park, by completing five engaging math-based missions. Along the way, children practice problem solving, arithmetic, geometry, measurement, fractions, patterns, probability, and other key Grade 3 math skills through interactive mini-games and challenges. Designed for ages 7–9, the game turns learning into an exciting mission filled with puzzles, exploration, and rewards.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19846, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e9349-2bcb-796d-a76e-e7e3d8f7dcc5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000199, "slug": "mission-masters-defeat-dirty-d-math-grade-3", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000200,
+     'Mission Masters: Network Nightmare (Language Arts Grade 4)',
+     '{}',
+     'Educational adventure game that helps students strengthen their fourth-grade language arts skills through a series of exciting missions. Players must outsmart a rogue computer network that is disrupting communications by solving puzzles and challenges focused on reading comprehension, grammar, vocabulary, spelling, and writing. Combining engaging gameplay with curriculum-based learning, the game turns language arts practice into a fun and rewarding mission.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19846, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e9364-e123-761c-89a5-a1c324d58805"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000200, "slug": "mission-masters-network-nightmare-language-arts-grade-4", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000201,
+     'Reader Rabbit: Learn to Read with Phonics 1st and 2nd Grade',
+     '{}',
+     'Educational game for kids 3-6 aimed at teaching reading with phonics using various characters from the Reader Rabbit series. The main plot is that Matilda, one of Reader Rabbit''s friends, wants to go to the carnival. However, she can''t read, so she doesn''t know how to read the signs or the map. She wishes that all the words were gone, but the next day, all of the words are gone from Wordville. Matilda. along with Reader Rabbit and other friends along the way, must get the words back. There are two modes in this game, the "Road to Reading" and the "Pick and Play." In "Road to Reading," your main goal is to follow the map in order to get all of the words back. Each part of the map has two mini-games and a story. First, a mini-game is played to learn a sound, then a mini-game is played to review the sound. Finally, a story is read aloud using those words, and the story may need to be fixed. Some stories also require certain things to be found on a page. The "Pick and Play" mode is just all the mini-games, songs, and books from the story, but easier to access. You can choose either from the start, but "Pick and Play" is recommended for toddlers and preschoolers, while "Road to Reading" is designed for older children.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019e9421-bdd1-754b-ae89-9147e4fdd5f6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000201, "slug": "reader-rabbit-learn-to-read-with-phonics", "similar_ids": []}',
+     '{}'
+    );
