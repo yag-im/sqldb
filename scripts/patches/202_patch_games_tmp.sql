@@ -3648,3 +3648,23 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000201, "slug": "reader-rabbit-learn-to-read-with-phonics", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000202,
+     'Schoolhouse Rock!: 1st & 2nd Grade',
+     '{}',
+     'educational game that teaches elements of the US curriculum for 1st and 2nd graders aged six to eight. It is based on the Schoolhouse Rock! TV series. It comes on two discs. The first disc focuses on math and science, the second one on language arts and social studies. It features the character Interplanet Janet and the story from Schoolhouse Rock!: Exploration Station. It has a mix of new activities (an animal race with language questions, reconstructing objects, a language quiz presented as a football game, a picnic based around language) and some used previously in Schoolhouse Rock!: America Rock (railroad building, the turn-based strategy game at Bunker Hill) and Schoolhouse Rock!: Grammar Rock. Along the way coins are collected and those are used for the final stage where a board game leads Janet back to her home.
+
+Along the way various videos from the TV series are shown. There are three difficulty levels. The skills addressed include addition and subtraction, simple multiplication, sentence structure, reading comprehension, science exploration, geography, social studies, and more.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ea3a1-631c-7c3b-a486-07474c97add6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000202, "slug": "schoolhouse-rock-1st-2nd-grade", "similar_ids": []}',
+     '{}'
+    );

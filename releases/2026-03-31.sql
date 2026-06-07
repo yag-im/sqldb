@@ -1,5 +1,7 @@
 /*
--- dev env
+-- local env
+ALTER TYPE cluster.node_flavor ADD VALUE 'custom-1';
+
 INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
 VALUES (
     'f973b9a3-2d9b-4168-bbff-a9fa1d1bc5dc',
@@ -7,7 +9,7 @@ VALUES (
     '172.17.0.1',
     'us-west-1',
     'dedicated',
-    'rise-3',
+    'custom-1',
     '2026-01-01 00:00:00');
 */
 
