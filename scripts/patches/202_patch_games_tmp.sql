@@ -3704,3 +3704,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000204, "slug": "magic-tales-liam-finds-a-story", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000205,
+     'Interactive Math Journey',
+     '{}',
+     'Educational computer game for ages five to nine. The player sets off on a journey to visit the math magician while playing 25 games and activities which reinforce patterns and shapes, addition and subtraction, measurement, fractions and multiplication. Two levels of difficulty offer different challenges to the player. The first section features a rhyming math story, followed by an exploration activity and a short song. The Program Options Pad offers a progress report to keep track of what the player is doing throughout the game.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f2449-4b01-7a70-b2cb-46dce3197146"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000205, "slug": "interactive-math-journey", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000206,
+     'Reader Rabbit''s Interactive Reading Journey 2',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f2476-209d-761f-aabc-b936ba4b05c9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000206, "slug": "reader-rabbits-interactive-reading-journey-2", "similar_ids": []}',
+     '{}'
+    );
