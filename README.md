@@ -59,7 +59,7 @@ Using UUIDs might be a viable path forward, but URLs will look ugly.
 
     # in local DB:
     # update jukebox nodes
-    TRUNCATE cluster.jukebox_nodes;    
+    TRUNCATE cluster.jukebox_nodes;
     INSERT INTO cluster.jukebox_nodes(uuid, private_ip, public_ip, region, node_type, flavor, created_ts)
     VALUES (
         'f973b9a3-2d9b-4168-bbff-a9fa1d1bc5dc',
@@ -69,8 +69,16 @@ Using UUIDs might be a viable path forward, but URLs will look ugly.
         'dedicated',
         'rise-3',
         '2026-01-01 00:00:00');
-    
+
     # drop sessions
     TRUNCATE sessions.sessions;
 
+### Reinit DB (structure only)
 
+    kubectl scale sts sqldb-stateful-set -n default --replicas=0
+    kubectl delete pvc sqldb-data-pvc -n default
+    # will re-create PVC
+    ./update.sh
+    kubectl scale sts sqldb-stateful-set -n default --replicas=1
+
+Now run dump_db/restore_db from scripts
