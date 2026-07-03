@@ -3740,3 +3740,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000206, "slug": "reader-rabbits-interactive-reading-journey-2", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000207,
+     'I Can Be an Animal Doctor',
+     '{}',
+     'Educational game that teaches children how to be a veterinarian. In this game, Addie the Kangaroo, Rufus the Dog, and Katie the Chameleon, help you while you are playing. Your job is to help Doctor Max Rigby, who has many sick animals in her animal park. Doctor Rigby takes you to a map in her ranch house, which shows you the four areas you can explore. There is the Savanna, the Farm, the Forest, and the Desert to explore.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 344, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f24a6-360e-7c3f-9ec0-941529e0b9d6"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000207, "slug": "i-can-be-an-animal-doctor", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000208,
+     'The Dorling Kindersley Children''s Dictionary',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f255d-78b8-77e9-a3b0-e52ae3752c81"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000208, "slug": "the-dorling-kindersley-childrens-dictionary", "similar_ids": []}',
+     '{}'
+    );
