@@ -3776,3 +3776,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000208, "slug": "the-dorling-kindersley-childrens-dictionary", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000209,
+     'Roller Typing',
+     '{}',
+     'Players improve their keyboarding skills by guiding a roller-skating character through colorful courses, typing letters and words to overcome obstacles and complete challenges. With its arcade-style gameplay and progressively harder lessons, the game makes learning to type fun and engaging for children and beginner typists.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000037, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f96c9-2d0a-78d0-b24a-273706945070"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000209, "slug": "roller-typing", "similar_ids": []}',
+     '{}'
+    );

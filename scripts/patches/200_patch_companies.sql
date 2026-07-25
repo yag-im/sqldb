@@ -37,3 +37,5 @@ INSERT INTO games.companies(id, name) VALUES (1000032, 'Optical Data Interactive
 INSERT INTO games.companies(id, name) VALUES (1000033, 'Focus on the Family');
 INSERT INTO games.companies(id, name) VALUES (1000034, 'EA*Kids');
 INSERT INTO games.companies(id, name) VALUES (1000035,'StarPress Multimedia');
+INSERT INTO games.companies(id, name) VALUES (1000036,'FlagTower Multimedia Inc.');
+INSERT INTO games.companies(id, name) VALUES (1000037,'EdVenture Software');
