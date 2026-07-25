@@ -3794,3 +3794,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000209, "slug": "roller-typing", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000210,
+     'Reading Blaster Vocabulary',
+     '{}',
+     'Educational PC game released in 1998 by Davidson & Associates as part of the Blaster Learning System. Aimed at children ages 9–12, it challenges players to solve a series of lighthearted mysteries by completing vocabulary, grammar, and word-based activities, helping reinforce reading and language skills through interactive gameplay.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f9a27-6089-7814-97c3-a4373f368c6b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000210, "slug": "reading-blaster-vocabulary", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000211,
+     'Kid Pix Deluxe 3',
+     '{}',
+     'Children''s creativity program for PC that lets kids create drawings, animated scenes, and multimedia projects using easy-to-use painting tools, stamps, sound effects, and text. It builds on the Kid Pix series with additional art tools and creative activities designed for young users.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 195, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f9a4d-2e44-786a-9559-7d2c3ab95126"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000211, "slug": "kid-pix-deluxe-3", "similar_ids": []}',
+     '{}'
+    );
