@@ -6,6 +6,7 @@
 
 Create `secrets.env` file in the project directory (where .evn file resides):
 
+    ACCOUNTSVC_PASSWORD=***VALUE***
     APPSVC_PASSWORD=***VALUE***
     AUTHSVC_PASSWORD=***VALUE***
     JUKEBOXSVC_PASSWORD=***VALUE***

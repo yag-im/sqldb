@@ -3830,3 +3830,111 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000211, "slug": "kid-pix-deluxe-3", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000212,
+     'Pony Express Rider',
+     '{}',
+     'Set in the era of the historic Pony Express, it introduces players to the American frontier through edutainment activities and interactive learning.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 19846, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f9fc6-4736-711c-9bc5-23bc97206552"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000212, "slug": "pony-express-rider", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000213,
+     'Reading Blaster: Ages 6-8',
+     '{}',
+     'Educational PC game designed to help young learners develop reading skills through interactive activities and games. It focuses on building vocabulary, comprehension, spelling, and reading fluency with age-appropriate exercises for children in the 6–8 age range. The program combines learning activities with an engaging adventure-style format to encourage practice and confidence in reading.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019f9ff0-72ea-7ad9-b22c-b16e917a8b4e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000213, "slug": "reading-blaster-ages-6-8", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000214,
+     'Grade Builder: Algebra 1',
+     '{}',
+     'Educational PC game designed to help students practice and improve their algebra skills. It provides interactive exercises covering Algebra 1 concepts, allowing learners to build their understanding of equations, expressions, and problem-solving through guided practice.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fa025-6190-7ad1-9cba-c624fe77c348"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000214, "slug": "grade-builder-algebra-1", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000215,
+     'Life''s Little Lessons with The Berenstain Bears: Little Bears Make Big Helpers',
+     '{}',
+     'Educational adventure game for young children based on The Berenstain Bears. Players help members of the Bear family complete everyday chores and activities, including gathering honey, making a quilt, running errands, and cleaning a bedroom, while learning the values of helpfulness and cooperation.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fb43b-2e19-7646-9bde-9a3780f7a368"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000215, "slug": "lifes-little-lessons-with-the-berenstain-bears-little-bears-make-big-helpers", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000216,
+     'Fisher-Price Read & Play: A Day at the Beach with the Fuzzooly Family',
+     '{}',
+     'Educational PC game that follows the Fuzzooly Family during a fun day at the beach. Through interactive story scenes and simple activities, young players practice early reading skills while exploring the beach-themed adventure designed for preschool-aged children.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fba31-2780-7305-82ee-50634184828d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000216, "slug": "fisher-price-read-play-a-day-at-the-beach-with-the-fuzzooly-family", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000217,
+     'TKKG: The Captain''s Legacy',
+     '{"Ein Fall für TKKG: Das geheimnisvolle Testament"}',
+     'Captain Behring leaves behind a mysterious will. Only those who succeed in deciphering the enigmatic verses in this will may claim the captain''s inheritance. Collect clues in various locations and solve the mystery.',
+     '',
+     '{13,31}',
+     '[
+       {"company": 23971, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fbe5a-410a-756f-a813-415e72740a42"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000217, "slug": "tkkg-das-geheimnisvolle-testament", "similar_ids": []}',
+     '{}'
+    );

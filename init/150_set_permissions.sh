@@ -3,6 +3,13 @@
 set -e
 
 psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$YAG_DB" <<-EOSQL
+  -- accountsvc user
+  GRANT USAGE                          ON SCHEMA accounts TO $ACCOUNTSVC_USER;
+  GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA accounts TO $ACCOUNTSVC_USER;
+  GRANT SELECT                         ON ALL TABLES IN SCHEMA accounts TO $ACCOUNTSVC_USER;
+  GRANT INSERT, UPDATE                 ON TABLE accounts.users TO $ACCOUNTSVC_USER;
+  GRANT INSERT, UPDATE                 ON TABLE accounts.flask_dance_oauth TO $ACCOUNTSVC_USER;
+
   -- authsvc user
   GRANT USAGE                          ON SCHEMA accounts TO $AUTHSVC_USER;
   GRANT USAGE                          ON ALL SEQUENCES IN SCHEMA accounts TO $AUTHSVC_USER;

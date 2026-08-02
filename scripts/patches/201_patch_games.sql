@@ -195,7 +195,15 @@ WHERE name ilike '%barbie%' OR
     name ilike '%disney%' OR
     name ilike '%mickey%' OR
     name ilike '%mario%' OR
-    name ilike '%rugrats%';
+    name ilike '%rugrats%' OR
+    name ilike '%nancy%' OR name in
+(
+'Lure of the Temptress',
+'Beneath a Steel Sky',
+'Circle of Blood',
+'Broken Sword: The Smoking Mirror',
+'In Cold Blood'
+);
 
 UPDATE games.releases r
 SET is_visible = false
