@@ -3938,3 +3938,39 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000217, "slug": "tkkg-das-geheimnisvolle-testament", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000218,
+     'Bear in the Big Blue House: Bear''s Sense of Adventure',
+     '{}',
+     'Educational game based on the Playhouse Disney television series Bear in the Big Blue House. Bear tells players that he wants to find all of the ingredients to make his special triple berry pie, and will need their help to find them throughout the house. Each character can be found in a certain room of the house, where players will be able to complete an activity in order to find certain ingredients or learn about the primary topic of this game, the five senses. Aside from the five senses, this game focuses on teaching children to think creatively, solve problems, and use their imagination.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fd83b-597a-769c-abec-22d253267761"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000218, "slug": "bear-in-the-big-blue-house-bears-sense-of-adventure", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000219,
+     'Fisher Price: Ready for School - 1st Grade',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019fde5b-e81a-763d-bbf4-492de7960ba4"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000219, "slug": "fisher-price-ready-for-school-1st-grade", "similar_ids": []}',
+     '{}'
+    );
