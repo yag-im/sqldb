@@ -3974,3 +3974,77 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000219, "slug": "fisher-price-ready-for-school-1st-grade", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000220,
+     '20,000 Leagues: The Adventure Continues',
+     '{}',
+     'An unreleased adventure game inspired by Jules Verne''s 20,000 Leagues Under the Sea. Players were to explore Captain Nemo''s Nautilus, solve puzzles, and uncover the secrets surrounding the mysterious submarine. The game was ultimately cancelled before release.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1327, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "019ffe57-7ab1-7e03-a60d-11660c09ccd4"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000220, "slug": "20-000-leagues-under-the-sea-the-adventure-continues", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000221,
+     '20,000 Leagues Under the Sea',
+     '{}',
+     '20,000 Leagues Under the Sea is a digitized version of the novel of the same name by Jules Verne. It adds multimedia features such as narrated text, word definitions and interactive fishing which leads to an encyclopedia entry.
+
+The game portion is a quiz. The player has to answer multiple-choice questions which address knowledge of the chosen chapter. After answering all questions, the player receives a rating based on the number of correct answers.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24380, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a00142-cd25-7d6b-b0c5-78cfb5956775"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000221, "slug": "20000-leagues-under-the-sea", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000222,
+     'Corel Wild Board Games',
+     '{}',
+     'Corel Wild Board Games includes five classic table-top games to be played against four animated characters. The games include Chess, Checkers, Reversi, Snakes and Ladders. As a bonus, a Switch Puzzle game is also included. As with Corel Wild Cards, The targeted age group is 4 to 10.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 36542, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a001fd-6239-765f-ac87-fbc0cf47893c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000222, "slug": "corel-wild-board-games", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000223,
+     'Bamses Cirkus',
+     '{}',
+     'Swedish children''s educational game featuring Bamse and his friends. Set in a circus environment, it offers a collection of simple activities and games designed for younger players.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 10536, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a00865-a82c-7ca3-a5bb-338befd2964b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000223, "slug": "bamses-cirkus", "similar_ids": []}',
+     '{}'
+    );
