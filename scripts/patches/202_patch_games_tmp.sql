@@ -4048,3 +4048,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000223, "slug": "bamses-cirkus", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000224,
+     'Muppet Kids: Volume 2 - Beginning Sounds: Phonics',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 34116, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0089f-1f8e-731b-81cd-458a2752f703"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000224, "slug": "muppet-kids-volume-2-beginning-sounds-phonics", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000225,
+     'Muppet Kids: Volume 6 - Sorting and Ordering',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 34116, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a012c5-1e9a-77ad-b75f-c0b231d1159a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000225, "slug": "muppet-kids-volume-6-sorting-and-ordering", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000226,
+     'Tales from the Kangaroo''s Crypt: 4 Billion Years of Extraordinary Australia',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000038, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a031a2-d119-7c4b-9e8c-2b9fec87890b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000226, "slug": "tales-from-the-kangaroos-crypt-4-billion-years-of-extraordinary-australia", "similar_ids": []}',
+     '{}'
+    );
