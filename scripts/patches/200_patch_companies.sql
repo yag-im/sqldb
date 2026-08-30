@@ -40,3 +40,4 @@ INSERT INTO games.companies(id, name) VALUES (1000035,'StarPress Multimedia');
 INSERT INTO games.companies(id, name) VALUES (1000036,'FlagTower Multimedia Inc.');
 INSERT INTO games.companies(id, name) VALUES (1000037,'EdVenture Software');
 INSERT INTO games.companies(id, name) VALUES (1000038,'Australian Federal Department of Communication and the Arts');
+INSERT INTO games.companies(id, name) VALUES (1000039,'Pharos Games');

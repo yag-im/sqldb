@@ -4102,3 +4102,57 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000226, "slug": "tales-from-the-kangaroos-crypt-4-billion-years-of-extraordinary-australia", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000227,
+     'Dandy Dinosaurs: A Max the Dragon Adventure',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49971, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a04122-6c61-7c39-8328-e89298dc71b9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000227, "slug": "dandy-dinosaurs-a-max-the-dragon-adventure", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000228,
+     'Cherokee Trails',
+     '{"Ally''s Adventure 3: Cherokee Trails"}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000039, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0504f-4f24-7467-8292-eb2c5fdaf0c9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000228, "slug": "cherokee-trails", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000229,
+     'Reading Blaster Junior',
+     '{"Reading Blaster: Ages 4-6"}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a05361-01f3-7b53-9195-b53a1ef976bd"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000229, "slug": "reading-blaster-jr", "similar_ids": []}',
+     '{}'
+    );
