@@ -41,3 +41,6 @@ INSERT INTO games.companies(id, name) VALUES (1000036,'FlagTower Multimedia Inc.
 INSERT INTO games.companies(id, name) VALUES (1000037,'EdVenture Software');
 INSERT INTO games.companies(id, name) VALUES (1000038,'Australian Federal Department of Communication and the Arts');
 INSERT INTO games.companies(id, name) VALUES (1000039,'Pharos Games');
+INSERT INTO games.companies(id, name) VALUES (1000040,'Emerald Forest Toys');
+INSERT INTO games.companies(id, name) VALUES (1000041,'ICE Integrated Communications & Entertainment, Inc.');
+INSERT INTO games.companies(id, name) VALUES (1000042,'DR Multimedie');

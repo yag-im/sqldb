@@ -4156,3 +4156,59 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000229, "slug": "reading-blaster-jr", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000230,
+     '3D Jungle Train',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a05480-b22a-79be-805c-82447b148f93"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000230, "slug": "3d-jungle-train", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000231,
+     'IBM Brings You: Crayola Print Factory',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2391, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a064e9-963d-7f32-98cb-8fdf172131f0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000231, "slug": "crayola-print-factory", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000232,
+     'Between Earth and the End of Time: The Worlds of Rodney Matthews',
+     '{}',
+     'Multimedia disc about the life and work of the artist Rodney Matthews. It features his biography, much of his art and video commentaries by Matthews himself.
+
+The game component is a search for secret words which are hidden as hot-spots in the menus. When all 20 are collected, the player needs to form a secret phrase out of them. If it the phrase was right, the road to Tanelorn with more content to explore opens up - otherwise the words disappear and have to be found again. There can be also other games found, e.g. the player needs to match the names and dates for fonts developed by Matthews.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000041, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a06513-ae11-7c3c-9323-5370b8be0118"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000232, "slug": "between-earth-and-the-end-of-time-the-worlds-of-rodney-matthews", "similar_ids": []}',
+     '{}'
+    );
