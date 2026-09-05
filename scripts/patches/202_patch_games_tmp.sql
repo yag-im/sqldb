@@ -4212,3 +4212,57 @@ The game component is a search for secret words which are hidden as hot-spots in
      '{"id": 1000232, "slug": "between-earth-and-the-end-of-time-the-worlds-of-rodney-matthews", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000233,
+     'Thomas & Tim II',
+     '{}',
+     '',
+     '',
+     '{13,31}',
+     '[
+       {"company": 1000042, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a07029-bb75-74cf-8611-ca785da34853"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000233, "slug": "thomas-and-tim-ii", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000234,
+     'Berlitz for Business: Japanese',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 53609, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0724a-36d4-7e4e-99f3-02de8011937e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000234, "slug": "berlitz-for-business-japanese", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000235,
+     'A Passion for Art: Renoir, Cézanne, Matisse, and Dr. Barnes',
+     '{"Leben für die Kunst: Renoir, Cézanne, Matisse"}',
+     'One of the best CD-ROMs ever made about art, Passion for Art gives you a look inside the private collection of Dr. Albert Barnes, the irascible art collector whose museum in Philadelphia is among the world''s biggest private museums. Dr. Barnes founded The Barnes Foundation in 1922 to promote the education of modern art, only to hear sharp criticisms from the public and art critics who lambasted the works of (then) avant-garde masters such as Matisse and Picasso as "degenerate". Hurt and angry, Dr. Barnes closed the doors of his private collection to the public. Passion for Art offers a rare glimpse into his collection, which have been available for public view once again after his death (incidentally, The Barnes Foundation itself is in dire financial straits-visit the official Save the Barnes campaign site to learn how you can help).',
+     '',
+     '{1000000}',
+     '[
+       {"company": 6257, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a07286-4942-792c-b416-725ce4d43986"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000235, "slug": "a-passion-for-art-renoir-cezanne-matisse-and-dr-barnes", "similar_ids": []}',
+     '{}'
+    );
