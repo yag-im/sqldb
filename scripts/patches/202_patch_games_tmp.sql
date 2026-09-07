@@ -4266,3 +4266,68 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000235, "slug": "a-passion-for-art-renoir-cezanne-matisse-and-dr-barnes", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000236,
+     'Sinkha',
+     '{}',
+     'A futuristic multimedia adventure set in a vast science-fiction universe created by Italian artist Marco Patrito. Combining illustrated environments, animation, music, and interactive storytelling, the game follows a mysterious journey through the richly detailed world of Sinkha. It is more of an interactive visual novel and exploration experience than a traditional puzzle-driven adventure.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 72289, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0798d-b072-7fca-b32c-f1663e4811b9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000236, "slug": "sinkha", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000237,
+     'Screen Antics: Johnny Castaway',
+     '{}',
+     'A storytelling screensaver (click Test to run).',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5319, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a079c1-125c-79f3-bdbc-7322be7b0d2f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000237, "slug": "screen-antics-johnny-castaway", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000238,
+     'Math Trek 1, 2, 3 Fibonacci''s Toy Store',
+     '{}',
+     'Fibonacci Bear, named after the great mathematician Leonardo Fibonacci, invites the students into his toy
+store to work with him in solving questions related to Number Sense and Numeration, Measurement,
+Geometry and Spatial Sense, Patterning and Algebra and Data Management and Probability. Throughout the
+software Fibonacci Bear serves as the guide, teacher and presenter leading the students through the software,
+demonstrating the activities and providing feedback during the tasks. The progress of students is tracked as
+they complete more than a hundred different activities.\n' ||
+     'This software covers the basic concepts and strands generally taught in grades Kindergarten, 1, 2, 3. It
+follows the philosophy and standards contained in the NCTM (National Council of Teachers of
+Mathematics) and OAME (Ontario Association of Mathematics Educators) standards, the grade 1, 2 and 3
+curriculum expectations in the new Ontario Curriculum for mathematics; and the specific and general
+objectives in the Common Curriculum Framework for Mathematics (Western Canadian Protocol for
+Collaboration in Education).',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000043, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a07dd4-13dd-7634-a44e-f7b353f0452b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000238, "slug": "math-trek-1-2-3", "similar_ids": []}',
+     '{}'
+    );

@@ -44,3 +44,5 @@ INSERT INTO games.companies(id, name) VALUES (1000039,'Pharos Games');
 INSERT INTO games.companies(id, name) VALUES (1000040,'Emerald Forest Toys');
 INSERT INTO games.companies(id, name) VALUES (1000041,'ICE Integrated Communications & Entertainment, Inc.');
 INSERT INTO games.companies(id, name) VALUES (1000042,'DR Multimedie');
+--INSERT INTO games.companies(id, name) VALUES (72289,'Mojave');
+INSERT INTO games.companies(id, name) VALUES (1000043,'NECTAR Foundation');
