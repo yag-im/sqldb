@@ -4331,3 +4331,39 @@ Collaboration in Education).',
      '{"id": 1000238, "slug": "math-trek-1-2-3", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000239,
+     'Art Attack: Make It!',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 42980, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a07dfe-10da-71b0-8048-aa9bd808a888"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000239, "slug": "art-attack-make-it", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000240,
+     'Microsoft Dinosaurs',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 6383, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a084b2-2238-73cf-b59e-8bd6c3550feb"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000240, "slug": "microsoft-dinosaurs", "similar_ids": []}',
+     '{}'
+    );
