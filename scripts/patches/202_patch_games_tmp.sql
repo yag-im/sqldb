@@ -4367,3 +4367,112 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000240, "slug": "microsoft-dinosaurs", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000241,
+     'Mission Code: Millennium',
+     '{}',
+     'Educational adventure that takes players on a time-traveling journey through history. Working for a futuristic travel agency, players complete missions to return historical artifacts to their correct time periods, exploring locations and learning about history along the way. The game combines interactive exploration, puzzles, animated characters, and live-action video.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000045, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a093e7-2cf5-78e2-97f0-68168b861232"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000241, "slug": "mission-code-millennium", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000242,
+     'The Jolly Post Office',
+     '{}',
+     'Educational game for young children based on the books by Janet Ahlberg and Allan Ahlberg.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a09404-0743-711b-bd6c-34a0b7423f6b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000242, "slug": "the-jolly-post-office", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000243,
+     'Bukbik''s Adventure on Wonder Island',
+     '{}',
+     'Colorful educational adventure game for PC. Players join Bukbik on a journey across the mysterious Wonder Island, solving puzzles, exploring different locations, and discovering interactive activities along the way.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000046, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0940f-b15c-72dd-883e-5528effae111"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000243, "slug": "bukbiks-adventure-on-wonder-island", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000244,
+     'Stanley''s Sticker Stories',
+     '{}',
+     'The fifth game in Edmark''s Early Learning Family of educational games designed for young children. The interface is point-and-click and click-and-drag, and instructions are given verbally when the mouse is rested over an icon.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21726, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a09710-9352-7139-bda9-01b8cb96096f"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000244, "slug": "stanleys-sticker-stories", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000245,
+     'Adventure in Wonderland',
+     '{}',
+     'Play the role of Alice, as you wander through Wonderland. Visit the garden of live flowers, the treacherous Tugley Woods, the chessboard landscape, the wabe, and meet all the familiar residents of Wonderland. Your goal is to become the Queen, save Wonderland from the Snark, and manage to return home.
+Gameplay uses an Eliza-like engine, and a large number of vocabulary words are recognized, even full sentences. Most puzzles are puns with multiple solutions.',
+     '',
+     '{31}',
+     '[
+       {"company": 1000047, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{126}',
+     '{"cover": {"image_id": "01a09731-cd29-7a40-8208-8fd7c165cc73"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000245, "slug": "adventure-in-wonderland", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000246,
+     'Mighty Math Cosmic Geometry',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21726, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a09caf-6967-7a0e-bb3d-cd8f561b0daf"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000246, "slug": "mighty-math-cosmic-geometry", "similar_ids": []}',
+     '{}'
+    );

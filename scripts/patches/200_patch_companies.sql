@@ -46,3 +46,8 @@ INSERT INTO games.companies(id, name) VALUES (1000041,'ICE Integrated Communicat
 INSERT INTO games.companies(id, name) VALUES (1000042,'DR Multimedie');
 --INSERT INTO games.companies(id, name) VALUES (72289,'Mojave');
 INSERT INTO games.companies(id, name) VALUES (1000043,'NECTAR Foundation');
+INSERT INTO games.companies(id, name) VALUES (1000044,'ISM, Inc.');
+INSERT INTO games.companies(id, name) VALUES (1000045,'Virtual Entertainment, Inc.');
+INSERT INTO games.companies(id, name) VALUES (1000046,'MultiMedia Creation Co. Ltd.');
+--INSERT INTO games.companies(id, name) VALUES (69342, 'Joriko Interactive');
+INSERT INTO games.companies(id, name) VALUES (1000047,'Prickly-Pear Software');
