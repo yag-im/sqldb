@@ -4476,3 +4476,93 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000246, "slug": "mighty-math-cosmic-geometry", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000247,
+     'Inventor Labs: Transportation',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24260, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0acea-65c8-7c04-ae62-518db0fa44fe"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000247, "slug": "inventor-labs-transportation", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000248,
+     'Buster''s First Thunderstorm',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 52197, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0b286-0d20-787b-ad68-4ffdf24e6ceb"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000248, "slug": "busters-first-thunderstorm", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000249,
+     'TesselMania! Deluxe',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 8114, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0b295-0115-7690-996b-644d23af3823"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000249, "slug": "tesselmania-deluxe", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000250,
+     'My First Amazing British Isles Explorer',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 56456, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0b2a3-4f23-7d3c-99b9-e3f445be6a16"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000250, "slug": "my-first-amazing-british-isles-explorer", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000251,
+     'My First Amazing Science Explorer',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0bace-8157-7359-9df8-86f807b0142c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000251, "slug": "my-first-amazing-science-explorer", "similar_ids": []}',
+     '{}'
+    );
