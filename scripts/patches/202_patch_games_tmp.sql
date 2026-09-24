@@ -4566,3 +4566,111 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000251, "slug": "my-first-amazing-science-explorer", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000252,
+     'Flying Colors',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0bcaa-552f-7ec9-9914-fa73e0bf29b4"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000252, "slug": "flying-colors", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000253,
+     'My First Incredible, Amazing Dictionary',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0c1bb-9f0d-7a50-9cdb-7f34793a79bc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000253, "slug": "my-first-incredible-amazing-dictionary", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000254,
+     'My Own Stories',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1087, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{13}',
+     '{"cover": {"image_id": "01a0c1cd-47c1-7b24-875e-0ecf518d004c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000254, "slug": "my-own-stories", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000255,
+     'Bear in the Big Blue House: Bear''s Imagine That!',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1078, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0c1f8-e04f-7f06-a26e-7134c026fc16"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000255, "slug": "bears-imagine-that", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000256,
+     'Dragon Tales: Dragon Land Festival',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 338, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0cc8f-b42d-7bb4-a5cc-d9eb2b57e654"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000256, "slug": "dragon-tales-dragon-land-festival", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000257,
+     'Dragon Tales: Dragon Frog Jamboree',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 338, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0d13a-0c9f-7478-885e-9029d5274b93"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000257, "slug": "dragon-tales-dragon-frog-jamboree", "similar_ids": []}',
+     '{}'
+    );
