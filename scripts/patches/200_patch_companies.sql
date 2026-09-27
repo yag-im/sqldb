@@ -51,3 +51,5 @@ INSERT INTO games.companies(id, name) VALUES (1000045,'Virtual Entertainment, In
 INSERT INTO games.companies(id, name) VALUES (1000046,'MultiMedia Creation Co. Ltd.');
 --INSERT INTO games.companies(id, name) VALUES (69342, 'Joriko Interactive');
 INSERT INTO games.companies(id, name) VALUES (1000047,'Prickly-Pear Software');
+INSERT INTO games.companies(id, name) VALUES (1000048,'Morgan Interactive');
+INSERT INTO games.companies(id, name) VALUES (1000049,'Stiftelsen Stora Sköndal');

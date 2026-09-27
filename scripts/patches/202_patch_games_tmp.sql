@@ -4674,3 +4674,111 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000257, "slug": "dragon-tales-dragon-frog-jamboree", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000258,
+     'Reader Rabbit: Learn to Read with Phonics Preschool & Kindergarten',
+     '{}',
+     'Educational game for kids 3-6 aimed at teaching reading with phonics using various characters from the Reader Rabbit series. The main plot is that Matilda, one of Reader Rabbit''s friends, wants to go to the carnival. However, she can''t read, so she doesn''t know how to read the signs or the map. She wishes that all the words were gone, but the next day, all of the words are gone from Wordville. Matilda. along with Reader Rabbit and other friends along the way, must get the words back. There are two modes in this game, the "Road to Reading" and the "Pick and Play." In "Road to Reading," your main goal is to follow the map in order to get all of the words back. Each part of the map has two mini-games and a story. First, a mini-game is played to learn a sound, then a mini-game is played to review the sound. Finally, a story is read aloud using those words, and the story may need to be fixed. Some stories also require certain things to be found on a page. The "Pick and Play" mode is just all the mini-games, songs, and books from the story, but easier to access. You can choose either from the start, but "Pick and Play" is recommended for toddlers and preschoolers, while "Road to Reading" is designed for older children.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0d9f5-2fe9-7e2e-a0b8-6fd677a30b52"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000258, "slug": "reader-rabbit-learn-to-read-with-phonics-preschool-and-kindergarten", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000259,
+     'The King and I: Animated Thinking Adventure',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0dac3-16ad-7da6-8fc6-71fe5e086a63"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000259, "slug": "the-king-and-i-animated-thinking-adventure", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000260,
+     'Morgan''s Trivia Machine',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000048, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0de73-f978-7995-bd6d-1e8794baf3dd"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000260, "slug": "morgans-trivia-machine", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000261,
+     'Babe: A Little Pig Goes a Long Way - Interactive MovieBook',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0dea7-4e72-7fdd-80b1-b3887da04d2b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000261, "slug": "babe-a-little-pig-goes-a-long-way", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000262,
+     'Lexia 4',
+     '{}',
+     'Lexia 4 is designed in accordance with the latest knowledge in dyslexia research concerning the reading process itself, as well as established knowledge in aphasiology. For individuals with dyslexia, the program focuses on the most critical stage in the student’s impaired reading process.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000049, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0deb0-7196-708b-9d4f-f6306cb3753b"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000262, "slug": "lexia-4", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000263,
+     'Babe and Friends: Animated Early Reader',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 15516, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0e410-2bab-761f-81de-98140a50eab5"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000263, "slug": "babe-and-friends-animated-early-reader", "similar_ids": []}',
+     '{}'
+    );
