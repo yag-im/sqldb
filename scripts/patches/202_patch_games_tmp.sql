@@ -4782,3 +4782,93 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000263, "slug": "babe-and-friends-animated-early-reader", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000264,
+     'Nine Worlds hosted by Patrick Stewart',
+     '{}',
+     'Educational CD-ROM based on the 1993 documentary Patrick Stewart Narrates... The Planets. Besides the expected narrated facts about the (at the time) nine planets there are also a text-based history of astronomy and smaller features like a bibliography or shareware programs on disc. What qualifies this as a game is the included quiz: the player is presented with a trivia question and four answers. Clicking on the wrong answer has no effect and clicking on the correct one directly leads to the next question. There is no evaluation.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 22173, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0e5ce-b0c7-7fa3-812c-9d031d402db9"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000264, "slug": "nine-worlds-hosted-by-patrick-stewart", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000265,
+     'Nikolai''s Mysteries: The Mystery of the Black Windows',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21827, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a0f54f-e610-7cf2-8aa7-ceee5cc7172a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000265, "slug": "nikolais-mysteries-the-mystery-of-the-black-windows", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000266,
+     'Sesame Street Reading is Fun! Toddler Edition',
+     '{"Grover''s Travels", "The Three Grouchketeers"}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a10264-19ba-7a33-935a-8bb92dfd5380"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000266, "slug": "sesame-street-reading-is-fun-toddler-edition", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000267,
+     'Rave Shuttle: The Cosmic Challenge',
+     '{}',
+     '',
+     '',
+     '{13, 31}',
+     '[
+       {"company": 49148, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1027e-226a-76c4-b289-8ec04fe5e6d0"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000267, "slug": "rave-shuttle-the-cosmic-challenge", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000268,
+     'Danny and the Dinosaur',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 461, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a102e0-1afb-77bf-81fe-0fbaa70f1c85"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000268, "slug": "danny-and-the-dinosaur", "similar_ids": []}',
+     '{}'
+    );
