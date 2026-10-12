@@ -4872,3 +4872,116 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000268, "slug": "danny-and-the-dinosaur", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000269,
+     'Search for the Black Rhino: Internet Coach',
+     '{}',
+     'On mysterious Enki Island, a rare Black Rhino has been captured by the Ambushers, an evil alliance of animal poachers. Your mission is to find the rhino and uncover the Ambushers’ hideout, using a field computer, Internet research, data analysis, and communication skills to solve the mystery.
+
+Designed for ages 9+ and adults, *Rhino* is an interactive first-person adventure featuring 3D graphics, realistic sound, live actors, animation, and over 200 simulated Web pages. Players explore the island, gather clues, conduct zoological and geological research, send e-mail, create Web pages, browse news, and overcome traps while developing critical-thinking and research skills. The game also includes an option to connect to the live Internet for additional features.
+
+Considered lost media for many years, *Rhino* was finally rediscovered by Reddit user tmack3 after years of searching and dedication to preserving this unique piece of educational software history.
+',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000050, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a104cb-f444-7a0c-83d2-7a0b6b9af13d"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000269, "slug": "search-for-the-black-rhino-internet-coach", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000270,
+     'Schoolhouse Rock! Science Rock',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 17157, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a104e8-5c7d-75f6-b42b-869379e3defc"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000270, "slug": "schoolhouse-rock-science-rock", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000271,
+     'Fisher-Price 1-2-3''s',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32667, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a10ecb-d77d-7d0f-b533-bc53ec5e1eea"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000271, "slug": "fisher-price-1-2-3s", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000272,
+     'Play & Learn: Science Experiments',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 32109, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a123bf-6ffe-7039-83db-d06673c45e16"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000272, "slug": "play-and-learn-science-experiments", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000273,
+     'Encyclopedia Britannica Deluxe CD 2000',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 73751, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a128b8-ed1c-718c-bfb5-acfd909a3682"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000273, "slug": "encyclopedia-britannica-deluxe-cd-2000", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000274,
+     'Tweenies: Play To The Music',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2615, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a12d65-de74-7842-a9a2-dbdce347b03a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000274, "slug": "tweenies-play-to-the-music", "similar_ids": []}',
+     '{}'
+    );
