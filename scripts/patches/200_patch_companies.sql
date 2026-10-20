@@ -55,3 +55,4 @@ INSERT INTO games.companies(id, name) VALUES (1000048,'Morgan Interactive');
 INSERT INTO games.companies(id, name) VALUES (1000049,'Stiftelsen Stora Sköndal');
 INSERT INTO games.companies(id, name) VALUES (1000050,'APTE, Inc.');
 --INSERT INTO games.companies(id, name) VALUES (73751, 'Encyclopaedia Britannica');
+INSERT INTO games.companies(id, name) VALUES (1000051,'DiAmar Interactive Corp.');

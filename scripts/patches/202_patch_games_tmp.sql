@@ -4985,3 +4985,93 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000274, "slug": "tweenies-play-to-the-music", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000275,
+     'Kid Keys 2.0',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a138e1-d21c-7ec0-afa6-30e4f16a1bac"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000275, "slug": "kid-keys-20", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000276,
+     'A Color Clown Comes to Town',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000051, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a14306-d291-77e5-8199-21d511fdd7fe"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000276, "slug": "a-color-clown-comes-to-town", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000277,
+     'Fisher-Price: ABC''s',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a14f96-408b-7b54-8407-877921e4c917"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000277, "slug": "fisher-price-abcs", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000278,
+     'My First Math Adventure: Adding and Subtracting',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24153, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a15771-fe28-798c-ab8c-9ac1fbf4eb16"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000278, "slug": "my-first-math-adventure-adding-and-subtracting", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000279,
+     'My First Math Adventure: Counting and Sorting',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 24153, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a15786-d382-7c89-8411-ca70f2b19763"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000279, "slug": "my-first-math-adventure-counting-and-sorting", "similar_ids": []}',
+     '{}'
+    );
