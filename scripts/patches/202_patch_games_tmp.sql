@@ -5075,3 +5075,75 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000279, "slug": "my-first-math-adventure-counting-and-sorting", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000280,
+     'Crayola First Ladies Costume Maker',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 2391, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a16c41-4313-7aba-a330-8c58d417ffd4"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000280, "slug": "crayola-first-ladies-costume-maker", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000281,
+     'Lek och lär med spöket Laban',
+     '{}',
+     'Children''s educational game featuring the friendly ghost Laban. The game is part of the Swedish children''s media franchise centered on Laban, created by Inger and Lasse Sandberg.',
+     '',
+     '{1000000}',
+     '[
+       {"company": 21814, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a16f19-7011-7916-ad5e-6d753463193e"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000281, "slug": "lek-och-lar-med-spoket-laban", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000282,
+     'How to Catch a Wild Asparagus-Snatching Snagglysnort',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1000051, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a17b73-7a56-72a9-b2ea-8517eca8db41"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000282, "slug": "how-to-catch-a-wild-asparagus-snatching-snagglysnort", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000283,
+     'Multimedia IQ Test',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 36071, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1932c-e8e3-781a-99f4-beb36708172a"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000283, "slug": "multimedia-iq-test", "similar_ids": []}',
+     '{}'
+    );
