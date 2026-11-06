@@ -5147,3 +5147,111 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000283, "slug": "multimedia-iq-test", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000284,
+     'Science Blaster Jr.',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 5754, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1990b-6cce-73a3-a4ec-cd68fa3a58c7"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000284, "slug": "science-blaster-jr", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000285,
+     'Bolek i Lolek: Pamiątki z podróży',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 26506, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1991a-b599-775c-962b-e63ea69d7e32"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000285, "slug": "bolek-i-lolek-pamiatki-z-podrozy", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000286,
+     'Reader Rabbit''s Reading Development Library 1',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a19fda-bd2c-78aa-9055-2934550f154c"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000286, "slug": "reader-rabbits-reading-development-library-1", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000287,
+     'Reader Rabbit''s Reading Development Library 2',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1a98f-2bc5-7039-8196-142eab436498"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000287, "slug": "reader-rabbits-reading-development-library-2", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000288,
+     'Reader Rabbit''s Reading Development Library 3',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1a99a-b6ac-7a8a-85fd-7820e5ab6668"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000288, "slug": "reader-rabbits-reading-development-library-3", "similar_ids": []}',
+     '{}'
+    );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000289,
+     'Reader Rabbit''s Reading Development Library 4',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 1524, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1a9a3-7d7a-7713-8b44-f05958613541"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000289, "slug": "reader-rabbits-reading-development-library-4", "similar_ids": []}',
+     '{}'
+    );
