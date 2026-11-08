@@ -5255,3 +5255,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000289, "slug": "reader-rabbits-reading-development-library-4", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000290,
+     'Sew with Castor',
+     '{}',
+     '',
+     '',
+     '{1000000}',
+     '[
+       {"company": 49502, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1b73f-3dc1-75e9-843c-23079e73ae88"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000290, "slug": "sy-med-castor", "similar_ids": []}',
+     '{}'
+    );
