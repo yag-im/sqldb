@@ -3,7 +3,7 @@
 -- normalized region names (dedicated and cloud instances use different region names in OVH)
 CREATE TYPE cluster.region AS ENUM ('us-west-1', 'us-east-1');
 CREATE TYPE cluster.node_type AS ENUM ('dedicated', 'public-cloud-instance');
-CREATE TYPE cluster.node_flavor AS ENUM ('rise-3', 'b3-7', 'b3-8', 't2-le-45', 'l4-90');
+CREATE TYPE cluster.node_flavor AS ENUM ('rise-3', 'sys-3', 'b3-7', 'b3-8', 't2-le-45', 'l4-90');
 CREATE TYPE cluster.service_type AS ENUM ('jukebox', 'appstor');
 
 CREATE TABLE cluster.nodes
