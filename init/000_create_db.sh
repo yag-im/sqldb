@@ -32,4 +32,5 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$YAG_DB" <<-EOSQL
   CREATE SCHEMA sessions;
   CREATE SCHEMA stats;
   CREATE SCHEMA cluster;
+  CREATE EXTENSION IF NOT EXISTS pg_stat_statements;
 EOSQL
