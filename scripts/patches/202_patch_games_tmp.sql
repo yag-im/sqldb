@@ -5273,3 +5273,21 @@ INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, ge
      '{"id": 1000290, "slug": "sy-med-castor", "similar_ids": []}',
      '{}'
     );
+
+INSERT INTO games.games(id, name, alternative_names, short_descr, long_descr, genres, companies, platforms, media_assets, addl_artifacts, esrb_rating, igdb, refs) VALUES
+    (1000291,
+     'Mind of a Killer',
+     '{}',
+     '',
+     '',
+     '{31}',
+     '[
+       {"company": 1000052, "developer": false, "porting": false, "publisher": true, "supporting": false}
+     ]',
+     '{6}',
+     '{"cover": {"image_id": "01a1d2f9-0d35-7f46-9932-6a62abd838e2"}, "screenshots": []}',
+     null,
+     null,
+     '{"id": 1000291, "slug": "mind-of-a-killer", "similar_ids": []}',
+     '{}'
+    );
